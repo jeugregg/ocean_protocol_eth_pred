@@ -16,10 +16,14 @@ ocean = Ocean(config)
 
 
 # definitions
-url = "https://app.ardrive.io/#/file/398356ae-04f9-4b22-a4e8-21a961ef3f60/view"
+#url = "https://app.ardrive.io/#/file/398356ae-04f9-4b22-a4e8-21a961ef3f60/view"
 
-# to_address="0xA54ABd42b11B7C97538CAD7C6A2820419ddF703E" #official judges address
-to_address = "0x8E13649613B774Ab67D1C1eDfc22a2202270fD81"
+
+url = "https://app.ardrive.io/#/file/b81e592c-69a6-4b8c-8013-34ff7a6e25d6/view"
+
+
+to_address="0xA54ABd42b11B7C97538CAD7C6A2820419ddF703E" #official judges address
+#to_address = "0x8E13649613B774Ab67D1C1eDfc22a2202270fD81"
 
 
 # Create OCEAN object. ocean_lib knows where OCEAN is on all remote networks 
