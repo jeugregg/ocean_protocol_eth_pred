@@ -23,3 +23,11 @@ conda install scikit-learn
 ARCHFLAGS="-arch arm64" pip3 install ocean-lib
 
 pip install ipykernel==6.21.0 --force-reinstall
+
+
+
+03_Data_Sources.ipynb : Data pipeline
+
+04_Explore.ipynb : Explorartion + Model
+
+/doc/ETH Prediction Round 3 - jeugregg.pdf : final report
