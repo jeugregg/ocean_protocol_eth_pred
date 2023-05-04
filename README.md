@@ -26,8 +26,19 @@ pip install ipykernel==6.21.0 --force-reinstall
 
 
 
-03_Data_Sources.ipynb : Data pipeline
+ETH Prediction Round 3 : 1h timeframe + report:  
+  -  03_Data_Sources.ipynb : Data pipeline  
+  -  04_Explore.ipynb : Explorartion + Model  
+  -  /doc/ETH Prediction Round 3 - jeugregg.pdf : final report  
 
-04_Explore.ipynb : Explorartion + Model
 
-/doc/ETH Prediction Round 3 - jeugregg.pdf : final report
+ETH Prediction Round 4 : 1 hour timeframe:  
+  -  05_Explore_april  
+  -  06_Model  
+
+
+ETH Prediction Round 5 : 5 min timeframe:  
+  -  07_Data_Sources_05min ( limited to ohlcv data)  
+  -  06_Model_05min (model LSTM only for the moment)  
+
+
