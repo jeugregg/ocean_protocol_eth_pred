@@ -10707,27 +10707,41 @@ All Day,United States,United States - Memorial Day,-,-,-,2023-05-29
 10:00,United States,IBD/TIPP Economic Optimism,41.7,45.2,41.6,2023-06-06
 12:00,United States,EIA Short-Term Energy Outlook,-,-,-,2023-06-06
 16:30,United States,API Weekly Crude Oil Stock,-1.710M,1.500M,5.202M,2023-06-06
-07:00,United States,MBA 30-Year Mortgage Rate,-,-,6.91%,2023-06-07
-07:00,United States,MBA Mortgage Applications,-,-,-3.7%,2023-06-07
-07:00,United States,MBA Purchase Index,-,-,154.4,2023-06-07
-07:00,United States,Mortgage Market Index,-,-,197.4,2023-06-07
-07:00,United States,Mortgage Refinance Index,-,-,412.5,2023-06-07
-08:30,United States,Exports,-,-,256.20B,2023-06-07
-08:30,United States,Imports,-,-,320.40B,2023-06-07
-08:30,United States,Trade Balance,-,-63.30B,-64.20B,2023-06-07
-10:30,United States,Crude Oil Inventories,-,1.152M,4.488M,2023-06-07
-10:30,United States,EIA Refinery Crude Runs ,-,-,0.096M,2023-06-07
-10:30,United States,Crude Oil Imports,-,0.416M,1.001M,2023-06-07
-10:30,United States,Cushing Crude Oil Inventories,-,0.719M,1.628M,2023-06-07
-10:30,United States,Distillate Fuel Production,-,-0.025M,0.165M,2023-06-07
-10:30,United States,EIA Weekly Distillates Stocks,-,-0.110M,0.985M,2023-06-07
-10:30,United States,Gasoline Production,-,-0.015M,-0.344M,2023-06-07
-10:30,United States,Heating Oil Stockpiles,-,-0.310M,-1.289M,2023-06-07
-10:30,United States,EIA Weekly Refinery Utilization Rates,-,-,1.4%,2023-06-07
-10:30,United States,Gasoline Inventories,-,-0.239M,-0.207M,2023-06-07
-15:00,United States,Consumer Credit,-,16.50B,26.51B,2023-06-07
+09:45,United States,S&P Global Composite PMI,54.3,54.5,53.4,2023-06-06
+09:45,United States,Services PMI,54.9,55.1,53.6,2023-06-06
+10:00,United States,CB Employment Trends Index,116.15,116.31,116.79,2023-06-06
+10:00,United States,Durables Excluding Defense,-0.7%,-,-0.6%,2023-06-06
+10:00,United States,Durables Excluding Transport,-0.3%,-,0.2%,2023-06-06
+10:00,United States,Factory Orders,0.4%,0.8%,0.6%,2023-06-06
+10:00,United States,Factory orders ex transportation,-0.2%,0.6%,-1.0%,2023-06-06
+10:00,United States,ISM Non-Manufacturing Business Activity,51.5,52.5,52.0,2023-06-06
+10:00,United States,ISM Non-Manufacturing Employment,49.2,51.0,50.8,2023-06-06
+10:00,United States,ISM Non-Manufacturing New Orders,52.9,56.5,56.1,2023-06-06
+10:00,United States,ISM Non-Manufacturing PMI,50.3,52.2,51.9,2023-06-06
+10:00,United States,ISM Non-Manufacturing Prices,56.2,57.8,59.6,2023-06-06
+11:30,United States,3-Month Bill Auction,5.220%,-,5.300%,2023-06-06
+11:30,United States,6-Month Bill Auction,5.250%,-,5.290%,2023-06-06
+07:00,United States,MBA 30-Year Mortgage Rate,6.81%,-,6.91%,2023-06-07
+07:00,United States,MBA Mortgage Applications,-1.4%,-,-3.7%,2023-06-07
+07:00,United States,MBA Purchase Index,151.7,-,154.4,2023-06-07
+07:00,United States,Mortgage Market Index,194.7,-,197.4,2023-06-07
+07:00,United States,Mortgage Refinance Index,409.7,-,412.5,2023-06-07
+08:30,United States,Exports,249.00B,-,258.20B,2023-06-07
+08:30,United States,Imports,323.60B,-,318.80B,2023-06-07
+08:30,United States,Trade Balance,-74.60B,-75.20B,-60.60B,2023-06-07
+10:30,United States,Crude Oil Inventories,-0.451M,1.022M,4.488M,2023-06-07
+10:30,United States,EIA Refinery Crude Runs ,0.482M,-,0.096M,2023-06-07
+10:30,United States,Crude Oil Imports,1.623M,0.416M,1.001M,2023-06-07
+10:30,United States,Cushing Crude Oil Inventories,1.721M,0.719M,1.628M,2023-06-07
+10:30,United States,Distillate Fuel Production,0.203M,-0.025M,0.165M,2023-06-07
+10:30,United States,EIA Weekly Distillates Stocks,5.075M,1.328M,0.985M,2023-06-07
+10:30,United States,Gasoline Production,0.094M,-0.015M,-0.344M,2023-06-07
+10:30,United States,Heating Oil Stockpiles,-0.362M,-0.310M,-1.289M,2023-06-07
+10:30,United States,EIA Weekly Refinery Utilization Rates,2.7%,-,1.4%,2023-06-07
+10:30,United States,Gasoline Inventories,2.746M,0.880M,-0.207M,2023-06-07
+15:00,United States,Consumer Credit,23.01B,22.00B,22.84B,2023-06-07
 08:30,United States,Continuing Jobless Claims,-,"1,800K","1,795K",2023-06-08
-08:30,United States,Initial Jobless Claims,-,238K,232K,2023-06-08
+08:30,United States,Initial Jobless Claims,-,235K,232K,2023-06-08
 08:30,United States,Jobless Claims 4-Week Avg.,-,209.67K,229.50K,2023-06-08
 10:00,United States,Wholesale Inventories,-,-0.2%,0.0%,2023-06-08
 10:00,United States,Wholesale Trade Sales,-,0.4%,-2.1%,2023-06-08

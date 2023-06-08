@@ -39,6 +39,16 @@ ETH Prediction Round 4 : 1 hour timeframe:
 
 ETH Prediction Round 5 : 5 min timeframe:  
   -  07_Data_Sources_05min ( limited to ohlcv data)  
-  -  06_Model_05min (model LSTM only for the moment)  
+  -  06_Model_05min (Auto-encoder + LSTM)  
 
 
+ETH Prediction Round 6 : 5 min timeframe:  
+  -  08_Data_Sources_05min (with all data available)  
+  -  09_Model_05min (Auto-encoder + LSTM)
+    -  Models not optimized (10 epochs max)  
+  -  Blog  
+    -  https://blog.oceanprotocol.com/predict-eth-round-6-data-challenge-is-live-d305502888f9
+  -  Readme  
+    -  https://github.com/oceanprotocol/predict-eth/blob/main/challenges/main6.md
+  -  Final Transaction  
+  -  https://mumbai.polygonscan.com/tx/0x32ddbba3c3f4fc2664570b7f72fce47cbf29f64318a5e445bf8debd917618418
