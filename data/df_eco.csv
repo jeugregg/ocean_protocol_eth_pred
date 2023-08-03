@@ -11045,48 +11045,382 @@ All Day,United States,United States - Juneteenth,-,-,-,2023-06-19
 11:30,United States,6-Month Bill Auction,5.260%,-,5.215%,2023-07-03
 All Day,United States,United States - Independence Day - Early close at 13:00,-,-,-,2023-07-03
 All Day,United States,United States - Independence Day,-,-,-,2023-07-04
+09:45,United States,Services PMI,-,54.1,54.9,2023-07-06
+10:00,United States,IBD/TIPP Economic Optimism,-,45.3,41.7,2023-07-06
+10:00,United States,Total Vehicle Sales,-,-,15.10M,2023-07-06
+10:30,United States,Natural Gas Storage,-,-,76B,2023-07-06
 08:55,United States,Redbook,0.7%,-,0.5%,2023-07-05
 10:00,United States,Durables Excluding Defense,3.0%,-,3.0%,2023-07-05
 10:00,United States,Durables Excluding Transport,0.7%,-,-0.3%,2023-07-05
 10:00,United States,Factory Orders,0.3%,0.8%,0.3%,2023-07-05
 10:00,United States,Factory orders ex transportation,-0.5%,0.5%,-0.6%,2023-07-05
+10:00,United States,Total Vehicle Sales,15.70M,15.30M,15.10M,2023-07-05
 14:00,United States,FOMC Meeting Minutes,-,-,-,2023-07-05
 16:00,United States,FOMC Member Williams Speaks,-,-,-,2023-07-05
 16:30,United States,API Weekly Crude Oil Stock,-4.382M,-1.800M,-2.408M,2023-07-05
-07:00,United States,MBA 30-Year Mortgage Rate,-,-,6.75%,2023-07-06
-07:00,United States,MBA Mortgage Applications,-,-,3.0%,2023-07-06
-07:00,United States,MBA Purchase Index,-,-,170.3,2023-07-06
-07:00,United States,Mortgage Market Index,-,-,216.1,2023-07-06
-07:00,United States,Mortgage Refinance Index,-,-,439.2,2023-07-06
-07:30,United States,Challenger Job Cuts,-,248.6%,286.7%,2023-07-06
-08:15,United States,ADP Nonfarm Employment Change,-,230K,278K,2023-07-06
-08:30,United States,Continuing Jobless Claims,-,"1,750K","1,742K",2023-07-06
-08:30,United States,Exports,-,-,249.00B,2023-07-06
-08:30,United States,Imports,-,-,323.60B,2023-07-06
-08:30,United States,Initial Jobless Claims,-,245K,239K,2023-07-06
-08:30,United States,Jobless Claims 4-Week Avg.,-,256.64K,257.50K,2023-07-06
-08:30,United States,Trade Balance,-,-69.50B,-74.60B,2023-07-06
+07:00,United States,MBA 30-Year Mortgage Rate,6.85%,-,6.75%,2023-07-06
+07:00,United States,MBA Mortgage Applications,-4.4%,-,3.0%,2023-07-06
+07:00,United States,MBA Purchase Index,162.4,-,170.3,2023-07-06
+07:00,United States,Mortgage Market Index,206.5,-,216.1,2023-07-06
+07:00,United States,Mortgage Refinance Index,421.3,-,439.2,2023-07-06
+07:30,United States,Challenger Job Cuts,40.709K,-,80.089K,2023-07-06
+08:15,United States,ADP Nonfarm Employment Change,497K,228K,267K,2023-07-06
+08:30,United States,Continuing Jobless Claims,"1,720K","1,745K","1,733K",2023-07-06
+08:30,United States,Exports,247.10B,-,249.20B,2023-07-06
+08:30,United States,Imports,316.10B,-,323.60B,2023-07-06
+08:30,United States,Initial Jobless Claims,248K,245K,236K,2023-07-06
+08:30,United States,Jobless Claims 4-Week Avg.,253.25K,256.64K,256.75K,2023-07-06
+08:30,United States,Trade Balance,-69.00B,-69.00B,-74.40B,2023-07-06
 08:45,United States,Fed Logan Speaks,-,-,-,2023-07-06
-09:45,United States,S&P Global Composite PMI,-,53.0,54.3,2023-07-06
-09:45,United States,Services PMI,-,54.1,54.9,2023-07-06
-10:00,United States,IBD/TIPP Economic Optimism,-,45.3,41.7,2023-07-06
-10:00,United States,ISM Non-Manufacturing Business Activity,-,60.0,51.5,2023-07-06
-10:00,United States,ISM Non-Manufacturing Employment,-,49.9,49.2,2023-07-06
-10:00,United States,ISM Non-Manufacturing New Orders,-,55.9,52.9,2023-07-06
-10:00,United States,ISM Non-Manufacturing PMI,-,51.0,50.3,2023-07-06
-10:00,United States,ISM Non-Manufacturing Prices,-,53.3,56.2,2023-07-06
-10:00,United States,JOLTs Job Openings,-,9.900M,10.103M,2023-07-06
-10:00,United States,Total Vehicle Sales,-,-,15.10M,2023-07-06
-10:30,United States,Natural Gas Storage,-,-,76B,2023-07-06
-11:00,United States,Crude Oil Inventories,-,-0.729M,-9.603M,2023-07-06
-11:00,United States,EIA Refinery Crude Runs ,-,-,-0.216M,2023-07-06
-11:00,United States,Crude Oil Imports,-,2.054M,-0.376M,2023-07-06
-11:00,United States,Cushing Crude Oil Inventories,-,-0.307M,1.209M,2023-07-06
-11:00,United States,Distillate Fuel Production,-,-0.006M,-0.368M,2023-07-06
-11:00,United States,EIA Weekly Distillates Stocks,-,0.160M,0.124M,2023-07-06
-11:00,United States,Gasoline Production,-,-0.004M,0.298M,2023-07-06
-11:00,United States,Heating Oil Stockpiles,-,0.371M,-0.529M,2023-07-06
-11:00,United States,EIA Weekly Refinery Utilization Rates,-,-,-0.9%,2023-07-06
-11:00,United States,Gasoline Inventories,-,1.454M,0.603M,2023-07-06
-11:30,United States,4-Week Bill Auction,-,-,5.085%,2023-07-06
-11:30,United States,8-Week Bill Auction,-,-,5.190%,2023-07-06
+09:45,United States,S&P Global Composite PMI,53.2,53.0,54.3,2023-07-06
+09:45,United States,S&P Global US Services PMI,54.4,54.1,54.9,2023-07-06
+10:00,United States,All Car Sales,3.10M,-,3.05M,2023-07-06
+10:00,United States,All Truck Sales,12.58M,-,12.02M,2023-07-06
+10:00,United States,ISM Non-Manufacturing Business Activity,59.2,51.9,51.5,2023-07-06
+10:00,United States,ISM Non-Manufacturing Employment,53.1,49.9,49.2,2023-07-06
+10:00,United States,ISM Non-Manufacturing New Orders,55.5,55.9,52.9,2023-07-06
+10:00,United States,ISM Non-Manufacturing PMI,53.9,51.0,50.3,2023-07-06
+10:00,United States,ISM Non-Manufacturing Prices,54.1,53.3,56.2,2023-07-06
+10:00,United States,JOLTs Job Openings,9.824M,9.935M,10.320M,2023-07-06
+11:00,United States,Crude Oil Inventories,-1.508M,-0.983M,-9.603M,2023-07-06
+11:00,United States,EIA Refinery Crude Runs ,-0.224M,-,-0.216M,2023-07-06
+11:00,United States,Crude Oil Imports,1.895M,2.054M,-0.376M,2023-07-06
+11:00,United States,Cushing Crude Oil Inventories,-0.400M,-0.307M,1.209M,2023-07-06
+11:00,United States,Distillate Fuel Production,0.141M,-0.006M,-0.368M,2023-07-06
+11:00,United States,EIA Weekly Distillates Stocks,-1.045M,0.296M,0.124M,2023-07-06
+11:00,United States,Gasoline Production,0.148M,-0.004M,0.298M,2023-07-06
+11:00,United States,Heating Oil Stockpiles,-0.061M,0.371M,-0.529M,2023-07-06
+11:00,United States,EIA Weekly Refinery Utilization Rates,-1.1%,-,-0.9%,2023-07-06
+11:00,United States,Gasoline Inventories,-2.550M,-1.417M,0.603M,2023-07-06
+11:30,United States,4-Week Bill Auction,5.150%,-,5.085%,2023-07-06
+11:30,United States,8-Week Bill Auction,5.200%,-,5.190%,2023-07-06
+16:30,United States,Fed's Balance Sheet,"8,298B",-,"8,341B",2023-07-06
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.180T,-,3.176T,2023-07-06
+08:30,United States,Average Hourly Earnings (YoY),4.4%,4.2%,4.4%,2023-07-07
+08:30,United States,Average Hourly Earnings,0.4%,0.3%,0.4%,2023-07-07
+08:30,United States,Average Weekly Hours,34.4,34.3,34.3,2023-07-07
+08:30,United States,Government Payrolls,60.0K,7.0K,47.0K,2023-07-07
+08:30,United States,Manufacturing Payrolls,7K,0K,-3K,2023-07-07
+08:30,United States,Nonfarm Payrolls,209K,225K,306K,2023-07-07
+08:30,United States,Participation Rate,62.6%,62.6%,62.6%,2023-07-07
+08:30,United States,Private Nonfarm Payrolls,149K,200K,259K,2023-07-07
+08:30,United States,U6 Unemployment Rate,6.9%,6.6%,6.7%,2023-07-07
+08:30,United States,Unemployment Rate,3.6%,3.6%,3.7%,2023-07-07
+10:30,United States,Natural Gas Storage,72B,64B,76B,2023-07-07
+13:00,United States,U.S. Baker Hughes Oil Rig Count,540,-,545,2023-07-07
+13:00,United States,U.S. Baker Hughes Total Rig Count,680,-,674,2023-07-07
+16:30,United States,CFTC Aluminium speculative net positions,6.3K,-,6.3K,2023-07-07
+16:30,United States,CFTC Copper speculative net positions,-8.8K,-,2.9K,2023-07-07
+16:30,United States,CFTC Corn speculative net positions,46.4K,-,113.4K,2023-07-07
+16:30,United States,CFTC Crude Oil speculative net positions,141.4K,-,138.4K,2023-07-07
+16:30,United States,CFTC Gold speculative net positions,163.1K,-,151.9K,2023-07-07
+16:30,United States,CFTC Nasdaq 100 speculative net positions,5.5K,-,17.2K,2023-07-07
+16:30,United States,CFTC Natural Gas speculative net positions,-98.8K,-,-92.8K,2023-07-07
+16:30,United States,CFTC S&P 500 speculative net positions,-207.2K,-,-208.3K,2023-07-07
+16:30,United States,CFTC Silver speculative net positions,18.0K,-,19.1K,2023-07-07
+16:30,United States,CFTC Soybeans speculative net positions,91.0K,-,101.8K,2023-07-07
+16:30,United States,CFTC Wheat speculative net positions,-45.5K,-,-47.2K,2023-07-07
+10:00,United States,CB Employment Trends Index,114.31,116.26,115.53,2023-07-10
+10:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-07-10
+10:00,United States,Wholesale Inventories,0.0%,-0.1%,-0.3%,2023-07-10
+10:00,United States,Wholesale Trade Sales,-0.2%,0.3%,0.0%,2023-07-10
+10:30,United States,FOMC Member Daly Speaks,-,-,-,2023-07-10
+11:00,United States,Consumer Inflation Expectations,3.8%,-,4.1%,2023-07-10
+11:00,United States,FOMC Member Mester Speaks,-,-,-,2023-07-10
+11:30,United States,3-Month Bill Auction,5.250%,-,5.230%,2023-07-10
+11:30,United States,6-Month Bill Auction,5.270%,-,5.260%,2023-07-10
+12:00,United States,FOMC Member Bostic Speaks,-,-,-,2023-07-10
+15:00,United States,Consumer Credit,7.24B,20.50B,20.32B,2023-07-10
+06:00,United States,NFIB Small Business Optimism,91.0,89.9,89.4,2023-07-11
+08:55,United States,Redbook,-0.4%,-,0.7%,2023-07-11
+09:00,United States,FOMC Member Bullard Speaks,-,-,-,2023-07-11
+10:00,United States,IBD/TIPP Economic Optimism,41.3,45.3,41.7,2023-07-11
+11:30,United States,52-Week Bill Auction,5.130%,-,4.930%,2023-07-11
+12:00,United States,EIA Short-Term Energy Outlook,-,-,-,2023-07-11
+13:00,United States,3-Year Note Auction,4.534%,-,4.202%,2023-07-11
+16:30,United States,API Weekly Crude Oil Stock,3.026M,0.200M,-4.382M,2023-07-11
+07:00,United States,MBA 30-Year Mortgage Rate,7.07%,-,6.85%,2023-07-12
+07:00,United States,MBA Mortgage Applications,0.9%,-,-4.4%,2023-07-12
+07:00,United States,MBA Purchase Index,165.3,-,162.4,2023-07-12
+07:00,United States,Mortgage Market Index,208.4,-,206.5,2023-07-12
+07:00,United States,Mortgage Refinance Index,416.0,-,421.3,2023-07-12
+08:30,United States,Core CPI,4.8%,5.0%,5.3%,2023-07-12
+08:30,United States,Core CPI Index,308.31,309.03,307.82,2023-07-12
+08:30,United States,CPI,3.0%,3.1%,4.0%,2023-07-12
+08:30,United States,"CPI Index, n.s.a.",305.11,305.22,304.13,2023-07-12
+08:30,United States,"CPI Index, s.a",303.84,303.70,303.29,2023-07-12
+08:30,United States,"CPI, n.s.a",0.32%,-,0.25%,2023-07-12
+08:30,United States,Real Earnings,0.5%,-0.1%,-0.1%,2023-07-12
+09:45,United States,FOMC Member Kashkari Speaks,-,-,-,2023-07-12
+10:30,United States,Crude Oil Inventories,5.946M,0.483M,-1.508M,2023-07-12
+10:30,United States,EIA Refinery Crude Runs ,0.629M,-,-0.224M,2023-07-12
+10:30,United States,Crude Oil Imports,0.599M,-0.527M,1.895M,2023-07-12
+10:30,United States,Cushing Crude Oil Inventories,-1.605M,-0.805M,-0.400M,2023-07-12
+10:30,United States,Distillate Fuel Production,0.236M,-0.011M,0.141M,2023-07-12
+10:30,United States,EIA Weekly Distillates Stocks,4.815M,-0.262M,-1.045M,2023-07-12
+10:30,United States,Gasoline Production,-0.158M,-0.047M,0.148M,2023-07-12
+10:30,United States,Heating Oil Stockpiles,0.439M,-0.234M,-0.061M,2023-07-12
+10:30,United States,EIA Weekly Refinery Utilization Rates,2.6%,-,-1.1%,2023-07-12
+10:30,United States,Gasoline Inventories,-0.003M,-0.727M,-2.550M,2023-07-12
+11:00,United States,Cleveland CPI,0.4%,0.4%,0.4%,2023-07-12
+11:00,United States,Thomson Reuters IPSOS PCSI,54.41,-,49.62,2023-07-12
+12:00,United States,WASDE Report,-,-,-,2023-07-12
+13:00,United States,10-Year Note Auction,3.857%,-,3.791%,2023-07-12
+13:00,United States,FOMC Member Bostic Speaks,-,-,-,2023-07-12
+14:00,United States,Beige Book,-,-,-,2023-07-12
+16:00,United States,FOMC Member Mester Speaks,-,-,-,2023-07-12
+04:00,United States,IEA Monthly Report,-,-,-,2023-07-13
+07:00,United States,OPEC Monthly Report,-,-,-,2023-07-13
+08:30,United States,Continuing Jobless Claims,"1,729K","1,723K","1,718K",2023-07-13
+08:30,United States,Core PPI,2.4%,2.6%,2.6%,2023-07-13
+08:30,United States,Initial Jobless Claims,237K,250K,249K,2023-07-13
+08:30,United States,Jobless Claims 4-Week Avg.,246.75K,255.39K,253.50K,2023-07-13
+08:30,United States,PPI,0.1%,0.2%,-0.4%,2023-07-13
+08:30,United States,PPI ex. Food/Energy/Transport,0.1%,-,0.0%,2023-07-13
+10:30,United States,Natural Gas Storage,49B,51B,68B,2023-07-13
+11:30,United States,4-Week Bill Auction,5.210%,-,5.150%,2023-07-13
+11:30,United States,8-Week Bill Auction,5.230%,-,5.200%,2023-07-13
+13:00,United States,30-Year Bond Auction,3.910%,-,3.908%,2023-07-13
+14:00,United States,Federal Budget Balance,-228.0B,-175.0B,-240.0B,2023-07-13
+16:30,United States,Fed's Balance Sheet,"8,297B",-,"8,298B",2023-07-13
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.162T,-,3.180T,2023-07-13
+18:45,United States,Fed Waller Speaks,-,-,-,2023-07-13
+08:30,United States,Export Price Index,-0.9%,-0.2%,-1.9%,2023-07-14
+08:30,United States,Import Price Index,-0.2%,-0.1%,-0.4%,2023-07-14
+10:00,United States,Michigan 5-Year Inflation Expectations,3.1%,3.1%,3.0%,2023-07-14
+10:00,United States,Michigan Consumer Expectations,69.4,61.8,61.5,2023-07-14
+10:00,United States,Michigan Consumer Sentiment,72.6,65.5,64.4,2023-07-14
+10:00,United States,Michigan Current Conditions,77.5,70.4,69.0,2023-07-14
+10:00,United States,Michigan Inflation Expectations,3.4%,3.3%,3.3%,2023-07-14
+13:00,United States,U.S. Baker Hughes Oil Rig Count,537,-,540,2023-07-14
+13:00,United States,U.S. Baker Hughes Total Rig Count,675,-,680,2023-07-14
+16:30,United States,CFTC Aluminium speculative net positions,6.2K,-,6.3K,2023-07-14
+16:30,United States,CFTC Copper speculative net positions,-11.2K,-,-8.8K,2023-07-14
+16:30,United States,CFTC Corn speculative net positions,7.8K,-,46.4K,2023-07-14
+16:30,United States,CFTC Crude Oil speculative net positions,173.4K,-,141.4K,2023-07-14
+16:30,United States,CFTC Gold speculative net positions,165.8K,-,163.1K,2023-07-14
+16:30,United States,CFTC Nasdaq 100 speculative net positions,10.9K,-,5.5K,2023-07-14
+16:30,United States,CFTC Natural Gas speculative net positions,-86.8K,-,-98.8K,2023-07-14
+16:30,United States,CFTC S&P 500 speculative net positions,-209.0K,-,-207.2K,2023-07-14
+16:30,United States,CFTC Silver speculative net positions,20.3K,-,18.0K,2023-07-14
+16:30,United States,CFTC Soybeans speculative net positions,90.9K,-,91.0K,2023-07-14
+16:30,United States,CFTC Wheat speculative net positions,-40.4K,-,-45.5K,2023-07-14
+08:30,United States,NY Empire State Manufacturing Index,1.10,-4.30,6.60,2023-07-17
+11:30,United States,3-Month Bill Auction,5.250%,-,5.250%,2023-07-17
+11:30,United States,6-Month Bill Auction,5.250%,-,5.270%,2023-07-17
+08:30,United States,Core Retail Sales,0.2%,0.3%,0.3%,2023-07-18
+08:30,United States,Retail Control,0.6%,-0.3%,0.3%,2023-07-18
+08:30,United States,Retail Sales,0.2%,0.5%,0.5%,2023-07-18
+08:30,United States,Retail Sales Ex Gas/Autos,0.3%,0.0%,0.5%,2023-07-18
+08:55,United States,Redbook,-0.2%,-,-0.4%,2023-07-18
+09:15,United States,Capacity Utilization Rate,78.9%,79.5%,79.4%,2023-07-18
+09:15,United States,Industrial Production,-0.5%,0.0%,-0.5%,2023-07-18
+09:15,United States,Manufacturing Production,-0.3%,0.0%,-0.2%,2023-07-18
+10:00,United States,Business Inventories,0.2%,0.2%,0.1%,2023-07-18
+10:00,United States,Fed Gibson Testifies,-,-,-,2023-07-18
+10:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-07-18
+10:00,United States,NAHB Housing Market Index,56,56,55,2023-07-18
+10:00,United States,Retail Inventories Ex Auto,-0.1%,0.0%,-0.2%,2023-07-18
+16:00,United States,"US Foreign Buying, T-bonds",37.50B,47.00B,92.20B,2023-07-18
+16:00,United States,Overall Net Capital Flow,-167.60B,180.50B,35.30B,2023-07-18
+16:00,United States,TIC Net Long-Term Transactions,25.8B,110.2B,127.8B,2023-07-18
+16:00,United States,TIC Net Long-Term Transactions including Swaps,17.50B,122.10B,116.90B,2023-07-18
+16:30,United States,API Weekly Crude Oil Stock,-0.797M,-2.250M,3.026M,2023-07-18
+07:00,United States,MBA 30-Year Mortgage Rate,6.87%,-,7.07%,2023-07-19
+07:00,United States,MBA Mortgage Applications,1.1%,-,0.9%,2023-07-19
+07:00,United States,MBA Purchase Index,163.2,-,165.3,2023-07-19
+07:00,United States,Mortgage Market Index,210.7,-,208.4,2023-07-19
+07:00,United States,Mortgage Refinance Index,446.4,-,416.0,2023-07-19
+08:30,United States,Building Permits,1.440M,1.490M,1.496M,2023-07-19
+08:30,United States,Housing Starts,1.434M,1.480M,1.559M,2023-07-19
+10:30,United States,Crude Oil Inventories,-0.708M,-2.440M,5.946M,2023-07-19
+10:30,United States,EIA Refinery Crude Runs ,-0.074M,-,0.629M,2023-07-19
+10:30,United States,Crude Oil Imports,-0.376M,-1.845M,0.599M,2023-07-19
+10:30,United States,Cushing Crude Oil Inventories,-2.891M,-0.835M,-1.605M,2023-07-19
+10:30,United States,Distillate Fuel Production,-0.054M,-0.002M,0.236M,2023-07-19
+10:30,United States,EIA Weekly Distillates Stocks,0.014M,0.460M,4.815M,2023-07-19
+10:30,United States,Gasoline Production,-0.584M,0.034M,-0.158M,2023-07-19
+10:30,United States,Heating Oil Stockpiles,0.223M,-0.108M,0.439M,2023-07-19
+10:30,United States,EIA Weekly Refinery Utilization Rates,0.6%,-,2.6%,2023-07-19
+10:30,United States,Gasoline Inventories,-1.066M,-1.577M,-0.003M,2023-07-19
+13:00,United States,20-Year Bond Auction,4.036%,-,4.010%,2023-07-19
+08:30,United States,Continuing Jobless Claims,"1,754K","1,729K","1,721K",2023-07-20
+08:30,United States,Initial Jobless Claims,228K,242K,237K,2023-07-20
+08:30,United States,Jobless Claims 4-Week Avg.,237.50K,250.01K,246.75K,2023-07-20
+08:30,United States,Philadelphia Fed Manufacturing Index,-13.5,-10.0,-13.7,2023-07-20
+08:30,United States,Philly Fed Business Conditions,29.1,10.0,12.7,2023-07-20
+08:30,United States,Philly Fed CAPEX Index,8.60,6.20,9.90,2023-07-20
+08:30,United States,Philly Fed Employment,-1.0,-4.5,-0.4,2023-07-20
+08:30,United States,Philly Fed New Orders,-15.9,-10.0,-11.0,2023-07-20
+08:30,United States,Philly Fed Prices Paid,9.50,10.70,10.50,2023-07-20
+10:00,United States,Existing Home Sales,-3.3%,-,0.2%,2023-07-20
+10:00,United States,US Leading Index,-0.7%,-0.6%,-0.6%,2023-07-20
+10:30,United States,Natural Gas Storage,41B,40B,49B,2023-07-20
+11:30,United States,4-Week Bill Auction,5.255%,-,5.210%,2023-07-20
+11:30,United States,8-Week Bill Auction,5.255%,-,5.230%,2023-07-20
+13:00,United States,10-Year TIPS Auction,1.495%,-,1.395%,2023-07-20
+16:30,United States,Fed's Balance Sheet,"8,275B",-,"8,297B",2023-07-20
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.221T,-,3.162T,2023-07-20
+13:00,United States,U.S. Baker Hughes Oil Rig Count,530,-,537,2023-07-21
+13:00,United States,U.S. Baker Hughes Total Rig Count,669,-,675,2023-07-21
+16:30,United States,CFTC Aluminium speculative net positions,6.4K,-,6.2K,2023-07-21
+16:30,United States,CFTC Copper speculative net positions,-3.5K,-,-11.2K,2023-07-21
+16:30,United States,CFTC Corn speculative net positions,19.9K,-,7.8K,2023-07-21
+16:30,United States,CFTC Crude Oil speculative net positions,206.1K,-,173.4K,2023-07-21
+16:30,United States,CFTC Gold speculative net positions,193.3K,-,165.8K,2023-07-21
+16:30,United States,CFTC Nasdaq 100 speculative net positions,1.2K,-,10.9K,2023-07-21
+16:30,United States,CFTC Natural Gas speculative net positions,-95.8K,-,-86.8K,2023-07-21
+16:30,United States,CFTC S&P 500 speculative net positions,-263.7K,-,-209.0K,2023-07-21
+16:30,United States,CFTC Silver speculative net positions,43.9K,-,20.3K,2023-07-21
+16:30,United States,CFTC Soybeans speculative net positions,107.3K,-,90.9K,2023-07-21
+16:30,United States,CFTC Wheat speculative net positions,-38.7K,-,-40.4K,2023-07-21
+08:30,United States,Chicago Fed National Activity,-0.32,0.03,-0.28,2023-07-24
+09:45,United States,S&P Global US Manufacturing PMI,49.0,46.4,46.3,2023-07-24
+09:45,United States,S&P Global Composite PMI,52.0,53.1,53.2,2023-07-24
+09:45,United States,S&P Global US Services PMI,52.4,54.0,54.4,2023-07-24
+11:30,United States,3-Month Bill Auction,5.270%,-,5.250%,2023-07-24
+11:30,United States,6-Month Bill Auction,5.270%,-,5.250%,2023-07-24
+13:00,United States,2-Year Note Auction,4.823%,-,4.670%,2023-07-24
+08:55,United States,Redbook,-0.4%,-,-0.2%,2023-07-25
+09:00,United States,House Price Index,404.1,404.6,401.2,2023-07-25
+09:00,United States,S&P/CS HPI Composite - 20 s.a.,1.0%,1.5%,0.9%,2023-07-25
+09:00,United States,S&P/CS HPI Composite - 20 n.s.a.,-1.7%,-2.2%,-1.7%,2023-07-25
+10:00,United States,CB Consumer Confidence,117.0,111.8,110.1,2023-07-25
+10:00,United States,Richmond Manufacturing Index,-9,-10,-8,2023-07-25
+10:00,United States,Richmond Manufacturing Shipments,-6,-,-5,2023-07-25
+10:00,United States,Richmond Services Index,-2,9,-8,2023-07-25
+13:00,United States,5-Year Note Auction,4.170%,-,4.019%,2023-07-25
+16:30,United States,API Weekly Crude Oil Stock,1.319M,-1.969M,-0.797M,2023-07-25
+08:55,United States,Redbook,-0.4%,-,-0.2%,2023-07-26
+09:00,United States,House Price Index,404.1,404.6,401.2,2023-07-26
+09:00,United States,S&P/CS HPI Composite - 20 s.a.,1.0%,1.5%,0.9%,2023-07-26
+09:00,United States,S&P/CS HPI Composite - 20 n.s.a.,-1.7%,-2.2%,-1.7%,2023-07-26
+10:00,United States,CB Consumer Confidence,117.0,111.8,110.1,2023-07-26
+10:00,United States,Richmond Manufacturing Index,-9,-10,-8,2023-07-26
+10:00,United States,Richmond Manufacturing Shipments,-6,-,-5,2023-07-26
+10:00,United States,Richmond Services Index,-2,9,-8,2023-07-26
+13:00,United States,5-Year Note Auction,4.170%,-,4.019%,2023-07-26
+16:30,United States,API Weekly Crude Oil Stock,1.319M,-1.969M,-0.797M,2023-07-26
+08:30,United States,Continuing Jobless Claims,"1,690K","1,750K","1,749K",2023-07-27
+08:30,United States,Core Durable Goods Orders,0.6%,0.0%,0.6%,2023-07-27
+08:30,United States,Core PCE Prices,3.80%,4.00%,4.90%,2023-07-27
+08:30,United States,Durable Goods Orders,4.7%,1.0%,2.0%,2023-07-27
+08:30,United States,Durables Excluding Defense,6.2%,0.0%,3.2%,2023-07-27
+08:30,United States,GDP,2.4%,1.8%,2.0%,2023-07-27
+08:30,United States,GDP Price Index,2.2%,3.0%,4.1%,2023-07-27
+08:30,United States,GDP Sales,2.3%,1.4%,4.2%,2023-07-27
+08:30,United States,Goods Orders Non Defense Ex Air,0.2%,-0.1%,0.5%,2023-07-27
+08:30,United States,Goods Trade Balance,-87.84B,-91.80B,-91.13B,2023-07-27
+08:30,United States,Initial Jobless Claims,221K,235K,228K,2023-07-27
+08:30,United States,Jobless Claims 4-Week Avg.,233.75K,242.10K,237.50K,2023-07-27
+08:30,United States,PCE Prices,2.6%,-,4.1%,2023-07-27
+08:30,United States,Real Consumer Spending,1.6%,-,4.2%,2023-07-27
+08:30,United States,Retail Inventories Ex Auto,0.4%,-,-0.1%,2023-07-27
+08:30,United States,Wholesale Inventories,-0.3%,-0.3%,-0.3%,2023-07-27
+10:00,United States,Pending Home Sales,0.3%,-0.5%,-2.5%,2023-07-27
+10:00,United States,Pending Home Sales Index,76.8,-,76.6,2023-07-27
+10:30,United States,Natural Gas Storage,16B,19B,41B,2023-07-27
+11:00,United States,KC Fed Composite Index,-11,-7,-12,2023-07-27
+11:00,United States,KC Fed Manufacturing Index,-20,-6,-10,2023-07-27
+11:30,United States,4-Week Bill Auction,5.275%,-,5.255%,2023-07-27
+11:30,United States,8-Week Bill Auction,5.285%,-,5.255%,2023-07-27
+13:00,United States,7-Year Note Auction,4.087%,-,3.839%,2023-07-27
+16:30,United States,Fed's Balance Sheet,"8,243B",-,"8,275B",2023-07-27
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.167T,-,3.221T,2023-07-27
+08:30,United States,Core PCE Price Index,4.1%,4.2%,4.6%,2023-07-28
+08:30,United States,Employment Benefits,0.90%,1.30%,1.20%,2023-07-28
+08:30,United States,Employment Cost Index,1.0%,1.1%,1.2%,2023-07-28
+08:30,United States,Employment Wages,1.00%,1.20%,1.20%,2023-07-28
+08:30,United States,PCE Price index,3.0%,3.1%,3.8%,2023-07-28
+08:30,United States,PCE price index,0.2%,0.2%,0.1%,2023-07-28
+08:30,United States,Personal Income,0.3%,0.5%,0.5%,2023-07-28
+08:30,United States,Personal Spending,0.5%,0.4%,0.2%,2023-07-28
+08:30,United States,Real Personal Consumption,0.4%,-,0.1%,2023-07-28
+10:00,United States,Michigan 5-Year Inflation Expectations,3.0%,3.1%,3.0%,2023-07-28
+10:00,United States,Michigan Consumer Expectations,68.3,69.4,61.5,2023-07-28
+10:00,United States,Michigan Consumer Sentiment,71.6,72.6,64.4,2023-07-28
+10:00,United States,Michigan Current Conditions,76.6,77.5,69.0,2023-07-28
+10:00,United States,Michigan Inflation Expectations,3.4%,3.4%,3.3%,2023-07-28
+10:20,United States,Dallas Fed PCE,2.50%,4.30%,3.50%,2023-07-28
+13:00,United States,U.S. Baker Hughes Oil Rig Count,529,-,530,2023-07-28
+13:00,United States,U.S. Baker Hughes Total Rig Count,664,-,669,2023-07-28
+16:30,United States,CFTC Aluminium speculative net positions,6.8K,-,6.4K,2023-07-28
+16:30,United States,CFTC Copper speculative net positions,1.2K,-,-3.5K,2023-07-28
+16:30,United States,CFTC Corn speculative net positions,70.5K,-,19.9K,2023-07-28
+16:30,United States,CFTC Crude Oil speculative net positions,225.2K,-,206.1K,2023-07-28
+16:30,United States,CFTC Gold speculative net positions,173.6K,-,193.3K,2023-07-28
+16:30,United States,CFTC Nasdaq 100 speculative net positions,-10.7K,-,1.2K,2023-07-28
+16:30,United States,CFTC Natural Gas speculative net positions,-97.1K,-,-95.8K,2023-07-28
+16:30,United States,CFTC S&P 500 speculative net positions,-232.6K,-,-263.7K,2023-07-28
+16:30,United States,CFTC Silver speculative net positions,36.9K,-,43.9K,2023-07-28
+16:30,United States,CFTC Soybeans speculative net positions,135.0K,-,107.3K,2023-07-28
+16:30,United States,CFTC Wheat speculative net positions,-20.6K,-,-38.7K,2023-07-28
+04:30,United States,API Weekly Crude Oil Stock,-,-,1.319M,2023-08-01
+09:45,United States,Chicago PMI,42.8,43.0,41.5,2023-07-31
+10:30,United States,Dallas Fed Mfg Business Index,-20.0,-26.3,-23.2,2023-07-31
+10:44,United States,OPEC Crude Oil Production Algeria (Barrel),0.95M,0.95M,0.95M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Congo (Barrel),0.28M,0.28M,0.28M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Gabon (Barrel),0.20M,0.20M,0.19M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Guinea (Barrel),0.06M,0.06M,0.05M,2023-07-31
+10:44,United States,OPEC Crude oil Production Iran (Barrel),2.90M,2.90M,2.90M,2023-07-31
+10:44,United States,OPEC Crude oil Production Iraq (Barrel),4.12M,4.12M,4.03M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Kuwait (Barrel),2.55M,2.55M,2.55M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Libya (Barrel),1.10M,1.10M,1.12M,2023-07-31
+10:44,United States,OPEC Crude Oil Production Nigeria (Barrel),1.30M,1.30M,1.42M,2023-07-31
+10:44,United States,OPEC Crude oil Production Saudi Arabia (Barrel),9.10M,9.10M,9.96M,2023-07-31
+10:44,United States,OPEC Crude oil Production UAE (Barrel),2.89M,2.89M,2.89M,2023-07-31
+10:44,United States,OPEC Crude oil Production Venezuela (Barrel),0.75M,0.75M,0.75M,2023-07-31
+11:30,United States,3-Month Bill Auction,5.280%,-,5.270%,2023-07-31
+11:30,United States,6-Month Bill Auction,5.270%,-,5.270%,2023-07-31
+14:00,United States,Loan Officer Survey,-,-,-,2023-07-31
+08:55,United States,Redbook,0.1%,-,-0.4%,2023-08-01
+09:45,United States,S&P Global US Manufacturing PMI,49.0,49.0,46.3,2023-08-01
+10:00,United States,Construction Spending,0.5%,0.6%,1.1%,2023-08-01
+10:00,United States,ISM Manufacturing Employment,44.4,48.0,48.1,2023-08-01
+10:00,United States,ISM Manufacturing New Orders Index,47.3,44.0,45.6,2023-08-01
+10:00,United States,ISM Manufacturing PMI,46.4,46.8,46.0,2023-08-01
+10:00,United States,ISM Manufacturing Prices,42.6,42.8,41.8,2023-08-01
+10:00,United States,JOLTs Job Openings,9.582M,9.610M,9.616M,2023-08-01
+10:30,United States,Dallas Fed Services Revenues,12.9,5.6,3.6,2023-08-01
+10:30,United States,Texas Services Sector Outlook,-4.2,-12.5,-8.2,2023-08-01
+16:30,United States,API Weekly Crude Oil Stock,-15.400M,-0.900M,1.319M,2023-08-01
+07:00,United States,MBA 30-Year Mortgage Rate,6.93%,-,6.87%,2023-08-02
+07:00,United States,MBA Mortgage Applications,-3.0%,-,-1.8%,2023-08-02
+07:00,United States,MBA Purchase Index,154.1,-,159.2,2023-08-02
+07:00,United States,Mortgage Market Index,200.7,-,206.9,2023-08-02
+07:00,United States,Mortgage Refinance Index,433.6,-,444.5,2023-08-02
+08:00,United States,All Car Sales,3.14M,-,3.08M,2023-08-02
+08:00,United States,All Truck Sales,12.59M,-,12.58M,2023-08-02
+08:15,United States,ADP Nonfarm Employment Change,324K,189K,455K,2023-08-02
+10:30,United States,Crude Oil Inventories,-17.049M,-1.367M,-0.600M,2023-08-02
+10:30,United States,EIA Refinery Crude Runs ,0.039M,-,-0.107M,2023-08-02
+10:30,United States,Crude Oil Imports,-0.391M,0.908M,-1.584M,2023-08-02
+10:30,United States,Cushing Crude Oil Inventories,-1.259M,-2.494M,-2.609M,2023-08-02
+10:30,United States,Distillate Fuel Production,0.080M,-0.005M,-0.251M,2023-08-02
+10:30,United States,EIA Weekly Distillates Stocks,-0.796M,0.112M,-0.245M,2023-08-02
+10:30,United States,Gasoline Production,0.341M,-0.049M,-0.035M,2023-08-02
+10:30,United States,Heating Oil Stockpiles,0.230M,0.082M,-1.002M,2023-08-02
+10:30,United States,EIA Weekly Refinery Utilization Rates,-0.7%,-,-0.9%,2023-08-02
+10:30,United States,Gasoline Inventories,1.480M,-1.300M,-0.786M,2023-08-02
+07:30,United States,Challenger Job Cuts,-,-,40.709K,2023-08-03
+08:30,United States,Continuing Jobless Claims,-,"1,700K","1,690K",2023-08-03
+08:30,United States,Initial Jobless Claims,-,227K,221K,2023-08-03
+08:30,United States,Jobless Claims 4-Week Avg.,-,235.63K,233.75K,2023-08-03
+08:30,United States,Nonfarm Productivity,-,2.0%,-2.1%,2023-08-03
+08:30,United States,Unit Labor Costs,-,2.6%,4.2%,2023-08-03
+09:45,United States,S&P Global Composite PMI,-,52.0,52.0,2023-08-03
+09:45,United States,S&P Global US Services PMI,-,52.4,52.4,2023-08-03
+10:00,United States,Durables Excluding Defense,-,-,6.2%,2023-08-03
+10:00,United States,Durables Excluding Transport,-,-,0.6%,2023-08-03
+10:00,United States,Factory Orders,-,2.3%,0.3%,2023-08-03
+10:00,United States,Factory orders ex transportation,-,0.4%,-0.5%,2023-08-03
+10:00,United States,ISM Non-Manufacturing Business Activity,-,57.2,59.2,2023-08-03
+10:00,United States,ISM Non-Manufacturing Employment,-,51.1,53.1,2023-08-03
+10:00,United States,ISM Non-Manufacturing New Orders,-,55.6,55.5,2023-08-03
+10:00,United States,ISM Non-Manufacturing PMI,-,53.0,53.9,2023-08-03
+10:00,United States,ISM Non-Manufacturing Prices,-,52.1,54.1,2023-08-03
+10:30,United States,Natural Gas Storage,-,6B,16B,2023-08-03
+11:30,United States,4-Week Bill Auction,-,-,5.275%,2023-08-03
+11:30,United States,8-Week Bill Auction,-,-,5.285%,2023-08-03
+16:30,United States,Fed's Balance Sheet,-,-,"8,243B",2023-08-03
+16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.167T,2023-08-03

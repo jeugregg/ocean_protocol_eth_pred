@@ -40,7 +40,10 @@ ETH Prediction Round 4 : 1 hour timeframe:
 ETH Prediction Round 5 : 5 min timeframe:  
   -  07_Data_Sources_05min ( limited to ohlcv data)  
   -  06_Model_05min (Auto-encoder + LSTM)  
-
+  -  Readme 
+    - https://github.com/oceanprotocol/predict-eth/blob/main/challenges/main5.md
+  -  Results / Prizes
+    - 1st place  : https://blog.oceanprotocol.com/here-are-the-winners-of-the-predict-eth-round-5-data-challenge-95f71bcade95
 
 ETH Prediction Round 6 : 5 min timeframe:  
   -  08_Data_Sources_05min (with all data available)  
@@ -51,4 +54,29 @@ ETH Prediction Round 6 : 5 min timeframe:
   -  Readme  
     -  https://github.com/oceanprotocol/predict-eth/blob/main/challenges/main6.md
   -  Final Transaction  
-  -  https://mumbai.polygonscan.com/tx/0x32ddbba3c3f4fc2664570b7f72fce47cbf29f64318a5e445bf8debd917618418
+    -  https://mumbai.polygonscan.com/tx/0x32ddbba3c3f4fc2664570b7f72fce47cbf29f64318a5e445bf8debd917618418
+  -  Results / Prizes
+    - 2nd place / 15 : https://medium.com/oceanprotocol/here-are-the-winners-of-the-predict-eth-round-6-data-challenge-9b8e8f786170
+
+ETH Prediction Round 7 : 5 min timeframe:  
+  -  10_Data_Sources_05min (with all data available)  
+  -  11_Model_05min (Auto-encoder + LSTM)
+    -  Models with auto-select best encoded features 
+  -  Blog  
+    -  https://blog.oceanprotocol.com/here-are-the-winners-of-the-predict-eth-round-7-data-challenge-d5ec1c2056e0
+  -  Readme  
+    -  https://github.com/oceanprotocol/predict-eth/blob/main/challenges/main7.md
+  -  Final Transaction  
+    -  https://mumbai.polygonscan.com/tx/0xa5c13583cded7e69140ae04e4730837a5e8e97ae4decc7dc9a921e388ca71a39
+  -  Results / Prizes
+    - 4th place / 80 : https://medium.com/oceanprotocol/predict-eth-round-7-data-challenge-is-live-9be6d7faa4a1
+
+2023/08/02 : ETH Prediction Round weely : 5 min timeframe:
+  -  10_Data_Sources_05min (with all data available)  
+  -  12_Model_05min (Auto-encoder  2 LSTM layers + LSTM predictor)
+  -  Blog  
+    -  https://medium.com/oceanprotocol/introducing-challenge-data-farming-378bba28fc97
+  -  Readme  
+    -  https://github.com/oceanprotocol/predict-eth/blob/main/challenges/challenge-df.md
+  -  Final Transaction  
+    -  https://mumbai.polygonscan.com/tx/0xc2f8a73272a69e81db02149a21d0ff0899acecbe53077642509cec373175e791
