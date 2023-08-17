@@ -80,3 +80,18 @@ ETH Prediction Round 7 : 5 min timeframe:
     -  https://github.com/oceanprotocol/predict-eth/blob/main/challenges/challenge-df.md
   -  Final Transaction  
     -  https://mumbai.polygonscan.com/tx/0xc2f8a73272a69e81db02149a21d0ff0899acecbe53077642509cec373175e791
+
+2023/08/09 : round
+- 13_Model_05min.ipynb  
+  - Test with 6h of lag
+  - TRAIN/TEST : 80/20
+  - Model without dropout for decoder part of AE
+
+2023/08/16 : round
+- 14_Model_05min.ipynb
+  - Test with 6h of lag
+  - TRAIN/TEST : 80/20
+  - remove some feature : sin/cos month
+  - normalized by ETH price some economics indices : spx, fvx, dxy because TEST data out of TRAIN range
+  - Very slow to train on TRAIN set
+  - MSE TEST lower than MSE TRAIN at first
