@@ -89,9 +89,17 @@ ETH Prediction Round 7 : 5 min timeframe:
 
 2023/08/16 : round
 - 14_Model_05min.ipynb
-  - Test with 6h of lag
+  - Test with 6 hours of lag
   - TRAIN/TEST : 80/20
   - remove some feature : sin/cos month
   - normalized by ETH price some economics indices : spx, fvx, dxy because TEST data out of TRAIN range
   - Very slow to train on TRAIN set
   - MSE TEST lower than MSE TRAIN at first
+
+2023/08/30 & 2023/09/06: round 52 & 53
+- 16_Model_05min.ipynb
+  - Test with 6 hours of lag
+  - TRAIN/TEST : 80/20
+  - remove some feature : sin/cos month
+  - normalized by ETH price some economics indices : spx, fvx, dxy because TEST data out of TRAIN range
+  
