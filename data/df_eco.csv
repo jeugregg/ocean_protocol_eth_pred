@@ -11989,21 +11989,102 @@ All Day,United States,United States - Labor Day,-,-,-,2023-09-04
 14:00,United States,FOMC Statement,-,-,-,2023-09-20
 14:00,United States,Fed Interest Rate Decision,5.50%,5.50%,5.50%,2023-09-20
 14:30,United States,FOMC Press Conference,-,-,-,2023-09-20
-08:30,United States,Continuing Jobless Claims,-,"1,695K","1,688K",2023-09-21
-08:30,United States,Current Account,-,-221.0B,-219.3B,2023-09-21
-08:30,United States,Initial Jobless Claims,-,225K,220K,2023-09-21
-08:30,United States,Jobless Claims 4-Week Avg.,-,-,224.50K,2023-09-21
-08:30,United States,Philadelphia Fed Manufacturing Index,-,-0.7,12.0,2023-09-21
-08:30,United States,Philly Fed Business Conditions,-,-,3.9,2023-09-21
-08:30,United States,Philly Fed CAPEX Index,-,-,-4.50,2023-09-21
-08:30,United States,Philly Fed Employment,-,-,-6.0,2023-09-21
-08:30,United States,Philly Fed New Orders,-,-,16.0,2023-09-21
-08:30,United States,Philly Fed Prices Paid,-,-,20.80,2023-09-21
-10:00,United States,Existing Home Sales,-,4.10M,4.07M,2023-09-21
-10:00,United States,US Leading Index,-,-0.5%,-0.4%,2023-09-21
-10:30,United States,Natural Gas Storage,-,-,57B,2023-09-21
-11:30,United States,4-Week Bill Auction,-,-,5.285%,2023-09-21
-11:30,United States,8-Week Bill Auction,-,-,5.295%,2023-09-21
-13:00,United States,10-Year TIPS Auction,-,-,1.495%,2023-09-21
-16:30,United States,Fed's Balance Sheet,-,-,"8,099B",2023-09-21
-16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.310T,2023-09-21
+08:30,United States,Continuing Jobless Claims,"1,662K","1,695K","1,683K",2023-09-21
+08:30,United States,Current Account,-212.1B,-221.0B,-214.5B,2023-09-21
+08:30,United States,Initial Jobless Claims,201K,225K,221K,2023-09-21
+08:30,United States,Jobless Claims 4-Week Avg.,217.00K,-,224.75K,2023-09-21
+08:30,United States,Philadelphia Fed Manufacturing Index,-13.5,-0.7,12.0,2023-09-21
+08:30,United States,Philly Fed Business Conditions,11.1,-,3.9,2023-09-21
+08:30,United States,Philly Fed CAPEX Index,7.50,-,-4.50,2023-09-21
+08:30,United States,Philly Fed Employment,-5.7,-,-6.0,2023-09-21
+08:30,United States,Philly Fed New Orders,-10.2,-,16.0,2023-09-21
+08:30,United States,Philly Fed Prices Paid,25.70,-,20.80,2023-09-21
+10:00,United States,Existing Home Sales,4.04M,4.10M,4.07M,2023-09-21
+10:00,United States,US Leading Index,-0.4%,-0.5%,-0.3%,2023-09-21
+10:30,United States,Natural Gas Storage,64B,67B,57B,2023-09-21
+11:30,United States,4-Week Bill Auction,5.280%,-,5.285%,2023-09-21
+11:30,United States,8-Week Bill Auction,5.300%,-,5.295%,2023-09-21
+13:00,United States,10-Year TIPS Auction,2.094%,-,1.495%,2023-09-21
+16:30,United States,Fed's Balance Sheet,"8,024B",-,"8,099B",2023-09-21
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.144T,-,3.310T,2023-09-21
+08:50,United States,Fed Governor Cook Speaks,-,-,-,2023-09-22
+09:45,United States,S&P Global US Manufacturing PMI,48.9,48.0,47.9,2023-09-22
+09:45,United States,S&P Global Composite PMI,50.1,-,50.2,2023-09-22
+09:45,United States,S&P Global Services PMI,50.2,50.6,50.5,2023-09-22
+13:00,United States,U.S. Baker Hughes Oil Rig Count,507,-,515,2023-09-22
+13:00,United States,U.S. Baker Hughes Total Rig Count,630,-,641,2023-09-22
+16:30,United States,CFTC Aluminium speculative net positions,6.4K,-,5.1K,2023-09-22
+16:30,United States,CFTC Copper speculative net positions,-16.3K,-,-12.3K,2023-09-22
+16:30,United States,CFTC Corn speculative net positions,-101.2K,-,-88.0K,2023-09-22
+16:30,United States,CFTC Crude Oil speculative net positions,328.4K,-,326.9K,2023-09-22
+16:30,United States,CFTC Gold speculative net positions,135.2K,-,123.9K,2023-09-22
+16:30,United States,CFTC Nasdaq 100 speculative net positions,3.2K,-,9.1K,2023-09-22
+16:30,United States,CFTC Natural Gas speculative net positions,-93.9K,-,-112.0K,2023-09-22
+16:30,United States,CFTC S&P 500 speculative net positions,-139.0K,-,-116.3K,2023-09-22
+16:30,United States,CFTC Silver speculative net positions,15.2K,-,18.0K,2023-09-22
+16:30,United States,CFTC Soybeans speculative net positions,62.7K,-,85.2K,2023-09-22
+16:30,United States,CFTC Wheat speculative net positions,-56.9K,-,-49.6K,2023-09-22
+08:30,United States,Chicago Fed National Activity,-0.16,-,0.07,2023-09-25
+10:30,United States,Dallas Fed Mfg Business Index,-18.1,-,-17.2,2023-09-25
+11:30,United States,3-Month Bill Auction,5.330%,-,5.315%,2023-09-25
+11:30,United States,6-Month Bill Auction,5.315%,-,5.300%,2023-09-25
+18:00,United States,FOMC Member Kashkari Speaks,-,-,-,2023-09-25
+08:00,United States,Building Permits,6.8%,6.9%,0.1%,2023-09-26
+08:55,United States,Redbook,3.8%,-,3.6%,2023-09-26
+09:00,United States,House Price Index,409.5,-,406.1,2023-09-26
+09:00,United States,S&P/CS HPI Composite - 20 s.a.,0.9%,-,0.9%,2023-09-26
+09:00,United States,S&P/CS HPI Composite - 20 n.s.a.,0.1%,-0.3%,-1.2%,2023-09-26
+10:00,United States,CB Consumer Confidence,103.0,105.5,108.7,2023-09-26
+10:00,United States,New Home Sales,675K,700K,739K,2023-09-26
+10:00,United States,Richmond Manufacturing Index,5,-6,-7,2023-09-26
+10:00,United States,Richmond Manufacturing Shipments,7,-,-5,2023-09-26
+10:00,United States,Richmond Services Index,4,-,4,2023-09-26
+10:30,United States,Dallas Fed Services Revenues,8.7,-,16.2,2023-09-26
+10:30,United States,Texas Services Sector Outlook,-8.6,-,-2.7,2023-09-26
+13:00,United States,2-Year Note Auction,5.085%,-,5.024%,2023-09-26
+13:30,United States,FOMC Member Bowman Speaks,-,-,-,2023-09-26
+16:30,United States,API Weekly Crude Oil Stock,1.586M,-1.650M,-5.250M,2023-09-26
+07:00,United States,MBA 30-Year Mortgage Rate,7.41%,-,7.31%,2023-09-27
+07:00,United States,MBA Mortgage Applications,-1.3%,-,5.4%,2023-09-27
+07:00,United States,MBA Purchase Index,144.8,-,147.0,2023-09-27
+07:00,United States,Mortgage Market Index,189.6,-,192.1,2023-09-27
+07:00,United States,Mortgage Refinance Index,411.7,-,415.4,2023-09-27
+08:00,United States,FOMC Member Kashkari Speaks,-,-,-,2023-09-27
+08:30,United States,Core Durable Goods Orders,0.4%,0.1%,0.1%,2023-09-27
+08:30,United States,Durable Goods Orders,0.2%,-0.5%,-5.6%,2023-09-27
+08:30,United States,Durables Excluding Defense,-0.7%,-,-6.0%,2023-09-27
+08:30,United States,Goods Orders Non Defense Ex Air,0.9%,0.0%,-0.4%,2023-09-27
+10:30,United States,Crude Oil Inventories,-2.170M,-1.320M,-2.135M,2023-09-27
+10:30,United States,EIA Refinery Crude Runs ,-0.239M,-,-0.496M,2023-09-27
+10:30,United States,Crude Oil Imports,1.767M,-,-3.042M,2023-09-27
+10:30,United States,Cushing Crude Oil Inventories,-0.943M,-,-2.064M,2023-09-27
+10:30,United States,Distillate Fuel Production,0.150M,-,-0.229M,2023-09-27
+10:30,United States,EIA Weekly Distillates Stocks,0.398M,-1.298M,-2.867M,2023-09-27
+10:30,United States,Gasoline Production,-0.572M,-,0.499M,2023-09-27
+10:30,United States,Heating Oil Stockpiles,0.517M,-,-0.109M,2023-09-27
+10:30,United States,EIA Weekly Refinery Utilization Rates,-2.4%,-,-1.8%,2023-09-27
+10:30,United States,Gasoline Inventories,1.027M,-0.120M,-0.831M,2023-09-27
+13:00,United States,5-Year Note Auction,4.659%,-,4.400%,2023-09-27
+08:30,United States,Continuing Jobless Claims,-,"1,675K","1,662K",2023-09-28
+08:30,United States,Core PCE Prices,-,3.70%,4.90%,2023-09-28
+08:30,United States,Corporate Profits,-,1.6%,-5.9%,2023-09-28
+08:30,United States,GDP,-,2.2%,2.0%,2023-09-28
+08:30,United States,GDP Price Index,-,2.0%,4.1%,2023-09-28
+08:30,United States,GDP Sales,-,2.2%,4.2%,2023-09-28
+08:30,United States,Initial Jobless Claims,-,217K,201K,2023-09-28
+08:30,United States,Jobless Claims 4-Week Avg.,-,-,217.00K,2023-09-28
+08:30,United States,PCE Prices,-,2.5%,4.1%,2023-09-28
+08:30,United States,Real Consumer Spending,-,1.7%,4.2%,2023-09-28
+09:00,United States,Fed Goolsbee Speaks,-,-,-,2023-09-28
+10:00,United States,Pending Home Sales,-,-0.2%,0.9%,2023-09-28
+10:00,United States,Pending Home Sales Index,-,-,77.6,2023-09-28
+10:30,United States,Natural Gas Storage,-,-,64B,2023-09-28
+11:00,United States,KC Fed Composite Index,-,-,0,2023-09-28
+11:00,United States,KC Fed Manufacturing Index,-,-,12,2023-09-28
+11:30,United States,4-Week Bill Auction,-,-,5.280%,2023-09-28
+11:30,United States,8-Week Bill Auction,-,-,5.300%,2023-09-28
+13:00,United States,7-Year Note Auction,-,-,4.212%,2023-09-28
+13:00,United States,Fed Governor Cook Speaks,-,-,-,2023-09-28
+16:00,United States,Fed Chair Powell Speaks,-,-,-,2023-09-28
+16:30,United States,Fed's Balance Sheet,-,-,"8,024B",2023-09-28
+16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.144T,2023-09-28
