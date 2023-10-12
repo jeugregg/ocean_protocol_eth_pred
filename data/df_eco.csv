@@ -12182,19 +12182,117 @@ All Day,United States,United States - Labor Day,-,-,-,2023-09-04
 10:30,United States,Fed Goolsbee Speaks,-,-,-,2023-10-04
 10:30,United States,Gasoline Inventories,6.481M,0.161M,1.027M,2023-10-04
 11:25,United States,FOMC Member Bowman Speaks,-,-,-,2023-10-04
-07:30,United States,Challenger Job Cuts,-,-,266.9%,2023-10-05
-08:30,United States,Continuing Jobless Claims,-,"1,678K","1,670K",2023-10-05
-08:30,United States,Exports,-,-,251.66B,2023-10-05
-08:30,United States,Imports,-,-,316.70B,2023-10-05
-08:30,United States,Initial Jobless Claims,-,210K,204K,2023-10-05
-08:30,United States,Jobless Claims 4-Week Avg.,-,-,211.00K,2023-10-05
-08:30,United States,Trade Balance,-,-64.60B,-65.00B,2023-10-05
+07:30,United States,Challenger Job Cuts,58.2%,-,266.9%,2023-10-05
+08:30,United States,Continuing Jobless Claims,"1,664K","1,675K","1,665K",2023-10-05
+08:30,United States,Exports,256.00B,-,251.90B,2023-10-05
+08:30,United States,Imports,314.30B,-,316.60B,2023-10-05
+08:30,United States,Initial Jobless Claims,207K,210K,205K,2023-10-05
+08:30,United States,Jobless Claims 4-Week Avg.,208.75K,-,211.25K,2023-10-05
+08:30,United States,Trade Balance,-58.30B,-62.30B,-64.70B,2023-10-05
 09:00,United States,FOMC Member Mester Speaks,-,-,-,2023-10-05
-10:30,United States,Natural Gas Storage,-,-,90B,2023-10-05
-11:30,United States,4-Week Bill Auction,-,-,5.290%,2023-10-05
-11:30,United States,8-Week Bill Auction,-,-,5.330%,2023-10-05
+10:30,United States,Natural Gas Storage,86B,92B,90B,2023-10-05
+11:30,United States,4-Week Bill Auction,5.310%,-,5.290%,2023-10-05
+11:30,United States,8-Week Bill Auction,5.360%,-,5.330%,2023-10-05
 11:30,United States,FOMC Member Barkin Speaks,-,-,-,2023-10-05
 12:00,United States,FOMC Member Daly Speaks,-,-,-,2023-10-05
 12:15,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-10-05
-16:30,United States,Fed's Balance Sheet,-,-,"8,002B",2023-10-05
-16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.168T,2023-10-05
+16:30,United States,Fed's Balance Sheet,"7,956B",-,"8,002B",2023-10-05
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.241T,-,3.168T,2023-10-05
+06:50,United States,Total Vehicle Sales,15.67M,-,15.33M,2023-10-06
+08:30,United States,Average Hourly Earnings,0.2%,0.3%,0.2%,2023-10-06
+08:30,United States,Average Hourly Earnings (YoY),4.2%,4.3%,4.3%,2023-10-06
+08:30,United States,Average Weekly Hours,34.4,34.4,34.4,2023-10-06
+08:30,United States,Government Payrolls,73.0K,-,50.0K,2023-10-06
+08:30,United States,Manufacturing Payrolls,17K,5K,11K,2023-10-06
+08:30,United States,Nonfarm Payrolls,336K,170K,227K,2023-10-06
+08:30,United States,Participation Rate,62.8%,-,62.8%,2023-10-06
+08:30,United States,Private Nonfarm Payrolls,263K,160K,177K,2023-10-06
+08:30,United States,U6 Unemployment Rate,7.0%,-,7.1%,2023-10-06
+08:30,United States,Unemployment Rate,3.8%,3.7%,3.8%,2023-10-06
+12:00,United States,Fed Waller Speaks,-,-,-,2023-10-06
+13:00,United States,U.S. Baker Hughes Oil Rig Count,497,-,502,2023-10-06
+13:00,United States,U.S. Baker Hughes Total Rig Count,619,-,623,2023-10-06
+15:00,United States,Consumer Credit,-15.63B,11.70B,10.99B,2023-10-06
+16:30,United States,CFTC Aluminium speculative net positions,5.8K,-,6.7K,2023-10-06
+16:30,United States,CFTC Copper speculative net positions,-21.9K,-,-28.8K,2023-10-06
+16:30,United States,CFTC Corn speculative net positions,-107.5K,-,-118.5K,2023-10-06
+16:30,United States,CFTC Crude Oil speculative net positions,349.6K,-,350.1K,2023-10-06
+16:30,United States,CFTC Gold speculative net positions,91.2K,-,115.8K,2023-10-06
+16:30,United States,CFTC Nasdaq 100 speculative net positions,1.4K,-,0.8K,2023-10-06
+16:30,United States,CFTC Natural Gas speculative net positions,-79.2K,-,-94.2K,2023-10-06
+16:30,United States,CFTC S&P 500 speculative net positions,-73.2K,-,-89.3K,2023-10-06
+16:30,United States,CFTC Silver speculative net positions,15.3K,-,20.1K,2023-10-06
+16:30,United States,CFTC Soybeans speculative net positions,22.5K,-,46.5K,2023-10-06
+16:30,United States,CFTC Wheat speculative net positions,-61.3K,-,-60.0K,2023-10-06
+06:00,United States,IMF Meetings,-,-,-,2023-10-09
+09:00,United States,Fed Logan Speaks,-,-,-,2023-10-09
+09:15,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-10-09
+10:00,United States,CB Employment Trends Index,114.66,-,114.16,2023-10-09
+13:30,United States,Fed Governor Jefferson Speaks,-,-,-,2023-10-09
+06:00,United States,NFIB Small Business Optimism,90.8,91.4,91.3,2023-10-10
+08:55,United States,Redbook,4.0%,-,3.5%,2023-10-10
+09:30,United States,FOMC Member Bostic Speaks,-,-,-,2023-10-10
+10:00,United States,Wholesale Inventories,-0.1%,-0.1%,-0.3%,2023-10-10
+10:00,United States,Wholesale Trade Sales,1.8%,-,1.2%,2023-10-10
+11:00,United States,1-Year Consumer Inflation Expectations,3.70%,-,3.63%,2023-10-10
+11:30,United States,3-Month Bill Auction,5.340%,-,5.345%,2023-10-10
+11:30,United States,6-Month Bill Auction,5.320%,-,5.340%,2023-10-10
+13:00,United States,3-Year Note Auction,4.740%,-,4.660%,2023-10-10
+13:30,United States,Fed Waller Speaks,-,-,-,2023-10-10
+15:00,United States,FOMC Member Kashkari Speaks,-,-,-,2023-10-10
+18:00,United States,FOMC Member Daly Speaks,-,-,-,2023-10-10
+06:00,United States,IMF Meetings,-,-,-,2023-10-10
+09:00,United States,Fed Logan Speaks,-,-,-,2023-10-10
+09:15,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-10-10
+10:00,United States,CB Employment Trends Index,114.66,-,114.16,2023-10-10
+13:30,United States,Fed Governor Jefferson Speaks,-,-,-,2023-10-10
+04:15,United States,FOMC Member Bowman Speaks,-,-,-,2023-10-11
+06:00,United States,IMF Meetings,-,-,-,2023-10-11
+07:00,United States,MBA 30-Year Mortgage Rate,7.67%,-,7.53%,2023-10-11
+07:00,United States,MBA Mortgage Applications,0.6%,-,-6.0%,2023-10-11
+07:00,United States,MBA Purchase Index,137.5,-,136.6,2023-10-11
+07:00,United States,Mortgage Market Index,179.3,-,178.2,2023-10-11
+07:00,United States,Mortgage Refinance Index,385.8,-,384.6,2023-10-11
+08:30,United States,Core PPI,0.3%,0.2%,0.2%,2023-10-11
+08:30,United States,PPI ex. Food/Energy/Transport,2.8%,3.0%,2.9%,2023-10-11
+08:30,United States,PPI,2.2%,1.6%,2.0%,2023-10-11
+10:15,United States,Fed Waller Speaks,-,-,-,2023-10-11
+11:00,United States,Thomson Reuters IPSOS PCSI,52.02,-,52.02,2023-10-11
+12:00,United States,EIA Short-Term Energy Outlook,-,-,-,2023-10-11
+12:15,United States,FOMC Member Bostic Speaks,-,-,-,2023-10-11
+13:00,United States,10-Year Note Auction,4.610%,-,4.289%,2023-10-11
+14:00,United States,FOMC Meeting Minutes,-,-,-,2023-10-11
+16:30,United States,API Weekly Crude Oil Stock,12.940M,1.300M,-4.210M,2023-10-11
+04:00,United States,IEA Monthly Report,-,-,-,2023-10-12
+06:00,United States,IMF Meetings,-,-,-,2023-10-12
+07:00,United States,OPEC Monthly Report,-,-,-,2023-10-12
+08:30,United States,Continuing Jobless Claims,-,-,"1,664K",2023-10-12
+08:30,United States,Core CPI,-,4.1%,4.3%,2023-10-12
+08:30,United States,Core CPI Index,-,-,309.66,2023-10-12
+08:30,United States,CPI,-,3.6%,3.7%,2023-10-12
+08:30,United States,"CPI Index, n.s.a.",-,307.37,307.03,2023-10-12
+08:30,United States,"CPI Index, s.a",-,-,306.27,2023-10-12
+08:30,United States,"CPI, n.s.a",-,-,0.44%,2023-10-12
+08:30,United States,Initial Jobless Claims,-,210K,207K,2023-10-12
+08:30,United States,Jobless Claims 4-Week Avg.,-,-,208.75K,2023-10-12
+08:30,United States,Real Earnings,-,-,-0.1%,2023-10-12
+10:30,United States,Natural Gas Storage,-,-,86B,2023-10-12
+11:00,United States,Cleveland CPI,-,-,0.3%,2023-10-12
+11:00,United States,Crude Oil Inventories,-,-,-2.224M,2023-10-12
+11:00,United States,EIA Refinery Crude Runs ,-,-,-0.463M,2023-10-12
+11:00,United States,Crude Oil Imports,-,-,-1.958M,2023-10-12
+11:00,United States,Cushing Crude Oil Inventories,-,-,0.132M,2023-10-12
+11:00,United States,Distillate Fuel Production,-,-,-0.243M,2023-10-12
+11:00,United States,EIA Weekly Distillates Stocks,-,-,-1.269M,2023-10-12
+11:00,United States,Gasoline Production,-,-,-0.313M,2023-10-12
+11:00,United States,Heating Oil Stockpiles,-,-,-0.303M,2023-10-12
+11:00,United States,EIA Weekly Refinery Utilization Rates,-,-,-2.2%,2023-10-12
+11:00,United States,Gasoline Inventories,-,-,6.481M,2023-10-12
+11:30,United States,4-Week Bill Auction,-,-,5.310%,2023-10-12
+11:30,United States,8-Week Bill Auction,-,-,5.360%,2023-10-12
+12:00,United States,WASDE Report,-,-,-,2023-10-12
+13:00,United States,30-Year Bond Auction,-,-,4.345%,2023-10-12
+13:00,United States,FOMC Member Bostic Speaks,-,-,-,2023-10-12
+14:00,United States,Federal Budget Balance,-,-,89.3B,2023-10-12
+16:30,United States,Fed's Balance Sheet,-,-,"7,956B",2023-10-12
+16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.241T,2023-10-12
