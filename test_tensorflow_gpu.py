@@ -10,6 +10,6 @@ model = tf.keras.applications.ResNet50(
     input_shape=(32, 32, 3),
     classes=100,)
 
-loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False)
 model.compile(optimizer="adam", loss=loss_fn, metrics=["accuracy"])
 model.fit(x_train, y_train, epochs=1, batch_size=256)
