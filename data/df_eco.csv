@@ -12686,6 +12686,17 @@ Tentative,United States,Total Vehicle Sales,-,15.30M,15.67M,2023-11-02
 11:30,United States,3-Month Bill Auction,5.285%,-,5.325%,2023-11-06
 11:30,United States,6-Month Bill Auction,5.260%,-,5.320%,2023-11-06
 14:00,United States,Loan Officer Survey,-,-,-,2023-11-06
+10:00,United States,IBD/TIPP Economic Optimism,-,40.2,36.3,2023-11-08
+10:30,United States,Crude Oil Inventories,-,-,0.774M,2023-11-08
+10:30,United States,EIA Refinery Crude Runs ,-,-,0.062M,2023-11-08
+10:30,United States,Crude Oil Imports,-,-,0.348M,2023-11-08
+10:30,United States,Cushing Crude Oil Inventories,-,-,0.272M,2023-11-08
+10:30,United States,Distillate Fuel Production,-,-,-0.153M,2023-11-08
+10:30,United States,EIA Weekly Distillates Stocks,-,-,-0.792M,2023-11-08
+10:30,United States,Gasoline Production,-,-,-0.330M,2023-11-08
+10:30,United States,Heating Oil Stockpiles,-,-,0.304M,2023-11-08
+10:30,United States,EIA Weekly Refinery Utilization Rates,-,-,-0.2%,2023-11-08
+10:30,United States,Gasoline Inventories,-,-,0.065M,2023-11-08
 07:30,United States,FOMC Member Kashkari Speaks,-,-,-,2023-11-07
 08:00,United States,Fed Goolsbee Speaks,-,-,-,2023-11-07
 08:30,United States,Exports,261.10B,-,255.40B,2023-11-07
@@ -12700,30 +12711,31 @@ Tentative,United States,Total Vehicle Sales,-,15.30M,15.67M,2023-11-02
 13:00,United States,3-Year Note Auction,4.701%,-,4.740%,2023-11-07
 13:30,United States,Fed Logan Speaks,-,-,-,2023-11-07
 15:00,United States,Consumer Credit,9.06B,10.00B,-15.79B,2023-11-07
-17:00,United States,API Weekly Crude Oil Stock,-,-0.300M,1.347M,2023-11-07
+17:00,United States,API Weekly Crude Oil Stock,11.900M,-0.300M,1.347M,2023-11-07
 05:15,United States,Fed Governor Cook Speaks,-,-,-,2023-11-08
-07:00,United States,MBA 30-Year Mortgage Rate,-,-,7.86%,2023-11-08
-07:00,United States,MBA Mortgage Applications,-,-,-2.1%,2023-11-08
-07:00,United States,MBA Purchase Index,-,-,125.2,2023-11-08
-07:00,United States,Mortgage Market Index,-,-,161.8,2023-11-08
-07:00,United States,Mortgage Refinance Index,-,-,341.7,2023-11-08
+07:00,United States,MBA 30-Year Mortgage Rate,7.61%,-,7.86%,2023-11-08
+07:00,United States,MBA Mortgage Applications,2.5%,-,-2.1%,2023-11-08
+07:00,United States,MBA Purchase Index,129.0,-,125.2,2023-11-08
+07:00,United States,Mortgage Market Index,165.9,-,161.8,2023-11-08
+07:00,United States,Mortgage Refinance Index,347.3,-,341.7,2023-11-08
 09:15,United States,Fed Chair Powell Speaks,-,-,-,2023-11-08
-10:00,United States,IBD/TIPP Economic Optimism,-,40.2,36.3,2023-11-08
-10:00,United States,Thomson Reuters IPSOS PCSI,-,-,52.02,2023-11-08
-10:00,United States,Wholesale Inventories,-,0.0%,-0.1%,2023-11-08
-10:00,United States,Wholesale Trade Sales,-,-,1.8%,2023-11-08
-10:30,United States,Crude Oil Inventories,-,-,0.774M,2023-11-08
-10:30,United States,EIA Refinery Crude Runs ,-,-,0.062M,2023-11-08
-10:30,United States,Crude Oil Imports,-,-,0.348M,2023-11-08
-10:30,United States,Cushing Crude Oil Inventories,-,-,0.272M,2023-11-08
-10:30,United States,Distillate Fuel Production,-,-,-0.153M,2023-11-08
-10:30,United States,EIA Weekly Distillates Stocks,-,-,-0.792M,2023-11-08
-10:30,United States,Gasoline Production,-,-,-0.330M,2023-11-08
-10:30,United States,Heating Oil Stockpiles,-,-,0.304M,2023-11-08
-10:30,United States,EIA Weekly Refinery Utilization Rates,-,-,-0.2%,2023-11-08
-10:30,United States,Gasoline Inventories,-,-,0.065M,2023-11-08
-11:30,United States,Atlanta Fed GDPNow,-,2.1%,2.1%,2023-11-08
-13:00,United States,10-Year Note Auction,-,-,4.610%,2023-11-08
+10:00,United States,Thomson Reuters IPSOS PCSI,52.15,-,52.02,2023-11-08
+10:00,United States,Wholesale Inventories,0.2%,0.0%,-0.1%,2023-11-08
+10:00,United States,Wholesale Trade Sales,2.2%,-,2.0%,2023-11-08
+11:30,United States,Atlanta Fed GDPNow,2.1%,2.1%,2.1%,2023-11-08
+13:00,United States,10-Year Note Auction,4.519%,-,4.610%,2023-11-08
 13:40,United States,FOMC Member Williams Speaks,-,-,-,2023-11-08
 14:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2023-11-08
 16:45,United States,Fed Governor Jefferson Speaks,-,-,-,2023-11-08
+08:30,United States,Continuing Jobless Claims,-,"1,815K","1,818K",2023-11-09
+08:30,United States,Initial Jobless Claims,-,215K,217K,2023-11-09
+08:30,United States,Jobless Claims 4-Week Avg.,-,-,210.00K,2023-11-09
+10:00,United States,IBD/TIPP Economic Optimism,-,40.2,36.3,2023-11-09
+10:30,United States,Natural Gas Storage,-,-,79B,2023-11-09
+11:30,United States,4-Week Bill Auction,-,-,5.290%,2023-11-09
+11:30,United States,8-Week Bill Auction,-,-,5.300%,2023-11-09
+12:00,United States,WASDE Report,-,-,-,2023-11-09
+13:00,United States,30-Year Bond Auction,-,-,4.837%,2023-11-09
+14:00,United States,Fed Chair Powell Speaks,-,-,-,2023-11-09
+15:30,United States,Fed's Balance Sheet,-,-,"7,867B",2023-11-09
+15:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.315T,2023-11-09
