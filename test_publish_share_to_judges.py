@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
 
 from eth_account import Account
-
+from web3.logs import DISCARD
 from ocean_lib.example_config import get_config_dict
 from ocean_lib.ocean.ocean import Ocean
 from ocean_lib.ocean import crypto
@@ -60,8 +60,15 @@ tx = data_nft.safeTransferFrom(alice.address, judges_address, token_id, {"from":
 
 # Ensure the transfer was successful
 assert tx.status == 1
-to_transact = f"0x{tx.logs[5-2].topics[2].hex()[-40:]}".lower()
-assert to_transact == judges_address.lower()
+
+# and then from the individual event you can look at the event.args, e.g.
+events = data_nft.contract.events.Transfer().process_receipt(
+    tx,
+    errors=DISCARD,
+)
+assert events[0].args.to.lower() == judges_address.lower()
+#to_transact = f"0x{tx.logs[5-2].topics[2].hex()[-40:]}".lower()
+#assert to_transact == judges_address.lower()
 
 # Print txid, as we'll use it in the next step
 print(f"txid from transferring the nft: {tx.transactionHash.hex()}")
