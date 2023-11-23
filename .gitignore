@@ -130,3 +130,5 @@ dmypy.json
 
 # project
 /data/to_be_cleaned/
+df_features_05m.csv
+df_features_05m_std.csv
