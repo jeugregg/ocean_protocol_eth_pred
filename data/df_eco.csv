@@ -13536,21 +13536,110 @@ All Day,United States,United States - New Year's Day,-,-,-,2024-01-01
 14:00,United States,Federal Budget Balance,-129.0B,-65.3B,-314.0B,2024-01-11
 16:30,United States,Fed's Balance Sheet,"7,687B",-,"7,681B",2024-01-11
 16:30,United States,Reserve Balances with Federal Reserve Banks,3.537T,-,3.459T,2024-01-11
-08:30,United States,Core PPI,1.8%,1.9%,2.0%,2024-01-12
+08:30,United States,Core PPI,0.0%,0.2%,0.0%,2024-01-12
 08:30,United States,PPI,1.0%,1.3%,0.8%,2024-01-12
 08:30,United States,PPI ex. Food/Energy/Transport,0.2%,-,0.1%,2024-01-12
 10:00,United States,FOMC Member Kashkari Speaks,-,-,-,2024-01-12
 12:00,United States,WASDE Report,-,-,-,2024-01-12
-13:00,United States,U.S. Baker Hughes Oil Rig Count,-,-,501,2024-01-12
-13:00,United States,U.S. Baker Hughes Total Rig Count,-,-,621,2024-01-12
-15:30,United States,CFTC Aluminium speculative net positions,-,-,6.3K,2024-01-12
-15:30,United States,CFTC Copper speculative net positions,-,-,8.6K,2024-01-12
-15:30,United States,CFTC Corn speculative net positions,-,-,-146.7K,2024-01-12
-15:30,United States,CFTC Crude Oil speculative net positions,-,-,163.7K,2024-01-12
-15:30,United States,CFTC Gold speculative net positions,-,-,207.6K,2024-01-12
-15:30,United States,CFTC Nasdaq 100 speculative net positions,-,-,39.1K,2024-01-12
-15:30,United States,CFTC Natural Gas speculative net positions,-,-,-91.6K,2024-01-12
-15:30,United States,CFTC S&P 500 speculative net positions,-,-,-214.1K,2024-01-12
-15:30,United States,CFTC Silver speculative net positions,-,-,32.6K,2024-01-12
-15:30,United States,CFTC Soybeans speculative net positions,-,-,-21.9K,2024-01-12
-15:30,United States,CFTC Wheat speculative net positions,-,-,-33.6K,2024-01-12
+13:00,United States,U.S. Baker Hughes Oil Rig Count,499,-,501,2024-01-12
+13:00,United States,U.S. Baker Hughes Total Rig Count,619,-,621,2024-01-12
+15:30,United States,CFTC Aluminium speculative net positions,5.3K,-,6.3K,2024-01-12
+15:30,United States,CFTC Copper speculative net positions,-13.2K,-,8.6K,2024-01-12
+15:30,United States,CFTC Corn speculative net positions,-173.0K,-,-146.7K,2024-01-12
+15:30,United States,CFTC Crude Oil speculative net positions,169.7K,-,163.7K,2024-01-12
+15:30,United States,CFTC Gold speculative net positions,188.6K,-,207.6K,2024-01-12
+15:30,United States,CFTC Nasdaq 100 speculative net positions,36.8K,-,39.1K,2024-01-12
+15:30,United States,CFTC Natural Gas speculative net positions,-66.1K,-,-91.6K,2024-01-12
+15:30,United States,CFTC S&P 500 speculative net positions,-117.0K,-,-214.1K,2024-01-12
+15:30,United States,CFTC Silver speculative net positions,26.4K,-,32.6K,2024-01-12
+15:30,United States,CFTC Soybeans speculative net positions,-38.0K,-,-21.9K,2024-01-12
+15:30,United States,CFTC Wheat speculative net positions,-33.4K,-,-33.6K,2024-01-12
+All Day,United States,"United States - Martin Luther King, Jr. Day",-,-,-,2024-01-15
+08:30,United States,NY Empire State Manufacturing Index,-43.70,-5.00,-14.50,2024-01-16
+11:00,United States,Fed Waller Speaks,-,-,-,2024-01-16
+11:30,United States,3-Month Bill Auction,5.225%,-,5.235%,2024-01-16
+11:30,United States,6-Month Bill Auction,4.975%,-,5.030%,2024-01-16
+07:00,United States,MBA 30-Year Mortgage Rate,6.75%,-,6.81%,2024-01-17
+07:00,United States,MBA Mortgage Applications,10.4%,-,9.9%,2024-01-17
+07:00,United States,MBA Purchase Index,162.2,-,148.6,2024-01-17
+07:00,United States,Mortgage Market Index,210.5,-,190.6,2024-01-17
+07:00,United States,Mortgage Refinance Index,471.2,-,425.4,2024-01-17
+07:00,United States,OPEC Monthly Report,-,-,-,2024-01-17
+08:30,United States,Core Retail Sales,0.4%,0.2%,0.2%,2024-01-17
+08:30,United States,Export Price Index,-0.9%,-0.6%,-0.9%,2024-01-17
+08:30,United States,Import Price Index,-1.6%,-,-1.5%,2024-01-17
+08:30,United States,Retail Control,0.8%,-,0.5%,2024-01-17
+08:30,United States,Retail Sales,5.59%,-,3.97%,2024-01-17
+08:30,United States,Retail Sales Ex Gas/Autos,0.6%,-,0.6%,2024-01-17
+08:55,United States,Redbook,5.0%,-,5.9%,2024-01-17
+09:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2024-01-17
+09:00,United States,FOMC Member Bowman Speaks,-,-,-,2024-01-17
+09:15,United States,Capacity Utilization Rate,78.6%,78.7%,78.6%,2024-01-17
+09:15,United States,Industrial Production,0.1%,0.0%,0.0%,2024-01-17
+09:15,United States,Manufacturing Production,0.1%,0.0%,0.2%,2024-01-17
+10:00,United States,Business Inventories,-0.1%,-0.1%,-0.1%,2024-01-17
+10:00,United States,NAHB Housing Market Index,44,39,37,2024-01-17
+10:00,United States,Retail Inventories Ex Auto,-0.9%,-0.8%,-1.1%,2024-01-17
+13:00,United States,20-Year Bond Auction,4.423%,-,4.213%,2024-01-17
+13:00,United States,Atlanta Fed GDPNow,2.4%,2.2%,2.2%,2024-01-17
+14:00,United States,Beige Book,-,-,-,2024-01-17
+15:00,United States,FOMC Member Williams Speaks,-,-,-,2024-01-17
+16:30,United States,API Weekly Crude Oil Stock,0.483M,-2.400M,-5.215M,2024-01-17
+04:00,United States,IEA Monthly Report,-,-,-,2024-01-18
+07:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-01-18
+08:30,United States,Building Permits,1.9%,-,-2.1%,2024-01-18
+08:30,United States,Continuing Jobless Claims,"1,806K","1,845K","1,832K",2024-01-18
+08:30,United States,Housing Starts,1.460M,1.426M,1.525M,2024-01-18
+08:30,United States,Initial Jobless Claims,187K,207K,203K,2024-01-18
+08:30,United States,Jobless Claims 4-Week Avg.,203.25K,-,208.00K,2024-01-18
+08:30,United States,Philadelphia Fed Manufacturing Index,-10.6,-7.0,-12.8,2024-01-18
+08:30,United States,Philly Fed Business Conditions,-4.0,-,12.6,2024-01-18
+08:30,United States,Philly Fed CAPEX Index,7.50,-,-7.50,2024-01-18
+08:30,United States,Philly Fed Employment,-1.8,-,-2.5,2024-01-18
+08:30,United States,Philly Fed New Orders,-17.9,-,-22.1,2024-01-18
+08:30,United States,Philly Fed Prices Paid,11.30,-,24.30,2024-01-18
+10:30,United States,Natural Gas Storage,-154B,-164B,-140B,2024-01-18
+11:00,United States,Crude Oil Inventories,-2.492M,-0.313M,1.338M,2024-01-18
+11:00,United States,EIA Refinery Crude Runs ,0.135M,-,-0.161M,2024-01-18
+11:00,United States,Crude Oil Imports,-0.528M,-,1.316M,2024-01-18
+11:00,United States,Cushing Crude Oil Inventories,-2.099M,-,-0.506M,2024-01-18
+11:00,United States,Distillate Fuel Production,-0.265M,-,-0.064M,2024-01-18
+11:00,United States,EIA Weekly Distillates Stocks,2.370M,0.880M,6.528M,2024-01-18
+11:00,United States,Gasoline Production,-0.291M,-,0.901M,2024-01-18
+11:00,United States,Heating Oil Stockpiles,0.542M,-,-0.623M,2024-01-18
+11:00,United States,EIA Weekly Refinery Utilization Rates,-0.3%,-,-0.6%,2024-01-18
+11:00,United States,Gasoline Inventories,3.083M,2.150M,8.029M,2024-01-18
+11:30,United States,4-Week Bill Auction,5.285%,-,5.280%,2024-01-18
+11:30,United States,8-Week Bill Auction,5.275%,-,5.275%,2024-01-18
+11:30,United States,Atlanta Fed GDPNow,2.4%,2.4%,2.4%,2024-01-18
+11:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-01-18
+12:05,United States,FOMC Member Bostic Speaks,-,-,-,2024-01-18
+13:00,United States,10-Year TIPS Auction,1.810%,-,2.180%,2024-01-18
+16:30,United States,Fed's Balance Sheet,"7,674B",-,"7,687B",2024-01-18
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.592T,-,3.537T,2024-01-18
+10:00,United States,Existing Home Sales,-,-,0.8%,2024-01-19
+10:00,United States,Michigan 1-Year Inflation Expectations,-,-,3.1%,2024-01-19
+10:00,United States,Michigan 5-Year Inflation Expectations,-,-,2.9%,2024-01-19
+10:00,United States,Michigan Consumer Expectations,-,-,67.4,2024-01-19
+10:00,United States,Michigan Consumer Sentiment,-,70.0,69.7,2024-01-19
+10:00,United States,Michigan Current Conditions,-,-,73.3,2024-01-19
+13:00,United States,Atlanta Fed GDPNow,-,2.4%,2.4%,2024-01-19
+13:00,United States,U.S. Baker Hughes Oil Rig Count,-,-,499,2024-01-19
+13:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2024-01-19
+13:00,United States,U.S. Baker Hughes Total Rig Count,-,-,619,2024-01-19
+15:30,United States,CFTC Aluminium speculative net positions,-,-,5.3K,2024-01-19
+15:30,United States,CFTC Copper speculative net positions,-,-,-13.2K,2024-01-19
+15:30,United States,CFTC Corn speculative net positions,-,-,-173.0K,2024-01-19
+15:30,United States,CFTC Crude Oil speculative net positions,-,-,169.7K,2024-01-19
+15:30,United States,CFTC Gold speculative net positions,-,-,188.6K,2024-01-19
+15:30,United States,CFTC Nasdaq 100 speculative net positions,-,-,36.8K,2024-01-19
+15:30,United States,CFTC Natural Gas speculative net positions,-,-,-66.1K,2024-01-19
+15:30,United States,CFTC S&P 500 speculative net positions,-,-,-117.0K,2024-01-19
+15:30,United States,CFTC Silver speculative net positions,-,-,26.4K,2024-01-19
+15:30,United States,CFTC Soybeans speculative net positions,-,-,-38.0K,2024-01-19
+15:30,United States,CFTC Wheat speculative net positions,-,-,-33.4K,2024-01-19
+16:00,United States,"US Foreign Buying, T-bonds",-,-,54.00B,2024-01-19
+16:00,United States,Overall Net Capital Flow,-,-,-83.80B,2024-01-19
+16:00,United States,TIC Net Long-Term Transactions,-,-,3.3B,2024-01-19
+16:00,United States,TIC Net Long-Term Transactions including Swaps,-,-,3.30B,2024-01-19
+16:15,United States,FOMC Member Daly Speaks,-,-,-,2024-01-19
