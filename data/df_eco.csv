@@ -13587,9 +13587,9 @@ All Day,United States,"United States - Martin Luther King, Jr. Day",-,-,-,2024-0
 16:30,United States,API Weekly Crude Oil Stock,0.483M,-2.400M,-5.215M,2024-01-17
 04:00,United States,IEA Monthly Report,-,-,-,2024-01-18
 07:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-01-18
-08:30,United States,Building Permits,1.9%,-,-2.1%,2024-01-18
+08:30,United States,Building Permits,1.495M,1.480M,1.467M,2024-01-18
 08:30,United States,Continuing Jobless Claims,"1,806K","1,845K","1,832K",2024-01-18
-08:30,United States,Housing Starts,1.460M,1.426M,1.525M,2024-01-18
+08:30,United States,Housing Starts,-4.3%,-,10.8%,2024-01-18
 08:30,United States,Initial Jobless Claims,187K,207K,203K,2024-01-18
 08:30,United States,Jobless Claims 4-Week Avg.,203.25K,-,208.00K,2024-01-18
 08:30,United States,Philadelphia Fed Manufacturing Index,-10.6,-7.0,-12.8,2024-01-18
@@ -13617,29 +13617,85 @@ All Day,United States,"United States - Martin Luther King, Jr. Day",-,-,-,2024-0
 13:00,United States,10-Year TIPS Auction,1.810%,-,2.180%,2024-01-18
 16:30,United States,Fed's Balance Sheet,"7,674B",-,"7,687B",2024-01-18
 16:30,United States,Reserve Balances with Federal Reserve Banks,3.592T,-,3.537T,2024-01-18
-10:00,United States,Existing Home Sales,-,-,0.8%,2024-01-19
-10:00,United States,Michigan 1-Year Inflation Expectations,-,-,3.1%,2024-01-19
-10:00,United States,Michigan 5-Year Inflation Expectations,-,-,2.9%,2024-01-19
-10:00,United States,Michigan Consumer Expectations,-,-,67.4,2024-01-19
-10:00,United States,Michigan Consumer Sentiment,-,70.0,69.7,2024-01-19
-10:00,United States,Michigan Current Conditions,-,-,73.3,2024-01-19
-13:00,United States,Atlanta Fed GDPNow,-,2.4%,2.4%,2024-01-19
-13:00,United States,U.S. Baker Hughes Oil Rig Count,-,-,499,2024-01-19
+10:00,United States,Existing Home Sales,-1.0%,0.3%,0.8%,2024-01-19
+10:00,United States,Michigan 1-Year Inflation Expectations,2.9%,3.1%,3.1%,2024-01-19
+10:00,United States,Michigan 5-Year Inflation Expectations,2.8%,3.0%,2.9%,2024-01-19
+10:00,United States,Michigan Consumer Expectations,75.9,67.0,67.4,2024-01-19
+10:00,United States,Michigan Consumer Sentiment,78.8,70.0,69.7,2024-01-19
+10:00,United States,Michigan Current Conditions,83.3,73.0,73.3,2024-01-19
+13:00,United States,Atlanta Fed GDPNow,2.4%,2.4%,2.4%,2024-01-19
+13:00,United States,U.S. Baker Hughes Oil Rig Count,497,-,499,2024-01-19
 13:00,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2024-01-19
-13:00,United States,U.S. Baker Hughes Total Rig Count,-,-,619,2024-01-19
-15:30,United States,CFTC Aluminium speculative net positions,-,-,5.3K,2024-01-19
-15:30,United States,CFTC Copper speculative net positions,-,-,-13.2K,2024-01-19
-15:30,United States,CFTC Corn speculative net positions,-,-,-173.0K,2024-01-19
-15:30,United States,CFTC Crude Oil speculative net positions,-,-,169.7K,2024-01-19
-15:30,United States,CFTC Gold speculative net positions,-,-,188.6K,2024-01-19
-15:30,United States,CFTC Nasdaq 100 speculative net positions,-,-,36.8K,2024-01-19
-15:30,United States,CFTC Natural Gas speculative net positions,-,-,-66.1K,2024-01-19
-15:30,United States,CFTC S&P 500 speculative net positions,-,-,-117.0K,2024-01-19
-15:30,United States,CFTC Silver speculative net positions,-,-,26.4K,2024-01-19
-15:30,United States,CFTC Soybeans speculative net positions,-,-,-38.0K,2024-01-19
-15:30,United States,CFTC Wheat speculative net positions,-,-,-33.4K,2024-01-19
-16:00,United States,"US Foreign Buying, T-bonds",-,-,54.00B,2024-01-19
-16:00,United States,Overall Net Capital Flow,-,-,-83.80B,2024-01-19
-16:00,United States,TIC Net Long-Term Transactions,-,-,3.3B,2024-01-19
-16:00,United States,TIC Net Long-Term Transactions including Swaps,-,-,3.30B,2024-01-19
+13:00,United States,U.S. Baker Hughes Total Rig Count,620,-,619,2024-01-19
+15:30,United States,CFTC Aluminium speculative net positions,5.3K,-,5.3K,2024-01-19
+15:30,United States,CFTC Copper speculative net positions,-25.3K,-,-13.2K,2024-01-19
+15:30,United States,CFTC Corn speculative net positions,-220.0K,-,-173.0K,2024-01-19
+15:30,United States,CFTC Crude Oil speculative net positions,162.0K,-,169.7K,2024-01-19
+15:30,United States,CFTC Gold speculative net positions,179.9K,-,188.6K,2024-01-19
+15:30,United States,CFTC Nasdaq 100 speculative net positions,36.6K,-,36.8K,2024-01-19
+15:30,United States,CFTC Natural Gas speculative net positions,-56.5K,-,-66.1K,2024-01-19
+15:30,United States,CFTC S&P 500 speculative net positions,-169.2K,-,-117.0K,2024-01-19
+15:30,United States,CFTC Silver speculative net positions,25.6K,-,26.4K,2024-01-19
+15:30,United States,CFTC Soybeans speculative net positions,-93.7K,-,-38.0K,2024-01-19
+15:30,United States,CFTC Wheat speculative net positions,-46.6K,-,-33.4K,2024-01-19
+16:00,United States,"US Foreign Buying, T-bonds",91.00B,-,54.00B,2024-01-19
+16:00,United States,Overall Net Capital Flow,260.20B,-,-62.20B,2024-01-19
+16:00,United States,TIC Net Long-Term Transactions,126.1B,-,3.4B,2024-01-19
+16:00,United States,TIC Net Long-Term Transactions including Swaps,126.10B,-,3.40B,2024-01-19
 16:15,United States,FOMC Member Daly Speaks,-,-,-,2024-01-19
+10:00,United States,US Leading Index,-0.1%,-0.3%,-0.5%,2024-01-22
+11:30,United States,3-Month Bill Auction,5.225%,-,5.225%,2024-01-22
+11:30,United States,6-Month Bill Auction,5.020%,-,4.975%,2024-01-22
+09:55,United States,Redbook,5.2%,-,5.0%,2024-01-23
+10:00,United States,Richmond Manufacturing Index,-15,-7,-11,2024-01-23
+10:00,United States,Richmond Manufacturing Shipments,-15,-,-17,2024-01-23
+10:00,United States,Richmond Services Index,4,-,0,2024-01-23
+11:30,United States,52-Week Bill Auction,4.570%,-,4.595%,2024-01-23
+13:00,United States,2-Year Note Auction,4.365%,-,4.314%,2024-01-23
+16:30,United States,API Weekly Crude Oil Stock,-6.674M,-3.000M,0.483M,2024-01-23
+07:00,United States,MBA 30-Year Mortgage Rate,6.78%,-,6.75%,2024-01-24
+07:00,United States,MBA Mortgage Applications,3.7%,-,10.4%,2024-01-24
+07:00,United States,MBA Purchase Index,174.3,-,162.2,2024-01-24
+07:00,United States,Mortgage Market Index,218.2,-,210.5,2024-01-24
+07:00,United States,Mortgage Refinance Index,438.4,-,471.2,2024-01-24
+09:45,United States,S&P Global US Manufacturing PMI,50.3,47.9,47.9,2024-01-24
+09:45,United States,S&P Global Composite PMI,52.3,-,50.9,2024-01-24
+09:45,United States,S&P Global Services PMI,52.9,51.0,51.4,2024-01-24
+10:30,United States,Crude Oil Inventories,-9.233M,-2.150M,-2.492M,2024-01-24
+10:30,United States,EIA Refinery Crude Runs ,-1.377M,-,0.135M,2024-01-24
+10:30,United States,Crude Oil Imports,-1.245M,-,-0.528M,2024-01-24
+10:30,United States,Cushing Crude Oil Inventories,-2.008M,-,-2.099M,2024-01-24
+10:30,United States,Distillate Fuel Production,-0.402M,-,-0.265M,2024-01-24
+10:30,United States,EIA Weekly Distillates Stocks,-1.417M,0.348M,2.370M,2024-01-24
+10:30,United States,Gasoline Production,-1.040M,-,-0.291M,2024-01-24
+10:30,United States,Heating Oil Stockpiles,-0.379M,-,0.542M,2024-01-24
+10:30,United States,EIA Weekly Refinery Utilization Rates,-7.1%,-,-0.3%,2024-01-24
+10:30,United States,Gasoline Inventories,4.913M,2.300M,3.083M,2024-01-24
+13:00,United States,5-Year Note Auction,-,-,3.801%,2024-01-24
+08:30,United States,Building Permits,-,1.495M,1.467M,2024-01-25
+08:30,United States,Chicago Fed National Activity,-,-,0.03,2024-01-25
+08:30,United States,Continuing Jobless Claims,-,"1,828K","1,806K",2024-01-25
+08:30,United States,Core Durable Goods Orders,-,0.2%,0.5%,2024-01-25
+08:30,United States,Core PCE Prices,-,2.00%,2.00%,2024-01-25
+08:30,United States,Durable Goods Orders,-,1.1%,5.4%,2024-01-25
+08:30,United States,Durables Excluding Defense,-,-,6.5%,2024-01-25
+08:30,United States,GDP,-,2.0%,4.9%,2024-01-25
+08:30,United States,GDP Price Index,-,2.3%,3.3%,2024-01-25
+08:30,United States,GDP Sales,-,-,3.6%,2024-01-25
+08:30,United States,Goods Orders Non Defense Ex Air,-,0.1%,0.8%,2024-01-25
+08:30,United States,Goods Trade Balance,-,-88.70B,-90.27B,2024-01-25
+08:30,United States,Initial Jobless Claims,-,200K,187K,2024-01-25
+08:30,United States,Jobless Claims 4-Week Avg.,-,-,203.25K,2024-01-25
+08:30,United States,PCE Prices,-,-,2.6%,2024-01-25
+08:30,United States,Real Consumer Spending,-,-,3.1%,2024-01-25
+08:30,United States,Retail Inventories Ex Auto,-,-,-0.9%,2024-01-25
+08:30,United States,Wholesale Inventories,-,-0.2%,-0.2%,2024-01-25
+10:00,United States,New Home Sales,-,645K,590K,2024-01-25
+10:30,United States,Natural Gas Storage,-,-,-154B,2024-01-25
+11:00,United States,KC Fed Composite Index,-,-,-1,2024-01-25
+11:00,United States,KC Fed Manufacturing Index,-,-,-4,2024-01-25
+11:30,United States,4-Week Bill Auction,-,-,5.285%,2024-01-25
+11:30,United States,8-Week Bill Auction,-,-,5.275%,2024-01-25
+13:00,United States,7-Year Note Auction,-,-,3.859%,2024-01-25
+16:30,United States,Fed's Balance Sheet,-,-,"7,674B",2024-01-25
+16:30,United States,Reserve Balances with Federal Reserve Banks,-,-,3.592T,2024-01-25
