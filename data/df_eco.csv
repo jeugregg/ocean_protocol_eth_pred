@@ -14550,7 +14550,8 @@ All Day,United States,United States - Washington's Birthday,-,-,-,2024-02-19
 13:00,United States,U.S. Baker Hughes Total Rig Count,621,-,624,2024-03-28
 16:30,United States,Fed's Balance Sheet,"7,485B",-,"7,514B",2024-03-28
 16:30,United States,Reserve Balances with Federal Reserve Banks,3.472T,-,3.490T,2024-03-28
-08:30,United States,Core PCE Price Index,2.8%,2.8%,2.9%,2024-03-29
+10:00,United States,Dallas Fed PCE,-,-,5.00%,2024-04-01
+08:30,United States,Core PCE Price Index,0.3%,0.3%,0.5%,2024-03-29
 08:30,United States,Goods Trade Balance,-91.84B,-90.10B,-90.51B,2024-03-29
 08:30,United States,PCE Price index,2.5%,2.5%,2.4%,2024-03-29
 08:30,United States,PCE price index,0.3%,0.4%,0.4%,2024-03-29
@@ -14560,6 +14561,18 @@ All Day,United States,United States - Washington's Birthday,-,-,-,2024-02-19
 08:30,United States,Retail Inventories Ex Auto,0.4%,-,0.3%,2024-03-29
 08:30,United States,Wholesale Inventories,0.5%,0.2%,-0.3%,2024-03-29
 09:00,United States,Dallas Fed PCE,3.40%,-,5.70%,2024-03-29
+10:00,United States,OPEC Crude Oil Production Algeria (Barrel),0.90M,-,0.91M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Congo (Barrel),0.25M,-,0.25M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Gabon (Barrel),0.21M,-,0.21M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Guinea (Barrel),0.05M,-,0.06M,2024-03-29
+10:00,United States,OPEC Crude oil Production Iran (Barrel),3.03M,-,3.16M,2024-03-29
+10:00,United States,OPEC Crude oil Production Iraq (Barrel),4.13M,-,4.19M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Kuwait (Barrel),2.41M,-,2.43M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Libya (Barrel),1.17M,-,1.02M,2024-03-29
+10:00,United States,OPEC Crude Oil Production Nigeria (Barrel),1.57M,-,1.42M,2024-03-29
+10:00,United States,OPEC Crude oil Production Saudi Arabia (Barrel),8.98M,-,8.97M,2024-03-29
+10:00,United States,OPEC Crude oil Production UAE (Barrel),2.92M,-,2.93M,2024-03-29
+10:00,United States,OPEC Crude oil Production Venezuela (Barrel),0.80M,-,0.80M,2024-03-29
 11:20,United States,FOMC Member Daly Speaks,-,-,-,2024-03-29
 11:30,United States,Fed Chair Powell Speaks,-,-,-,2024-03-29
 12:30,United States,Atlanta Fed GDPNow,2.3%,2.1%,2.1%,2024-03-29
@@ -14575,14 +14588,187 @@ All Day,United States,United States - Washington's Birthday,-,-,-,2024-02-19
 15:30,United States,CFTC Soybeans speculative net positions,-153.7K,-,-167.7K,2024-03-29
 15:30,United States,CFTC Wheat speculative net positions,-61.7K,-,-56.1K,2024-03-29
 All Day,United States,United States - Good Friday,-,-,-,2024-03-29
-09:45,United States,S&P Global US Manufacturing PMI,-,52.8,52.2,2024-04-01
-10:00,United States,Construction Spending,-,0.5%,-0.2%,2024-04-01
-10:00,United States,Dallas Fed PCE,-,-,5.00%,2024-04-01
-10:00,United States,ISM Manufacturing Employment,-,-,45.9,2024-04-01
-10:00,United States,ISM Manufacturing New Orders Index,-,-,49.2,2024-04-01
-10:00,United States,ISM Manufacturing PMI,-,48.5,47.8,2024-04-01
-10:00,United States,ISM Manufacturing Prices,-,53.3,52.5,2024-04-01
-11:30,United States,3-Month Bill Auction,-,-,5.230%,2024-04-01
-11:30,United States,6-Month Bill Auction,-,-,5.105%,2024-04-01
-14:00,United States,Atlanta Fed GDPNow,-,2.3%,2.3%,2024-04-01
+09:45,United States,S&P Global US Manufacturing PMI,51.9,52.5,52.2,2024-04-01
+10:00,United States,Construction Spending,-0.3%,0.7%,-0.2%,2024-04-01
+10:00,United States,ISM Manufacturing Employment,47.4,47.5,45.9,2024-04-01
+10:00,United States,ISM Manufacturing New Orders Index,51.4,49.8,49.2,2024-04-01
+10:00,United States,ISM Manufacturing PMI,50.3,48.5,47.8,2024-04-01
+10:00,United States,ISM Manufacturing Prices,55.8,53.3,52.5,2024-04-01
+11:30,United States,3-Month Bill Auction,5.230%,-,5.230%,2024-04-01
+11:30,United States,6-Month Bill Auction,5.125%,-,5.105%,2024-04-01
+14:00,United States,Atlanta Fed GDPNow,2.8%,2.3%,2.3%,2024-04-01
 18:50,United States,Fed Governor Cook Speaks,-,-,-,2024-04-01
+08:55,United States,Redbook,5.2%,-,3.9%,2024-04-02
+10:00,United States,Durables Excluding Defense,2.1%,-,2.2%,2024-04-02
+10:00,United States,Durables Excluding Transport,0.3%,-,-0.4%,2024-04-02
+10:00,United States,Factory Orders,1.4%,1.1%,-3.8%,2024-04-02
+10:00,United States,Factory orders ex transportation,1.1%,-,-0.6%,2024-04-02
+10:00,United States,JOLTs Job Openings,8.756M,8.760M,8.748M,2024-04-02
+10:10,United States,FOMC Member Bowman Speaks,-,-,-,2024-04-02
+12:00,United States,FOMC Member Williams Speaks,-,-,-,2024-04-02
+12:05,United States,FOMC Member Mester Speaks,-,-,-,2024-04-02
+13:30,United States,FOMC Member Daly Speaks,-,-,-,2024-04-02
+16:30,United States,API Weekly Crude Oil Stock,-2.286M,-2.000M,9.337M,2024-04-02
+18:00,United States,Total Vehicle Sales,15.50M,15.90M,15.80M,2024-04-02
+05:15,United States,OPEC Meeting,-,-,-,2024-04-03
+07:00,United States,MBA 30-Year Mortgage Rate,6.91%,-,6.93%,2024-04-03
+07:00,United States,MBA Mortgage Applications,-0.6%,-,-0.7%,2024-04-03
+07:00,United States,MBA Purchase Index,145.6,-,145.7,2024-04-03
+07:00,United States,Mortgage Market Index,195.6,-,196.8,2024-04-03
+07:00,United States,Mortgage Refinance Index,453.5,-,460.9,2024-04-03
+08:15,United States,ADP Nonfarm Employment Change,184K,148K,155K,2024-04-03
+08:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-04-03
+08:40,United States,All Car Sales,3.03M,-,3.10M,2024-04-03
+08:40,United States,All Truck Sales,12.46M,-,12.60M,2024-04-03
+09:45,United States,FOMC Member Bowman Speaks,-,-,-,2024-04-03
+09:45,United States,S&P Global Composite PMI,52.1,52.2,52.5,2024-04-03
+09:45,United States,S&P Global Services PMI,51.7,51.7,52.3,2024-04-03
+10:00,United States,ISM Non-Manufacturing Business Activity,57.4,56.7,57.2,2024-04-03
+10:00,United States,ISM Non-Manufacturing Employment,48.5,49.0,48.0,2024-04-03
+10:00,United States,ISM Non-Manufacturing New Orders,54.4,55.5,56.1,2024-04-03
+10:00,United States,ISM Non-Manufacturing PMI,51.4,52.8,52.6,2024-04-03
+10:00,United States,ISM Non-Manufacturing Prices,53.4,58.4,58.6,2024-04-03
+10:30,United States,Crude Oil Inventories,3.210M,-0.300M,3.165M,2024-04-03
+10:30,United States,EIA Refinery Crude Runs ,-0.035M,-,0.147M,2024-04-03
+10:30,United States,Crude Oil Imports,0.075M,-,1.124M,2024-04-03
+10:30,United States,Cushing Crude Oil Inventories,-0.377M,-,2.107M,2024-04-03
+10:30,United States,Distillate Fuel Production,-0.208M,-,0.124M,2024-04-03
+10:30,United States,EIA Weekly Distillates Stocks,-1.268M,-0.604M,-1.185M,2024-04-03
+10:30,United States,Gasoline Production,0.767M,-,-0.435M,2024-04-03
+10:30,United States,Heating Oil Stockpiles,-0.613M,-,-0.609M,2024-04-03
+10:30,United States,EIA Weekly Refinery Utilization Rates,-0.1%,-,0.9%,2024-04-03
+10:30,United States,Gasoline Inventories,-4.256M,-0.820M,1.299M,2024-04-03
+12:00,United States,Fed Goolsbee Speaks,-,-,-,2024-04-03
+12:10,United States,Fed Chair Powell Speaks,-,-,-,2024-04-03
+13:10,United States,Fed Vice Chair for Supervision Barr Speaks,-,-,-,2024-04-03
+16:30,United States,FOMC Member Kugler Speaks,-,-,-,2024-04-03
+07:30,United States,Challenger Job Cuts,0.7%,-,8.8%,2024-04-04
+08:30,United States,Continuing Jobless Claims,"1,791K",-,"1,810K",2024-04-04
+08:30,United States,Exports,263.00B,-,257.20B,2024-04-04
+08:30,United States,Imports,331.90B,-,324.80B,2024-04-04
+08:30,United States,Initial Jobless Claims,221K,213K,212K,2024-04-04
+08:30,United States,Jobless Claims 4-Week Avg.,214.25K,-,211.50K,2024-04-04
+08:30,United States,Trade Balance,-68.90B,-66.90B,-67.60B,2024-04-04
+10:30,United States,Natural Gas Storage,-37B,-42B,-36B,2024-04-04
+11:30,United States,4-Week Bill Auction,5.265%,-,5.285%,2024-04-04
+11:30,United States,8-Week Bill Auction,5.260%,-,5.275%,2024-04-04
+12:15,United States,FOMC Member Barkin Speaks,-,-,-,2024-04-04
+12:30,United States,Atlanta Fed GDPNow,2.5%,2.8%,2.8%,2024-04-04
+12:45,United States,Fed Goolsbee Speaks,-,-,-,2024-04-04
+14:00,United States,FOMC Member Mester Speaks,-,-,-,2024-04-04
+16:30,United States,Fed's Balance Sheet,"7,440B",-,"7,485B",2024-04-04
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.541T,-,3.472T,2024-04-04
+19:30,United States,FOMC Member Kugler Speaks,-,-,-,2024-04-04
+08:30,United States,Average Hourly Earnings,0.3%,0.3%,0.2%,2024-04-05
+08:30,United States,Average Hourly Earnings (YoY),4.1%,4.1%,4.3%,2024-04-05
+08:30,United States,Average Weekly Hours,34.4,34.3,34.3,2024-04-05
+08:30,United States,Fed Collins Speaks,-,-,-,2024-04-05
+08:30,United States,Government Payrolls,71.0K,-,63.0K,2024-04-05
+08:30,United States,Manufacturing Payrolls,0K,5K,-10K,2024-04-05
+08:30,United States,Nonfarm Payrolls,303K,212K,270K,2024-04-05
+08:30,United States,Participation Rate,62.7%,62.6%,62.5%,2024-04-05
+08:30,United States,Private Nonfarm Payrolls,232K,160K,207K,2024-04-05
+08:30,United States,U6 Unemployment Rate,7.3%,-,7.3%,2024-04-05
+08:30,United States,Unemployment Rate,3.8%,3.9%,3.9%,2024-04-05
+09:15,United States,FOMC Member Barkin Speaks,-,-,-,2024-04-05
+12:15,United States,FOMC Member Bowman Speaks,-,-,-,2024-04-05
+13:00,United States,U.S. Baker Hughes Oil Rig Count,508,-,506,2024-04-05
+13:00,United States,U.S. Baker Hughes Total Rig Count,620,-,621,2024-04-05
+15:00,United States,Consumer Credit,14.12B,16.20B,17.68B,2024-04-05
+15:30,United States,CFTC Aluminium speculative net positions,2.6K,-,3.3K,2024-04-05
+15:30,United States,CFTC Copper speculative net positions,20.3K,-,23.1K,2024-04-05
+15:30,United States,CFTC Corn speculative net positions,-181.3K,-,-178.0K,2024-04-05
+15:30,United States,CFTC Crude Oil speculative net positions,300.9K,-,278.0K,2024-04-05
+15:30,United States,CFTC Gold speculative net positions,207.2K,-,199.3K,2024-04-05
+15:30,United States,CFTC Nasdaq 100 speculative net positions,-5.2K,-,-7.1K,2024-04-05
+15:30,United States,CFTC Natural Gas speculative net positions,-118.7K,-,-117.3K,2024-04-05
+15:30,United States,CFTC S&P 500 speculative net positions,-78.1K,-,-169.4K,2024-04-05
+15:30,United States,CFTC Silver speculative net positions,53.1K,-,50.8K,2024-04-05
+15:30,United States,CFTC Soybeans speculative net positions,-158.0K,-,-153.7K,2024-04-05
+15:30,United States,CFTC Wheat speculative net positions,-60.3K,-,-61.7K,2024-04-05
+10:00,United States,CB Employment Trends Index,112.84,-,111.85,2024-04-08
+11:00,United States,NY Fed 1-Year Consumer Inflation Expectations,3.00%,-,3.00%,2024-04-08
+11:30,United States,3-Month Bill Auction,5.225%,-,5.230%,2024-04-08
+11:30,United States,6-Month Bill Auction,5.120%,-,5.125%,2024-04-08
+13:00,United States,Fed Goolsbee Speaks,-,-,-,2024-04-08
+19:00,United States,FOMC Member Kashkari Speaks,-,-,-,2024-04-08
+06:00,United States,NFIB Small Business Optimism,88.5,88.8,89.4,2024-04-09
+08:55,United States,Redbook,5.4%,-,5.2%,2024-04-09
+10:00,United States,IBD/TIPP Economic Optimism,43.2,44.2,43.5,2024-04-09
+12:00,United States,EIA Short-Term Energy Outlook,-,-,-,2024-04-09
+13:00,United States,3-Year Note Auction,4.548%,-,4.256%,2024-04-09
+16:30,United States,API Weekly Crude Oil Stock,3.034M,2.415M,-2.286M,2024-04-09
+07:00,United States,MBA 30-Year Mortgage Rate,7.01%,-,6.91%,2024-04-10
+07:00,United States,MBA Mortgage Applications,0.1%,-,-0.6%,2024-04-10
+07:00,United States,MBA Purchase Index,138.7,-,145.6,2024-04-10
+07:00,United States,Mortgage Market Index,195.7,-,195.6,2024-04-10
+07:00,United States,Mortgage Refinance Index,498.3,-,453.5,2024-04-10
+08:30,United States,Core CPI,0.4%,0.3%,0.4%,2024-04-10
+08:30,United States,Core CPI Index,316.70,316.57,315.57,2024-04-10
+08:30,United States,CPI,3.5%,3.4%,3.2%,2024-04-10
+08:30,United States,"CPI Index, n.s.a.",312.33,312.10,310.33,2024-04-10
+08:30,United States,"CPI Index, s.a",312.23,-,311.05,2024-04-10
+08:30,United States,"CPI, n.s.a",0.65%,-,0.62%,2024-04-10
+08:30,United States,Real Earnings,0.3%,-,0.0%,2024-04-10
+08:45,United States,FOMC Member Bowman Speaks,-,-,-,2024-04-10
+10:00,United States,Wholesale Inventories,0.5%,0.5%,-0.3%,2024-04-10
+10:00,United States,Wholesale Trade Sales,2.3%,0.8%,-1.4%,2024-04-10
+10:30,United States,Crude Oil Inventories,5.841M,0.900M,3.210M,2024-04-10
+10:30,United States,EIA Refinery Crude Runs ,-0.115M,-,-0.035M,2024-04-10
+10:30,United States,Crude Oil Imports,1.130M,-,0.075M,2024-04-10
+10:30,United States,Cushing Crude Oil Inventories,-0.170M,-,-0.377M,2024-04-10
+10:30,United States,Distillate Fuel Production,0.033M,-,-0.208M,2024-04-10
+10:30,United States,EIA Weekly Distillates Stocks,1.659M,-1.153M,-1.268M,2024-04-10
+10:30,United States,Gasoline Production,-0.538M,-,0.767M,2024-04-10
+10:30,United States,Heating Oil Stockpiles,0.478M,-,-0.613M,2024-04-10
+10:30,United States,EIA Weekly Refinery Utilization Rates,-0.3%,-,-0.1%,2024-04-10
+10:30,United States,Gasoline Inventories,0.715M,-1.320M,-4.256M,2024-04-10
+11:00,United States,Cleveland CPI,0.4%,-,0.4%,2024-04-10
+11:00,United States,Thomson Reuters IPSOS PCSI,53.44,-,53.15,2024-04-10
+12:45,United States,Fed Goolsbee Speaks,-,-,-,2024-04-10
+12:45,United States,FOMC Member Barkin Speaks,-,-,-,2024-04-10
+13:00,United States,10-Year Note Auction,4.560%,-,4.166%,2024-04-10
+14:00,United States,Atlanta Fed GDPNow,2.4%,2.5%,2.5%,2024-04-10
+14:00,United States,Federal Budget Balance,-236.0B,-209.4B,-296.0B,2024-04-10
+14:00,United States,FOMC Meeting Minutes,-,-,-,2024-04-10
+07:00,United States,OPEC Monthly Report,-,-,-,2024-04-11
+08:30,United States,PPI ex. Food/Energy/Transport,2.8%,-,2.7%,2024-04-11
+08:30,United States,Continuing Jobless Claims,"1,817K","1,800K","1,789K",2024-04-11
+08:30,United States,Core PPI,2.4%,2.3%,2.1%,2024-04-11
+08:30,United States,Initial Jobless Claims,211K,216K,222K,2024-04-11
+08:30,United States,Jobless Claims 4-Week Avg.,214.25K,-,214.50K,2024-04-11
+08:30,United States,PPI,2.1%,2.2%,1.6%,2024-04-11
+08:45,United States,FOMC Member Williams Speaks,-,-,-,2024-04-11
+10:00,United States,FOMC Member Barkin Speaks,-,-,-,2024-04-11
+10:30,United States,Natural Gas Storage,24B,14B,-37B,2024-04-11
+11:30,United States,4-Week Bill Auction,5.270%,-,5.265%,2024-04-11
+11:30,United States,8-Week Bill Auction,5.270%,-,5.260%,2024-04-11
+12:00,United States,Fed Collins Speaks,-,-,-,2024-04-11
+12:00,United States,WASDE Report,-,-,-,2024-04-11
+13:00,United States,30-Year Bond Auction,4.671%,-,4.331%,2024-04-11
+13:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-04-11
+16:30,United States,Fed's Balance Sheet,"7,438B",-,"7,440B",2024-04-11
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.616T,-,3.541T,2024-04-11
+04:00,United States,IEA Monthly Report,-,-,-,2024-04-12
+08:30,United States,Export Price Index,0.3%,0.3%,0.7%,2024-04-12
+08:30,United States,Import Price Index,0.4%,0.3%,0.3%,2024-04-12
+10:00,United States,Michigan 1-Year Inflation Expectations,3.1%,2.9%,2.9%,2024-04-12
+10:00,United States,Michigan 5-Year Inflation Expectations,3.0%,2.8%,2.8%,2024-04-12
+10:00,United States,Michigan Consumer Expectations,77.0,77.6,77.4,2024-04-12
+10:00,United States,Michigan Consumer Sentiment,77.9,79.0,79.4,2024-04-12
+10:00,United States,Michigan Current Conditions,79.3,82.2,82.5,2024-04-12
+13:00,United States,U.S. Baker Hughes Oil Rig Count,506,-,508,2024-04-12
+13:00,United States,U.S. Baker Hughes Total Rig Count,617,-,620,2024-04-12
+14:30,United States,FOMC Member Bostic Speaks,-,-,-,2024-04-12
+15:30,United States,CFTC Aluminium speculative net positions,2.6K,-,2.6K,2024-04-12
+15:30,United States,CFTC Copper speculative net positions,42.7K,-,20.3K,2024-04-12
+15:30,United States,CFTC Corn speculative net positions,-190.2K,-,-181.3K,2024-04-12
+15:30,United States,CFTC Crude Oil speculative net positions,297.1K,-,300.9K,2024-04-12
+15:30,United States,CFTC Gold speculative net positions,202.4K,-,207.2K,2024-04-12
+15:30,United States,CFTC Nasdaq 100 speculative net positions,7.5K,-,-5.2K,2024-04-12
+15:30,United States,CFTC Natural Gas speculative net positions,-127.9K,-,-118.7K,2024-04-12
+15:30,United States,CFTC S&P 500 speculative net positions,-62.9K,-,-78.1K,2024-04-12
+15:30,United States,CFTC Silver speculative net positions,53.2K,-,53.1K,2024-04-12
+15:30,United States,CFTC Soybeans speculative net positions,-158.5K,-,-158.0K,2024-04-12
+15:30,United States,CFTC Wheat speculative net positions,-52.4K,-,-60.3K,2024-04-12
+15:30,United States,FOMC Member Daly Speaks,-,-,-,2024-04-12
