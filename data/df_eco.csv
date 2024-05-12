@@ -14922,28 +14922,214 @@ All Day,United States,United States - Good Friday,-,-,-,2024-03-29
 13:00,United States,7-Year Note Auction,4.716%,-,4.185%,2024-04-25
 16:30,United States,Fed's Balance Sheet,"7,402B",-,"7,406B",2024-04-25
 16:30,United States,Reserve Balances with Federal Reserve Banks,3.272T,-,3.330T,2024-04-25
-08:30,United States,Core PCE Price Index,2.8%,2.6%,2.8%,2024-04-26
+12:30,United States,Atlanta Fed GDPNow,-,-,-,2024-04-26
+08:30,United States,Core PCE Price Index,0.3%,0.3%,0.3%,2024-04-26
 08:30,United States,PCE Price index,2.7%,2.6%,2.5%,2024-04-26
 08:30,United States,PCE price index,0.3%,0.3%,0.3%,2024-04-26
 08:30,United States,Personal Income,0.5%,0.5%,0.3%,2024-04-26
 08:30,United States,Personal Spending,0.8%,0.6%,0.8%,2024-04-26
-08:30,United States,Real Personal Consumption,0.5%,-,0.5%,2024-04-26
+08:30,United States,Real Personal Consumption,0.5%, ,0.5%,2024-04-26
+09:00,United States,Dallas Fed PCE,2.90%, ,3.40%,2024-04-26
 10:00,United States,Michigan 1-Year Inflation Expectations,3.2%,3.1%,2.9%,2024-04-26
 10:00,United States,Michigan 5-Year Inflation Expectations,3.0%,3.0%,2.8%,2024-04-26
 10:00,United States,Michigan Consumer Expectations,76.0,77.0,77.4,2024-04-26
 10:00,United States,Michigan Consumer Sentiment,77.2,77.8,79.4,2024-04-26
 10:00,United States,Michigan Current Conditions,79.0,79.3,82.5,2024-04-26
-12:30,United States,Atlanta Fed GDPNow,-,-,-,2024-04-26
-13:00,United States,U.S. Baker Hughes Oil Rig Count,-,-,511,2024-04-26
-13:00,United States,U.S. Baker Hughes Total Rig Count,-,-,619,2024-04-26
-15:30,United States,CFTC Aluminium speculative net positions,-,-,1.0K,2024-04-26
-15:30,United States,CFTC Copper speculative net positions,-,-,47.6K,2024-04-26
-15:30,United States,CFTC Corn speculative net positions,-,-,-204.9K,2024-04-26
-15:30,United States,CFTC Crude Oil speculative net positions,-,-,290.5K,2024-04-26
-15:30,United States,CFTC Gold speculative net positions,-,-,201.9K,2024-04-26
-15:30,United States,CFTC Nasdaq 100 speculative net positions,-,-,8.5K,2024-04-26
-15:30,United States,CFTC Natural Gas speculative net positions,-,-,-131.9K,2024-04-26
-15:30,United States,CFTC S&P 500 speculative net positions,-,-,74.1K,2024-04-26
-15:30,United States,CFTC Silver speculative net positions,-,-,53.4K,2024-04-26
-15:30,United States,CFTC Soybeans speculative net positions,-,-,-171.9K,2024-04-26
-15:30,United States,CFTC Wheat speculative net positions,-,-,-62.9K,2024-04-26
+12:00,United States,Atlanta Fed GDPNow,3.9%, ,-,2024-04-26
+13:00,United States,U.S. Baker Hughes Oil Rig Count,506, ,511,2024-04-26
+13:00,United States,U.S. Baker Hughes Total Rig Count,613, ,619,2024-04-26
+15:30,United States,CFTC Aluminium speculative net positions,1.3K, ,1.0K,2024-04-26
+15:30,United States,CFTC Copper speculative net positions,58.4K, ,47.6K,2024-04-26
+15:30,United States,CFTC Corn speculative net positions,-160.2K, ,-204.9K,2024-04-26
+15:30,United States,CFTC Crude Oil speculative net positions,264.8K, ,290.5K,2024-04-26
+15:30,United States,CFTC Gold speculative net positions,202.9K, ,201.9K,2024-04-26
+15:30,United States,CFTC Nasdaq 100 speculative net positions,6.1K, ,8.5K,2024-04-26
+15:30,United States,CFTC Natural Gas speculative net positions,-132.5K, ,-131.9K,2024-04-26
+15:30,United States,CFTC S&P 500 speculative net positions,67.7K, ,74.1K,2024-04-26
+15:30,United States,CFTC Silver speculative net positions,59.3K, ,53.4K,2024-04-26
+15:30,United States,CFTC Soybeans speculative net positions,-154.6K, ,-171.9K,2024-04-26
+15:30,United States,CFTC Wheat speculative net positions,-43.4K, ,-62.9K,2024-04-26
+10:30,United States,Dallas Fed Mfg Business Index,-14.5, ,-14.4,2024-04-29
+11:30,United States,3-Month Bill Auction,5.250%, ,5.255%,2024-04-29
+11:30,United States,6-Month Bill Auction,5.165%, ,5.160%,2024-04-29
+08:30,United States,Employment Benefits,1.10%, ,0.70%,2024-04-30
+08:30,United States,Employment Cost Index,1.2%,1.0%,0.9%,2024-04-30
+08:30,United States,Employment Wages,1.10%, ,1.10%,2024-04-30
+08:55,United States,Redbook,5.5%, ,5.3%,2024-04-30
+09:00,United States,House Price Index,423.0, ,417.8,2024-04-30
+09:00,United States,S&P/CS HPI Composite - 20 s.a.,0.6%,0.1%,0.2%,2024-04-30
+09:00,United States,S&P/CS HPI Composite - 20 n.s.a.,0.9%, ,-0.1%,2024-04-30
+09:45,United States,Chicago PMI,37.9,44.9,41.4,2024-04-30
+10:00,United States,CB Consumer Confidence,97.0,104.0,103.1,2024-04-30
+10:30,United States,Dallas Fed Services Revenues,0.3, ,4.0,2024-04-30
+10:30,United States,Texas Services Sector Outlook,-10.6, ,-5.5,2024-04-30
+12:00,United States,OPEC Crude Oil Production Algeria (Barrel),0.90M, ,0.90M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Congo (Barrel),0.26M, ,0.25M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Gabon (Barrel),0.22M, ,0.21M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Guinea (Barrel),0.06M, ,0.05M,2024-04-30
+12:00,United States,OPEC Crude oil Production Iran (Barrel),3.15M, ,3.03M,2024-04-30
+12:00,United States,OPEC Crude oil Production Iraq (Barrel),4.15M, ,4.13M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Kuwait (Barrel),2.41M, ,2.41M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Libya (Barrel),1.17M, ,1.17M,2024-04-30
+12:00,United States,OPEC Crude Oil Production Nigeria (Barrel),1.45M, ,1.57M,2024-04-30
+12:00,United States,OPEC Crude oil Production Saudi Arabia (Barrel),9.00M, ,8.98M,2024-04-30
+12:00,United States,OPEC Crude oil Production UAE (Barrel),2.92M, ,2.92M,2024-04-30
+12:00,United States,OPEC Crude oil Production Venezuela (Barrel),0.79M, ,0.80M,2024-04-30
+16:30,United States,API Weekly Crude Oil Stock,4.906M,-1.500M,-3.230M,2024-04-30
+07:00,United States,MBA 30-Year Mortgage Rate,7.29%, ,7.24%,2024-05-01
+07:00,United States,MBA Mortgage Applications,-2.3%, ,-2.7%,2024-05-01
+07:00,United States,MBA Purchase Index,141.7, ,144.2,2024-05-01
+07:00,United States,Mortgage Market Index,192.1, ,196.7,2024-05-01
+07:00,United States,Mortgage Refinance Index,456.9, ,472.7,2024-05-01
+08:15,United States,ADP Nonfarm Employment Change,192K,179K,208K,2024-05-01
+09:45,United States,S&P Global US Manufacturing PMI,50.0,49.9,51.9,2024-05-01
+10:00,United States,Construction Spending,-0.2%,0.3%,-0.3%,2024-05-01
+10:00,United States,ISM Manufacturing Employment,48.6,48.2,47.4,2024-05-01
+10:00,United States,ISM Manufacturing New Orders Index,49.1,51.0,51.4,2024-05-01
+10:00,United States,ISM Manufacturing PMI,49.2,50.0,50.3,2024-05-01
+10:00,United States,ISM Manufacturing Prices,60.9,55.5,55.8,2024-05-01
+10:00,United States,JOLTs Job Openings,8.488M,8.680M,8.813M,2024-05-01
+10:30,United States,Crude Oil Inventories,7.265M,-2.300M,-6.368M,2024-05-01
+10:30,United States,EIA Refinery Crude Runs ,-0.230M, ,-0.042M,2024-05-01
+10:30,United States,Crude Oil Imports,1.536M, ,-0.417M,2024-05-01
+10:30,United States,Cushing Crude Oil Inventories,1.089M, ,-0.659M,2024-05-01
+10:30,United States,Distillate Fuel Production,-0.271M, ,0.178M,2024-05-01
+10:30,United States,EIA Weekly Distillates Stocks,-0.732M, ,1.614M,2024-05-01
+10:30,United States,Gasoline Production,0.254M, ,-0.275M,2024-05-01
+10:30,United States,Heating Oil Stockpiles,-0.179M, ,1.073M,2024-05-01
+10:30,United States,EIA Weekly Refinery Utilization Rates,-1.0%, ,0.4%,2024-05-01
+10:30,United States,Gasoline Inventories,0.344M, ,-0.634M,2024-05-01
+13:00,United States,Atlanta Fed GDPNow,3.3%,3.9%,3.9%,2024-05-01
+14:00,United States,FOMC Statement,-, ,-,2024-05-01
+14:00,United States,Fed Interest Rate Decision,5.50%,5.50%,5.50%,2024-05-01
+14:30,United States,FOMC Press Conference,-, ,-,2024-05-01
+07:30,United States,Challenger Job Cuts,64.789K, ,90.309K,2024-05-02
+08:30,United States,Continuing Jobless Claims,"1,774K","1,800K","1,774K",2024-05-02
+08:30,United States,Exports,257.60B, ,263.00B,2024-05-02
+08:30,United States,Imports,327.00B, ,331.90B,2024-05-02
+08:30,United States,Initial Jobless Claims,208K,212K,208K,2024-05-02
+08:30,United States,Jobless Claims 4-Week Avg.,210.00K, ,213.50K,2024-05-02
+08:30,United States,Nonfarm Productivity,0.3%,0.8%,3.5%,2024-05-02
+08:30,United States,Trade Balance,-69.40B,-69.50B,-69.50B,2024-05-02
+08:30,United States,Unit Labor Costs,4.7%,3.6%,0.4%,2024-05-02
+10:00,United States,All Car Sales,3.04M, ,3.02M,2024-05-02
+10:00,United States,All Truck Sales,12.69M, ,12.54M,2024-05-02
+10:00,United States,Durables Excluding Defense,2.3%, ,2.3%,2024-05-02
+10:00,United States,Durables Excluding Transport,0.2%, ,0.3%,2024-05-02
+10:00,United States,Factory Orders,1.6%,1.6%,1.2%,2024-05-02
+10:00,United States,Factory orders ex transportation,0.5%,0.2%,1.1%,2024-05-02
+10:30,United States,Natural Gas Storage,59B,68B,92B,2024-05-02
+11:30,United States,4-Week Bill Auction,5.275%, ,5.275%,2024-05-02
+11:30,United States,8-Week Bill Auction,5.270%, ,5.275%,2024-05-02
+13:00,United States,Atlanta Fed GDPNow,3.3%,3.3%,3.3%,2024-05-02
+16:30,United States,Fed's Balance Sheet,"7,362B", ,"7,402B",2024-05-02
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.317T, ,3.272T,2024-05-02
+08:30,United States,Average Hourly Earnings (YoY),3.9%,4.0%,4.1%,2024-05-03
+08:30,United States,Average Hourly Earnings,0.2%,0.3%,0.3%,2024-05-03
+08:30,United States,Average Weekly Hours,34.3,34.4,34.4,2024-05-03
+08:30,United States,Government Payrolls,8.0K, ,72.0K,2024-05-03
+08:30,United States,Manufacturing Payrolls,8K,5K,-4K,2024-05-03
+08:30,United States,Nonfarm Payrolls,175K,238K,315K,2024-05-03
+08:30,United States,Participation Rate,62.7%, ,62.7%,2024-05-03
+08:30,United States,Private Nonfarm Payrolls,167K,181K,243K,2024-05-03
+08:30,United States,U6 Unemployment Rate,7.4%, ,7.3%,2024-05-03
+08:30,United States,Unemployment Rate,3.9%,3.8%,3.8%,2024-05-03
+09:45,United States,S&P Global Composite PMI,51.3,50.9,52.1,2024-05-03
+09:45,United States,S&P Global Services PMI,51.3,50.9,51.7,2024-05-03
+10:00,United States,ISM Non-Manufacturing Business Activity,50.9, ,57.4,2024-05-03
+10:00,United States,ISM Non-Manufacturing Employment,45.9,49.0,48.5,2024-05-03
+10:00,United States,ISM Non-Manufacturing New Orders,52.2,54.5,54.4,2024-05-03
+10:00,United States,ISM Non-Manufacturing PMI,49.4,52.0,51.4,2024-05-03
+10:00,United States,ISM Non-Manufacturing Prices,59.2,55.0,53.4,2024-05-03
+10:00,United States,Total Vehicle Sales,15.74M, ,15.50M,2024-05-03
+13:00,United States,U.S. Baker Hughes Oil Rig Count,499, ,506,2024-05-03
+13:00,United States,U.S. Baker Hughes Total Rig Count,605, ,613,2024-05-03
+15:30,United States,CFTC Aluminium speculative net positions,1.4K, ,1.3K,2024-05-03
+15:30,United States,CFTC Copper speculative net positions,58.1K, ,58.4K,2024-05-03
+15:30,United States,CFTC Corn speculative net positions,-143.4K, ,-160.2K,2024-05-03
+15:30,United States,CFTC Crude Oil speculative net positions,265.5K, ,264.8K,2024-05-03
+15:30,United States,CFTC Gold speculative net positions,204.2K, ,202.9K,2024-05-03
+15:30,United States,CFTC Nasdaq 100 speculative net positions,2.8K, ,6.1K,2024-05-03
+15:30,United States,CFTC Natural Gas speculative net positions,-150.2K, ,-132.5K,2024-05-03
+15:30,United States,CFTC S&P 500 speculative net positions,43.1K, ,67.7K,2024-05-03
+15:30,United States,CFTC Silver speculative net positions,54.5K, ,59.3K,2024-05-03
+15:30,United States,CFTC Soybeans speculative net positions,-162.3K, ,-154.6K,2024-05-03
+15:30,United States,CFTC Wheat speculative net positions,-24.5K, ,-43.4K,2024-05-03
+19:45,United States,Fed Goolsbee Speaks,-, ,-,2024-05-03
+19:45,United States,FOMC Member Williams Speaks,-, ,-,2024-05-03
+09:20,United States,Fed Governor Cook Speaks,-, ,-,2024-05-04
+14:20,United States,Fed Governor Cook Speaks,-, ,-,2024-05-04
+10:00,United States,CB Employment Trends Index,111.25, ,112.16,2024-05-06
+11:30,United States,3-Month Bill Auction,5.250%, ,5.250%,2024-05-06
+11:30,United States,6-Month Bill Auction,5.155%, ,5.165%,2024-05-06
+12:50,United States,FOMC Member Barkin Speaks,-, ,-,2024-05-06
+13:00,United States,FOMC Member Williams Speaks,-, ,-,2024-05-06
+14:00,United States,Loan Officer Survey,-, ,-,2024-05-06
+08:55,United States,Redbook,6.0%, ,5.5%,2024-05-07
+10:00,United States,IBD/TIPP Economic Optimism,41.8,44.1,43.2,2024-05-07
+11:30,United States,FOMC Member Kashkari Speaks,-, ,-,2024-05-07
+12:00,United States,EIA Short-Term Energy Outlook,-, ,-,2024-05-07
+13:00,United States,3-Year Note Auction,4.605%, ,4.548%,2024-05-07
+15:00,United States,Consumer Credit,6.27B,14.80B,15.02B,2024-05-07
+16:30,United States,API Weekly Crude Oil Stock,0.509M,-1.430M,4.906M,2024-05-07
+07:00,United States,MBA 30-Year Mortgage Rate,7.18%, ,7.29%,2024-05-08
+07:00,United States,MBA Mortgage Applications,2.6%, ,-2.3%,2024-05-08
+07:00,United States,MBA Purchase Index,144.2, ,141.7,2024-05-08
+07:00,United States,Mortgage Market Index,197.1, ,192.1,2024-05-08
+07:00,United States,Mortgage Refinance Index,477.5, ,456.9,2024-05-08
+10:00,United States,Wholesale Inventories,-0.4%,-0.4%,0.5%,2024-05-08
+10:00,United States,Wholesale Trade Sales,-1.3%, ,2.0%,2024-05-08
+10:30,United States,Crude Oil Inventories,-1.362M,-1.430M,7.265M,2024-05-08
+10:30,United States,EIA Refinery Crude Runs ,0.307M, ,-0.230M,2024-05-08
+10:30,United States,Crude Oil Imports,-0.353M, ,1.536M,2024-05-08
+10:30,United States,Cushing Crude Oil Inventories,1.880M, ,1.089M,2024-05-08
+10:30,United States,Distillate Fuel Production,0.275M, ,-0.271M,2024-05-08
+10:30,United States,EIA Weekly Distillates Stocks,0.560M,-1.000M,-0.732M,2024-05-08
+10:30,United States,Gasoline Production,0.099M, ,0.254M,2024-05-08
+10:30,United States,Heating Oil Stockpiles,0.285M, ,-0.179M,2024-05-08
+10:30,United States,EIA Weekly Refinery Utilization Rates,1.0%, ,-1.0%,2024-05-08
+10:30,United States,Gasoline Inventories,0.915M,-1.180M,0.344M,2024-05-08
+11:00,United States,Fed Governor Jefferson Speaks,-, ,-,2024-05-08
+11:00,United States,Thomson Reuters IPSOS PCSI,54.31, ,53.44,2024-05-08
+11:45,United States,Fed Collins Speaks,-, ,-,2024-05-08
+12:00,United States,Atlanta Fed GDPNow,4.2%,3.3%,3.3%,2024-05-08
+13:00,United States,10-Year Note Auction,4.483%, ,4.560%,2024-05-08
+13:30,United States,Fed Governor Cook Speaks,-, ,-,2024-05-08
+08:30,United States,Continuing Jobless Claims,"1,785K","1,790K","1,768K",2024-05-09
+08:30,United States,Initial Jobless Claims,231K,212K,209K,2024-05-09
+08:30,United States,Jobless Claims 4-Week Avg.,215.00K, ,210.25K,2024-05-09
+10:30,United States,Natural Gas Storage,79B,87B,59B,2024-05-09
+11:30,United States,4-Week Bill Auction,5.270%, ,5.275%,2024-05-09
+11:30,United States,8-Week Bill Auction,5.275%, ,5.270%,2024-05-09
+13:00,United States,30-Year Bond Auction,4.635%, ,4.671%,2024-05-09
+14:00,United States,FOMC Member Daly Speaks,-, ,-,2024-05-09
+16:30,United States,Fed's Balance Sheet,"7,353B", ,"7,362B",2024-05-09
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.331T, ,3.317T,2024-05-09
+09:00,United States,FOMC Member Bowman Speaks,-, ,-,2024-05-10
+10:00,United States,Michigan 1-Year Inflation Expectations,3.5%,3.2%,3.2%,2024-05-10
+10:00,United States,Michigan 5-Year Inflation Expectations,3.1%,3.0%,3.0%,2024-05-10
+10:00,United States,Michigan Consumer Expectations,66.5,75.0,76.0,2024-05-10
+10:00,United States,Michigan Consumer Sentiment,67.4,76.0,77.2,2024-05-10
+10:00,United States,Michigan Current Conditions,68.8,79.0,79.0,2024-05-10
+12:00,United States,WASDE Report,-, ,-,2024-05-10
+12:45,United States,Fed Goolsbee Speaks,-, ,-,2024-05-10
+13:00,United States,U.S. Baker Hughes Oil Rig Count,496, ,499,2024-05-10
+13:00,United States,U.S. Baker Hughes Total Rig Count,603, ,605,2024-05-10
+13:30,United States,Fed Vice Chair for Supervision Barr Speaks,-, ,-,2024-05-10
+14:00,United States,Federal Budget Balance,210.0B,244.5B,-236.0B,2024-05-10
+15:30,United States,CFTC Aluminium speculative net positions,1.3K, ,1.4K,2024-05-10
+15:30,United States,CFTC Copper speculative net positions,62.6K, ,58.1K,2024-05-10
+15:30,United States,CFTC Corn speculative net positions,-31.4K, ,-143.4K,2024-05-10
+15:30,United States,CFTC Crude Oil speculative net positions,215.4K, ,265.5K,2024-05-10
+15:30,United States,CFTC Gold speculative net positions,199.6K, ,204.2K,2024-05-10
+15:30,United States,CFTC Nasdaq 100 speculative net positions,4.4K, ,2.8K,2024-05-10
+15:30,United States,CFTC Natural Gas speculative net positions,-135.8K, ,-150.2K,2024-05-10
+15:30,United States,CFTC S&P 500 speculative net positions,-9.7K, ,43.1K,2024-05-10
+15:30,United States,CFTC Silver speculative net positions,53.7K, ,54.5K,2024-05-10
+15:30,United States,CFTC Soybeans speculative net positions,-60.0K, ,-162.3K,2024-05-10
+15:30,United States,CFTC Wheat speculative net positions,-17.8K, ,-24.5K,2024-05-10
+09:00,United States,Fed Governor Jefferson Speaks,-, ,-,2024-05-13
+09:00,United States,FOMC Member Mester Speaks,-, ,-,2024-05-13
+11:00,United States,NY Fed 1-Year Consumer Inflation Expectations,-, ,3.00%,2024-05-13
+11:30,United States,3-Month Bill Auction,-, ,5.250%,2024-05-13
+11:30,United States,6-Month Bill Auction,-, ,5.155%,2024-05-13
