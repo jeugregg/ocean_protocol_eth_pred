@@ -15466,8 +15466,8 @@ All Day,United States,United States - Memorial Day, , , ,2024-05-27
 11:30,United States,8-Week Bill Auction,5.265%, ,5.275%,2024-06-06
 16:30,United States,Fed's Balance Sheet,"7,256B", ,"7,284B",2024-06-06
 16:30,United States,Reserve Balances with Federal Reserve Banks,3.458T, ,3.391T,2024-06-06
-08:30,United States,Average Hourly Earnings,0.4%,0.3%,0.2%,2024-06-07
 08:30,United States,Average Hourly Earnings (YoY),4.1%,3.9%,4.0%,2024-06-07
+08:30,United States,Average Hourly Earnings,0.4%,0.3%,0.2%,2024-06-07
 08:30,United States,Average Weekly Hours,34.3,34.3,34.3,2024-06-07
 08:30,United States,Government Payrolls,43.0K, ,7.0K,2024-06-07
 08:30,United States,Manufacturing Payrolls,8K,5K,6K,2024-06-07
@@ -15494,3 +15494,87 @@ All Day,United States,United States - Memorial Day, , , ,2024-05-27
 15:30,United States,CFTC Silver speculative net positions,56.4K, ,57.2K,2024-06-07
 15:30,United States,CFTC Soybeans speculative net positions,-52.0K, ,-25.9K,2024-06-07
 15:30,United States,CFTC Wheat speculative net positions,-18.1K, ,-14.4K,2024-06-07
+10:00,United States,CB Employment Trends Index,111.44, ,110.48,2024-06-10
+11:00,United States,NY Fed 1-Year Consumer Inflation Expectations,3.2%, ,3.3%,2024-06-10
+11:30,United States,3-Month Bill Auction,5.250%, ,5.250%,2024-06-10
+11:30,United States,6-Month Bill Auction,5.165%, ,5.155%,2024-06-10
+13:00,United States,3-Year Note Auction,4.659%, ,4.605%,2024-06-10
+06:00,United States,NFIB Small Business Optimism,90.5,89.8,89.7,2024-06-11
+07:00,United States,OPEC Monthly Report,-, ,-,2024-06-11
+08:55,United States,Redbook,5.5%, ,5.8%,2024-06-11
+11:30,United States,52-Week Bill Auction,4.915%, ,4.895%,2024-06-11
+12:00,United States,EIA Short-Term Energy Outlook,-, ,-,2024-06-11
+13:00,United States,10-Year Note Auction,4.438%, ,4.483%,2024-06-11
+16:30,United States,API Weekly Crude Oil Stock,-2.428M,-1.750M,4.052M,2024-06-11
+04:00,United States,IEA Monthly Report,-, ,-,2024-06-12
+07:00,United States,MBA 30-Year Mortgage Rate,7.02%, ,7.07%,2024-06-12
+07:00,United States,MBA Mortgage Applications,15.6%, ,-5.2%,2024-06-12
+07:00,United States,MBA Purchase Index,143.7, ,132.3,2024-06-12
+07:00,United States,Mortgage Market Index,208.5, ,180.4,2024-06-12
+07:00,United States,Mortgage Refinance Index,554.7, ,432.1,2024-06-12
+08:30,United States,Core CPI,3.4%,3.5%,3.6%,2024-06-12
+08:30,United States,Core CPI Index,318.14,318.50,317.62,2024-06-12
+08:30,United States,CPI,3.3%,3.4%,3.4%,2024-06-12
+08:30,United States,"CPI Index, n.s.a.",314.07,314.37,313.55,2024-06-12
+08:30,United States,"CPI Index, s.a",313.23, ,313.21,2024-06-12
+08:30,United States,"CPI, n.s.a",0.17%, ,0.39%,2024-06-12
+08:30,United States,Real Earnings,0.4%, ,-0.4%,2024-06-12
+10:30,United States,Crude Oil Inventories,3.730M,-1.200M,1.233M,2024-06-12
+10:30,United States,EIA Refinery Crude Runs ,-0.097M, ,0.061M,2024-06-12
+10:30,United States,Crude Oil Imports,2.559M, ,0.013M,2024-06-12
+10:30,United States,Cushing Crude Oil Inventories,-1.593M, ,0.854M,2024-06-12
+10:30,United States,Distillate Fuel Production,-0.029M, ,0.031M,2024-06-12
+10:30,United States,EIA Weekly Distillates Stocks,0.881M,0.500M,3.197M,2024-06-12
+10:30,United States,Gasoline Production,0.602M, ,-0.527M,2024-06-12
+10:30,United States,Heating Oil Stockpiles,-0.656M, ,0.362M,2024-06-12
+10:30,United States,EIA Weekly Refinery Utilization Rates,-0.4%, ,1.1%,2024-06-12
+10:30,United States,Gasoline Inventories,2.566M,0.250M,2.102M,2024-06-12
+11:00,United States,Cleveland CPI,0.2%, ,0.3%,2024-06-12
+11:00,United States,Thomson Reuters IPSOS PCSI,53.82, ,54.31,2024-06-12
+12:00,United States,WASDE Report,-, ,-,2024-06-12
+14:00,United States,Federal Budget Balance,-347.0B,-279.6B,210.0B,2024-06-12
+14:00,United States,Interest Rate Projection - 1st Yr,4.1%,4.1%,3.9%,2024-06-12
+14:00,United States,Interest Rate Projection - 2nd Yr,3.1%,3.1%,3.1%,2024-06-12
+14:00,United States,Interest Rate Projection - Current,5.1%,4.9%,4.6%,2024-06-12
+14:00,United States,Interest Rate Projection - Longer,2.8%,2.8%,2.6%,2024-06-12
+14:00,United States,FOMC Economic Projections,-, ,-,2024-06-12
+14:00,United States,FOMC Statement,-, ,-,2024-06-12
+14:00,United States,Fed Interest Rate Decision,5.50%,5.50%,5.50%,2024-06-12
+14:30,United States,FOMC Press Conference,-, ,-,2024-06-12
+08:30,United States,PPI ex. Food/Energy/Transport,3.2%, ,3.2%,2024-06-13
+08:30,United States,Continuing Jobless Claims,"1,820K","1,800K","1,790K",2024-06-13
+08:30,United States,Core PPI,0.0%,0.3%,0.5%,2024-06-13
+08:30,United States,Initial Jobless Claims,242K,225K,229K,2024-06-13
+08:30,United States,Jobless Claims 4-Week Avg.,227.00K, ,222.25K,2024-06-13
+08:30,United States,PPI,2.2%,2.5%,2.3%,2024-06-13
+10:30,United States,Natural Gas Storage,74B,75B,98B,2024-06-13
+11:30,United States,4-Week Bill Auction,5.260%, ,5.270%,2024-06-13
+11:30,United States,8-Week Bill Auction,5.265%, ,5.265%,2024-06-13
+12:00,United States,FOMC Member Williams Speaks,-, ,-,2024-06-13
+12:00,United States,Treasury Secretary Yellen Speaks,-, ,-,2024-06-13
+13:00,United States,30-Year Bond Auction,4.403%, ,4.635%,2024-06-13
+16:30,United States,Fed's Balance Sheet,"7,259B", ,"7,256B",2024-06-13
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.434T, ,3.458T,2024-06-13
+08:30,United States,Export Price Index,-,0.0%,0.5%,2024-06-14
+08:30,United States,Import Price Index,-, ,1.1%,2024-06-14
+10:00,United States,Michigan 1-Year Inflation Expectations,-, ,3.3%,2024-06-14
+10:00,United States,Michigan 5-Year Inflation Expectations,-, ,3.0%,2024-06-14
+10:00,United States,Michigan Consumer Expectations,-,70.0,68.8,2024-06-14
+10:00,United States,Michigan Consumer Sentiment,-,72.1,69.1,2024-06-14
+10:00,United States,Michigan Current Conditions,-,71.0,69.6,2024-06-14
+11:00,United States,Fed Monetary Policy Report,-, ,-,2024-06-14
+13:00,United States,U.S. Baker Hughes Oil Rig Count,-, ,492,2024-06-14
+13:00,United States,U.S. Baker Hughes Total Rig Count,-, ,594,2024-06-14
+14:00,United States,Fed Goolsbee Speaks,-, ,-,2024-06-14
+15:30,United States,CFTC Aluminium speculative net positions,-, ,1.0K,2024-06-14
+15:30,United States,CFTC Copper speculative net positions,-, ,61.1K,2024-06-14
+15:30,United States,CFTC Corn speculative net positions,-, ,-119.9K,2024-06-14
+15:30,United States,CFTC Crude Oil speculative net positions,-, ,210.7K,2024-06-14
+15:30,United States,CFTC Gold speculative net positions,-, ,237.3K,2024-06-14
+15:30,United States,CFTC Nasdaq 100 speculative net positions,-, ,2.0K,2024-06-14
+15:30,United States,CFTC Natural Gas speculative net positions,-, ,-99.7K,2024-06-14
+15:30,United States,CFTC S&P 500 speculative net positions,-, ,-65.0K,2024-06-14
+15:30,United States,CFTC Silver speculative net positions,-, ,56.4K,2024-06-14
+15:30,United States,CFTC Soybeans speculative net positions,-, ,-52.0K,2024-06-14
+15:30,United States,CFTC Wheat speculative net positions,-, ,-18.1K,2024-06-14
+19:00,United States,Fed Governor Cook Speaks,-, ,-,2024-06-14
