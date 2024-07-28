@@ -16056,14 +16056,90 @@ All Day,United States,United States - Independence Day, , , ,2024-07-04
 15:30,United States,CFTC Silver speculative net positions,61.1K, ,61.1K,2024-07-19
 15:30,United States,CFTC Soybeans speculative net positions,-161.5K, ,-150.2K,2024-07-19
 15:30,United States,CFTC Wheat speculative net positions,-36.1K, ,-34.8K,2024-07-19
-08:30,United States,Chicago Fed National Activity,-, ,0.18,2024-07-22
-11:30,United States,3-Month Bill Auction,-, ,5.195%,2024-07-22
-11:30,United States,6-Month Bill Auction,-, ,4.985%,2024-07-22
-08:55,United States,Redbook,-, ,4.8%,2024-07-23
-10:00,United States,Existing Home Sales,-,3.99M,4.11M,2024-07-23
-10:00,United States,Richmond Manufacturing Index,-,-7,-10,2024-07-23
-10:00,United States,Richmond Manufacturing Shipments,-, ,-9,2024-07-23
-10:00,United States,Richmond Services Index,-, ,-11,2024-07-23
-13:00,United States,2-Year Note Auction,-, ,4.706%,2024-07-23
-13:00,United States,M2 Money Supply,-, ,20.96T,2024-07-23
-16:30,United States,API Weekly Crude Oil Stock,-,0.700M,-4.440M,2024-07-23
+08:30,United States,Chicago Fed National Activity,0.05,-0.09,0.23,2024-07-22
+11:30,United States,3-Month Bill Auction,5.190%, ,5.195%,2024-07-22
+11:30,United States,6-Month Bill Auction,4.990%, ,4.985%,2024-07-22
+08:55,United States,Redbook,4.9%, ,4.8%,2024-07-23
+10:00,United States,Existing Home Sales,-5.4%, ,-0.7%,2024-07-23
+10:00,United States,Richmond Manufacturing Index,-17,-7,-10,2024-07-23
+10:00,United States,Richmond Manufacturing Shipments,-21, ,-9,2024-07-23
+10:00,United States,Richmond Services Index,5, ,-7,2024-07-23
+13:00,United States,2-Year Note Auction,4.434%, ,4.706%,2024-07-23
+13:00,United States,M2 Money Supply,21.03T, ,20.96T,2024-07-23
+16:30,United States,API Weekly Crude Oil Stock,-3.900M,-2.470M,-4.440M,2024-07-23
+04:05,United States,Fed Logan Speaks,-, ,-,2024-07-24
+07:00,United States,MBA 30-Year Mortgage Rate,6.82%, ,6.87%,2024-07-24
+07:00,United States,MBA Mortgage Applications,-2.2%, ,3.9%,2024-07-24
+07:00,United States,MBA Purchase Index,134.8, ,140.4,2024-07-24
+07:00,United States,Mortgage Market Index,209.3, ,214.1,2024-07-24
+07:00,United States,Mortgage Refinance Index,614.9, ,613.0,2024-07-24
+08:30,United States,Building Permits,1.454M,1.446M,1.399M,2024-07-24
+08:30,United States,Goods Trade Balance,-96.84B,-98.80B,-99.40B,2024-07-24
+08:30,United States,Retail Inventories Ex Auto,0.2%, ,-0.1%,2024-07-24
+08:30,United States,Wholesale Inventories,0.2%,0.5%,0.6%,2024-07-24
+09:45,United States,S&P Global US Manufacturing PMI,49.5,51.7,51.6,2024-07-24
+09:45,United States,S&P Global Composite PMI,55.0,54.2,54.8,2024-07-24
+09:45,United States,S&P Global Services PMI,56.0,54.7,55.3,2024-07-24
+10:00,United States,New Home Sales,-0.6%, ,-14.9%,2024-07-24
+10:30,United States,Crude Oil Inventories,-3.741M,-2.600M,-4.870M,2024-07-24
+10:30,United States,EIA Refinery Crude Runs ,-0.521M, ,-0.181M,2024-07-24
+10:30,United States,Crude Oil Imports,-0.388M, ,0.312M,2024-07-24
+10:30,United States,Cushing Crude Oil Inventories,-1.708M, ,-0.875M,2024-07-24
+10:30,United States,Distillate Fuel Production,-0.292M, ,0.101M,2024-07-24
+10:30,United States,EIA Weekly Distillates Stocks,-2.753M, ,3.454M,2024-07-24
+10:30,United States,Gasoline Production,0.664M, ,-0.751M,2024-07-24
+10:30,United States,Heating Oil Stockpiles,-0.489M, ,0.252M,2024-07-24
+10:30,United States,EIA Weekly Refinery Utilization Rates,-2.1%, ,-1.7%,2024-07-24
+10:30,United States,Gasoline Inventories,-5.572M, ,3.328M,2024-07-24
+12:00,United States,Atlanta Fed GDPNow,2.6%,2.7%,2.7%,2024-07-24
+13:00,United States,5-Year Note Auction,4.121%, ,4.331%,2024-07-24
+16:05,United States,Fed Logan Speaks,-, ,-,2024-07-24
+16:05,United States,FOMC Member Bowman Speaks,-, ,-,2024-07-24
+20:00,United States,U.S. President Biden Speaks,-, ,-,2024-07-24
+08:30,United States,Continuing Jobless Claims,"1,851K","1,860K","1,860K",2024-07-25
+08:30,United States,Core Durable Goods Orders,0.5%,0.2%,-0.1%,2024-07-25
+08:30,United States,Core PCE Prices,2.90%,2.70%,3.70%,2024-07-25
+08:30,United States,Durable Goods Orders,-6.6%,0.3%,0.1%,2024-07-25
+08:30,United States,Durables Excluding Defense,-7.0%, ,-0.2%,2024-07-25
+08:30,United States,GDP,2.8%,2.0%,1.4%,2024-07-25
+08:30,United States,GDP Price Index,2.3%,2.6%,3.1%,2024-07-25
+08:30,United States,GDP Sales,2.0%, ,1.8%,2024-07-25
+08:30,United States,Goods Orders Non Defense Ex Air,1.0%,0.2%,-0.9%,2024-07-25
+08:30,United States,Initial Jobless Claims,235K,237K,245K,2024-07-25
+08:30,United States,Jobless Claims 4-Week Avg.,235.50K, ,235.25K,2024-07-25
+08:30,United States,PCE Prices,2.6%, ,3.4%,2024-07-25
+08:30,United States,Real Consumer Spending,2.3%, ,1.5%,2024-07-25
+10:30,United States,Natural Gas Storage,22B,13B,10B,2024-07-25
+11:00,United States,KC Fed Composite Index,-13, ,-8,2024-07-25
+11:00,United States,KC Fed Manufacturing Index,-12, ,-11,2024-07-25
+11:30,United States,4-Week Bill Auction,5.285%, ,5.270%,2024-07-25
+11:30,United States,8-Week Bill Auction,5.260%, ,5.260%,2024-07-25
+13:00,United States,7-Year Note Auction,4.162%, ,4.276%,2024-07-25
+16:30,United States,Fed's Balance Sheet,"7,205B", ,"7,208B",2024-07-25
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.276T, ,3.322T,2024-07-25
+08:30,United States,Core PCE Price Index,0.2%,0.2%,0.1%,2024-07-26
+08:30,United States,PCE Price index,2.5%,2.5%,2.6%,2024-07-26
+08:30,United States,PCE price index,0.1%,0.1%,0.0%,2024-07-26
+08:30,United States,Personal Income,0.2%,0.4%,0.4%,2024-07-26
+08:30,United States,Personal Spending,0.3%,0.3%,0.4%,2024-07-26
+08:30,United States,Real Personal Consumption,0.2%, ,0.4%,2024-07-26
+09:00,United States,Dallas Fed PCE,1.70%, ,2.60%,2024-07-26
+10:00,United States,Michigan 1-Year Inflation Expectations,2.9%,2.9%,3.0%,2024-07-26
+10:00,United States,Michigan 5-Year Inflation Expectations,3.0%,2.9%,3.0%,2024-07-26
+10:00,United States,Michigan Consumer Expectations,68.8,67.2,69.6,2024-07-26
+10:00,United States,Michigan Consumer Sentiment,66.4,66.0,68.2,2024-07-26
+10:00,United States,Michigan Current Conditions,62.7,64.1,65.9,2024-07-26
+10:30,United States,Atlanta Fed GDPNow,2.8%, ,-,2024-07-26
+13:00,United States,U.S. Baker Hughes Oil Rig Count,482, ,477,2024-07-26
+13:00,United States,U.S. Baker Hughes Total Rig Count,589, ,586,2024-07-26
+15:30,United States,CFTC Aluminium speculative net positions,2.8K, ,2.2K,2024-07-26
+15:30,United States,CFTC Copper speculative net positions,42.2K, ,56.0K,2024-07-26
+15:30,United States,CFTC Corn speculative net positions,-222.0K, ,-238.8K,2024-07-26
+15:30,United States,CFTC Crude Oil speculative net positions,276.0K, ,287.6K,2024-07-26
+15:30,United States,CFTC Gold speculative net positions,273.1K, ,254.8K,2024-07-26
+15:30,United States,CFTC Nasdaq 100 speculative net positions,-0.6K, ,5.2K,2024-07-26
+15:30,United States,CFTC Natural Gas speculative net positions,-88.4K, ,-93.5K,2024-07-26
+15:30,United States,CFTC S&P 500 speculative net positions,-13.2K, ,-55.0K,2024-07-26
+15:30,United States,CFTC Silver speculative net positions,51.4K, ,61.1K,2024-07-26
+15:30,United States,CFTC Soybeans speculative net positions,-138.4K, ,-161.5K,2024-07-26
+15:30,United States,CFTC Wheat speculative net positions,-34.6K, ,-36.1K,2024-07-26
