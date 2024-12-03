@@ -17539,6 +17539,7 @@ All Day,United States,United States - Labor Day, , , ,2024-09-02
 15:30,United States,CFTC Silver speculative net positions,53.3K, ,60.4K,2024-11-08
 15:30,United States,CFTC Soybeans speculative net positions,-89.0K, ,-92.1K,2024-11-08
 15:30,United States,CFTC Wheat speculative net positions,-22.5K, ,-22.9K,2024-11-08
+08:55,United States,Redbook,-, ,6.0%,2024-11-13
 06:00,United States,NFIB Small Business Optimism,93.7,91.9,91.5,2024-11-12
 07:00,United States,OPEC Monthly Report,-, ,-,2024-11-12
 08:55,United States,Redbook,4.8%, ,6.0%,2024-11-12
@@ -17552,51 +17553,285 @@ All Day,United States,United States - Labor Day, , , ,2024-09-02
 14:00,United States,Loan Officer Survey,-, ,-,2024-11-12
 17:00,United States,FOMC Member Harker Speaks,-, ,-,2024-11-12
 17:30,United States,FOMC Member Barkin Speaks,-, ,-,2024-11-12
-07:00,United States,MBA 30-Year Mortgage Rate,-, ,6.81%,2024-11-13
-07:00,United States,MBA Mortgage Applications,-, ,-10.8%,2024-11-13
-07:00,United States,MBA Purchase Index,-, ,130.8,2024-11-13
-07:00,United States,Mortgage Market Index,-, ,191.4,2024-11-13
-07:00,United States,Mortgage Refinance Index,-, ,513.5,2024-11-13
-08:30,United States,Core CPI,-,3.3%,3.3%,2024-11-13
-08:30,United States,Core CPI Index,-, ,320.77,2024-11-13
-08:30,United States,CPI,-,0.2%,0.2%,2024-11-13
-08:30,United States,"CPI Index, n.s.a.",-,315.59,315.30,2024-11-13
-08:30,United States,"CPI Index, s.a",-, ,314.69,2024-11-13
-08:30,United States,"CPI, n.s.a",-, ,0.16%,2024-11-13
+07:00,United States,MBA 30-Year Mortgage Rate,6.86%, ,6.81%,2024-11-13
+07:00,United States,MBA Mortgage Applications,0.5%, ,-10.8%,2024-11-13
+07:00,United States,MBA Purchase Index,133.3, ,130.8,2024-11-13
+07:00,United States,Mortgage Market Index,192.4, ,191.4,2024-11-13
+07:00,United States,Mortgage Refinance Index,506.0, ,513.5,2024-11-13
+08:30,United States,Core CPI,0.3%,0.3%,0.3%,2024-11-13
+08:30,United States,Core CPI Index,321.67,321.65,320.77,2024-11-13
+08:30,United States,CPI,2.6%,2.6%,2.4%,2024-11-13
+08:30,United States,"CPI Index, n.s.a.",315.66,315.59,315.30,2024-11-13
+08:30,United States,"CPI Index, s.a",315.45, ,314.69,2024-11-13
+08:30,United States,"CPI, n.s.a",0.12%, ,0.16%,2024-11-13
 08:30,United States,FOMC Member Kashkari Speaks,-, ,-,2024-11-13
-08:30,United States,Real Earnings,-, ,-0.1%,2024-11-13
-08:55,United States,Redbook,-, ,6.0%,2024-11-13
+08:30,United States,Real Earnings,0.1%, ,0.1%,2024-11-13
 09:30,United States,FOMC Member Williams Speaks,-, ,-,2024-11-13
 09:35,United States,Fed Logan Speaks,-, ,-,2024-11-13
-11:00,United States,Cleveland CPI,-, ,0.3%,2024-11-13
-11:00,United States,Thomson Reuters IPSOS PCSI,-, ,55.63,2024-11-13
+11:00,United States,Cleveland CPI,0.3%, ,0.3%,2024-11-13
+11:00,United States,Thomson Reuters IPSOS PCSI,55.71, ,55.63,2024-11-13
 12:00,United States,EIA Short-Term Energy Outlook,-, ,-,2024-11-13
 13:30,United States,Fed Schmid Speaks,-, ,-,2024-11-13
-14:00,United States,Federal Budget Balance,-,-226.4B,64.0B,2024-11-13
-16:30,United States,API Weekly Crude Oil Stock,-, ,3.132M,2024-11-13
+14:00,United States,Federal Budget Balance,-257.0B,-226.4B,64.0B,2024-11-13
+16:30,United States,API Weekly Crude Oil Stock,-0.777M,1.000M,3.132M,2024-11-13
 05:00,United States,IEA Monthly Report,-, ,-,2024-11-14
 07:00,United States,FOMC Member Kugler Speaks,-, ,-,2024-11-14
-08:30,United States,PPI ex. Food/Energy/Transport,-, ,3.2%,2024-11-14
-08:30,United States,Continuing Jobless Claims,-, ,"1,892K",2024-11-14
-08:30,United States,Core PPI,-,2.9%,2.8%,2024-11-14
-08:30,United States,Initial Jobless Claims,-,222K,221K,2024-11-14
-08:30,United States,Jobless Claims 4-Week Avg.,-, ,227.25K,2024-11-14
-08:30,United States,PPI,-,2.3%,1.8%,2024-11-14
+08:30,United States,PPI ex. Food/Energy/Transport,3.5%, ,3.3%,2024-11-14
+08:30,United States,Continuing Jobless Claims,"1,873K","1,880K","1,884K",2024-11-14
+08:30,United States,Core PPI,3.1%,3.0%,2.9%,2024-11-14
+08:30,United States,Initial Jobless Claims,217K,224K,221K,2024-11-14
+08:30,United States,Jobless Claims 4-Week Avg.,221.00K, ,227.25K,2024-11-14
+08:30,United States,PPI,0.2%,0.2%,0.1%,2024-11-14
 09:00,United States,FOMC Member Barkin Speaks,-, ,-,2024-11-14
-10:30,United States,Natural Gas Storage,-, ,69B,2024-11-14
-11:00,United States,Crude Oil Inventories,-, ,2.149M,2024-11-14
-11:00,United States,EIA Refinery Crude Runs ,-, ,0.281M,2024-11-14
-11:00,United States,Crude Oil Imports,-, ,1.676M,2024-11-14
-11:00,United States,Cushing Crude Oil Inventories,-, ,0.522M,2024-11-14
-11:00,United States,Distillate Fuel Production,-, ,0.233M,2024-11-14
-11:00,United States,EIA Weekly Distillates Stocks,-, ,2.947M,2024-11-14
-11:00,United States,Gasoline Production,-, ,0.013M,2024-11-14
-11:00,United States,Heating Oil Stockpiles,-, ,0.335M,2024-11-14
-11:00,United States,EIA Weekly Refinery Utilization Rates,-, ,1.4%,2024-11-14
-11:00,United States,Gasoline Inventories,-, ,0.412M,2024-11-14
-11:30,United States,4-Week Bill Auction,-, ,4.515%,2024-11-14
-11:30,United States,8-Week Bill Auction,-, ,4.490%,2024-11-14
+10:30,United States,Natural Gas Storage,42B,34B,69B,2024-11-14
+11:00,United States,Crude Oil Inventories,2.089M,0.400M,2.149M,2024-11-14
+11:00,United States,EIA Refinery Crude Runs ,0.175M, ,0.281M,2024-11-14
+11:00,United States,Crude Oil Imports,-0.321M, ,1.676M,2024-11-14
+11:00,United States,Cushing Crude Oil Inventories,-0.688M, ,0.522M,2024-11-14
+11:00,United States,Distillate Fuel Production,-0.127M, ,0.233M,2024-11-14
+11:00,United States,EIA Weekly Distillates Stocks,-1.394M,1.000M,2.947M,2024-11-14
+11:00,United States,Gasoline Production,0.559M, ,0.013M,2024-11-14
+11:00,United States,Heating Oil Stockpiles,-1.060M, ,0.335M,2024-11-14
+11:00,United States,EIA Weekly Refinery Utilization Rates,0.9%, ,1.4%,2024-11-14
+11:00,United States,Gasoline Inventories,-4.407M,1.000M,0.412M,2024-11-14
+11:30,United States,4-Week Bill Auction,4.510%, ,4.515%,2024-11-14
+11:30,United States,8-Week Bill Auction,4.460%, ,4.490%,2024-11-14
 15:00,United States,Fed Chair Powell Speaks,-, ,-,2024-11-14
 16:15,United States,FOMC Member Williams Speaks,-, ,-,2024-11-14
-16:30,United States,Fed's Balance Sheet,-, ,"6,994B",2024-11-14
-16:30,United States,Reserve Balances with Federal Reserve Banks,-, ,3.256T,2024-11-14
+16:30,United States,Fed's Balance Sheet,"6,967B", ,"6,994B",2024-11-14
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.192T, ,3.256T,2024-11-14
+08:30,United States,Core Retail Sales,0.1%,0.3%,1.0%,2024-11-15
+08:30,United States,Export Price Index,-0.1%,-1.7%,-1.9%,2024-11-15
+08:30,United States,Import Price Index,0.3%,-0.1%,-0.4%,2024-11-15
+08:30,United States,NY Empire State Manufacturing Index,31.20,-0.30,-11.90,2024-11-15
+08:30,United States,Retail Control,-0.1%,0.3%,1.2%,2024-11-15
+08:30,United States,Retail Sales,0.4%,0.3%,0.8%,2024-11-15
+08:30,United States,Retail Sales Ex Gas/Autos,0.1%,0.3%,1.2%,2024-11-15
+09:00,United States,Fed Collins Speaks,-, ,-,2024-11-15
+09:15,United States,Capacity Utilization Rate,77.1%,77.1%,77.4%,2024-11-15
+09:15,United States,Industrial Production,-0.3%,-0.3%,-0.5%,2024-11-15
+09:15,United States,Manufacturing Production,-0.5%,-0.5%,-0.3%,2024-11-15
+10:00,United States,Business Inventories,0.1%,0.2%,0.3%,2024-11-15
+10:00,United States,Retail Inventories Ex Auto,0.2%,0.3%,0.1%,2024-11-15
+13:00,United States,Atlanta Fed GDPNow,2.5%,2.5%,2.5%,2024-11-15
+13:00,United States,U.S. Baker Hughes Oil Rig Count,478, ,479,2024-11-15
+13:00,United States,U.S. Baker Hughes Total Rig Count,584, ,585,2024-11-15
+13:15,United States,FOMC Member Williams Speaks,-, ,-,2024-11-15
+15:30,United States,CFTC Aluminium speculative net positions,3.0K, ,3.1K,2024-11-15
+15:30,United States,CFTC Copper speculative net positions,20.8K, ,23.7K,2024-11-15
+15:30,United States,CFTC Corn speculative net positions,177.6K, ,102.6K,2024-11-15
+15:30,United States,CFTC Crude Oil speculative net positions,186.9K, ,196.1K,2024-11-15
+15:30,United States,CFTC Gold speculative net positions,236.5K, ,255.3K,2024-11-15
+15:30,United States,CFTC Nasdaq 100 speculative net positions,16.4K, ,16.1K,2024-11-15
+15:30,United States,CFTC Natural Gas speculative net positions,-156.1K, ,-156.4K,2024-11-15
+15:30,United States,CFTC S&P 500 speculative net positions,25.0K, ,113.4K,2024-11-15
+15:30,United States,CFTC Silver speculative net positions,47.6K, ,53.3K,2024-11-15
+15:30,United States,CFTC Soybeans speculative net positions,-77.1K, ,-89.0K,2024-11-15
+15:30,United States,CFTC Wheat speculative net positions,-38.5K, ,-22.5K,2024-11-15
+11:55,United States,Fed Collins Speaks,-, ,-,2024-11-17
+10:00,United States,Fed Goolsbee Speaks,-, ,-,2024-11-18
+10:00,United States,NAHB Housing Market Index,46,42,43,2024-11-18
+11:30,United States,3-Month Bill Auction,4.420%, ,4.420%,2024-11-18
+11:30,United States,6-Month Bill Auction,4.310%, ,4.310%,2024-11-18
+16:00,United States,"US Foreign Buying, T-bonds",77.00B, ,19.20B,2024-11-18
+16:00,United States,Overall Net Capital Flow,398.40B, ,75.90B,2024-11-18
+16:00,United States,TIC Net Long-Term Transactions,216.1B,114.3B,108.8B,2024-11-18
+16:00,United States,TIC Net Long-Term Transactions including Swaps,216.10B, ,108.80B,2024-11-18
+08:30,United States,Building Permits,-0.6%, ,-3.1%,2024-11-19
+08:30,United States,Housing Starts,-3.1%, ,-1.9%,2024-11-19
+08:55,United States,Redbook,5.1%, ,4.8%,2024-11-19
+10:30,United States,Atlanta Fed GDPNow,2.6%,2.5%,2.5%,2024-11-19
+13:10,United States,Fed Schmid Speaks,-, ,-,2024-11-19
+16:30,United States,API Weekly Crude Oil Stock,4.753M,0.800M,-0.777M,2024-11-19
+07:00,United States,MBA 30-Year Mortgage Rate,6.90%, ,6.86%,2024-11-20
+07:00,United States,MBA Mortgage Applications,1.7%, ,0.5%,2024-11-20
+07:00,United States,MBA Purchase Index,136.0, ,133.3,2024-11-20
+07:00,United States,Mortgage Market Index,195.6, ,192.4,2024-11-20
+07:00,United States,Mortgage Refinance Index,514.9, ,506.0,2024-11-20
+10:30,United States,Crude Oil Inventories,0.545M,0.400M,2.089M,2024-11-20
+10:30,United States,EIA Refinery Crude Runs ,-0.281M, ,0.175M,2024-11-20
+10:30,United States,Crude Oil Imports,0.237M, ,-0.321M,2024-11-20
+10:30,United States,Cushing Crude Oil Inventories,-0.140M, ,-0.688M,2024-11-20
+10:30,United States,Distillate Fuel Production,-0.132M, ,-0.127M,2024-11-20
+10:30,United States,EIA Weekly Distillates Stocks,-0.114M,-0.200M,-1.394M,2024-11-20
+10:30,United States,Gasoline Production,-0.980M, ,0.559M,2024-11-20
+10:30,United States,Heating Oil Stockpiles,0.342M, ,-1.060M,2024-11-20
+10:30,United States,EIA Weekly Refinery Utilization Rates,-1.2%, ,0.9%,2024-11-20
+10:30,United States,Gasoline Inventories,2.054M,1.620M,-4.407M,2024-11-20
+11:00,United States,Fed Governor Cook Speaks,-, ,-,2024-11-20
+12:15,United States,FOMC Member Bowman Speaks,-, ,-,2024-11-20
+13:00,United States,20-Year Bond Auction,4.680%, ,4.590%,2024-11-20
+08:30,United States,Continuing Jobless Claims,"1,908K","1,870K","1,872K",2024-11-21
+08:30,United States,Initial Jobless Claims,213K,220K,219K,2024-11-21
+08:30,United States,Jobless Claims 4-Week Avg.,217.75K, ,221.50K,2024-11-21
+08:30,United States,Philadelphia Fed Manufacturing Index,-5.5,7.4,10.3,2024-11-21
+08:30,United States,Philly Fed Business Conditions,56.6, ,36.7,2024-11-21
+08:30,United States,Philly Fed CAPEX Index,24.90, ,23.50,2024-11-21
+08:30,United States,Philly Fed Employment,8.6, ,-2.2,2024-11-21
+08:30,United States,Philly Fed New Orders,8.9, ,14.2,2024-11-21
+08:30,United States,Philly Fed Prices Paid,26.60, ,29.70,2024-11-21
+10:00,United States,Existing Home Sales,3.4%, ,-1.3%,2024-11-21
+10:00,United States,US Leading Index,-0.4%,-0.3%,-0.3%,2024-11-21
+10:30,United States,Natural Gas Storage,-3B,2B,42B,2024-11-21
+11:00,United States,KC Fed Composite Index,-2, ,-4,2024-11-21
+11:00,United States,KC Fed Manufacturing Index,-4, ,0,2024-11-21
+11:30,United States,4-Week Bill Auction,4.530%, ,4.510%,2024-11-21
+11:30,United States,8-Week Bill Auction,4.480%, ,4.460%,2024-11-21
+12:25,United States,Fed Goolsbee Speaks,-, ,-,2024-11-21
+13:00,United States,10-Year TIPS Auction,2.071%, ,1.592%,2024-11-21
+16:30,United States,Fed's Balance Sheet,"6,924B", ,"6,967B",2024-11-21
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.267T, ,3.192T,2024-11-21
+16:40,United States,Fed Vice Chair for Supervision Barr Speaks,-, ,-,2024-11-21
+09:45,United States,S&P Global US Manufacturing PMI,48.8,48.8,48.5,2024-11-22
+09:45,United States,S&P Global Composite PMI,55.3, ,54.1,2024-11-22
+09:45,United States,S&P Global Services PMI,57.0,55.2,55.0,2024-11-22
+10:00,United States,Michigan 1-Year Inflation Expectations,2.6%,2.6%,2.7%,2024-11-22
+10:00,United States,Michigan 5-Year Inflation Expectations,3.2%,3.1%,3.0%,2024-11-22
+10:00,United States,Michigan Consumer Expectations,76.9,78.5,74.1,2024-11-22
+10:00,United States,Michigan Consumer Sentiment,71.8,73.7,70.5,2024-11-22
+10:00,United States,Michigan Current Conditions,63.9,64.4,64.9,2024-11-22
+13:00,United States,U.S. Baker Hughes Oil Rig Count,479, ,478,2024-11-22
+13:00,United States,U.S. Baker Hughes Total Rig Count,583, ,584,2024-11-22
+15:30,United States,CFTC Aluminium speculative net positions,3.1K, ,3.0K,2024-11-22
+15:30,United States,CFTC Copper speculative net positions,15.4K, ,20.8K,2024-11-22
+15:30,United States,CFTC Corn speculative net positions,163.3K, ,177.6K,2024-11-22
+15:30,United States,CFTC Crude Oil speculative net positions,193.9K, ,186.9K,2024-11-22
+15:30,United States,CFTC Gold speculative net positions,234.4K, ,236.5K,2024-11-22
+15:30,United States,CFTC Nasdaq 100 speculative net positions,19.8K, ,16.4K,2024-11-22
+15:30,United States,CFTC Natural Gas speculative net positions,-161.0K, ,-156.1K,2024-11-22
+15:30,United States,CFTC S&P 500 speculative net positions,34.9K, ,25.0K,2024-11-22
+15:30,United States,CFTC Silver speculative net positions,46.3K, ,47.6K,2024-11-22
+15:30,United States,CFTC Soybeans speculative net positions,-86.3K, ,-77.1K,2024-11-22
+15:30,United States,CFTC Wheat speculative net positions,-46.0K, ,-38.5K,2024-11-22
+18:15,United States,FOMC Member Bowman Speaks,-, ,-,2024-11-22
+08:30,United States,Chicago Fed National Activity,-0.40,-0.20,-0.27,2024-11-25
+10:30,United States,Dallas Fed Mfg Business Index,-2.7,-2.4,-3.0,2024-11-25
+11:30,United States,3-Month Bill Auction,4.415%, ,4.420%,2024-11-25
+11:30,United States,6-Month Bill Auction,4.340%, ,4.310%,2024-11-25
+13:00,United States,2-Year Note Auction,4.274%, ,4.130%,2024-11-25
+08:00,United States,Building Permits,-0.4%,-0.6%,-3.1%,2024-11-26
+08:55,United States,Redbook,4.9%, ,5.1%,2024-11-26
+09:00,United States,House Price Index,430.3, ,427.4,2024-11-26
+09:00,United States,S&P/CS HPI Composite - 20 s.a.,0.2%, ,0.3%,2024-11-26
+09:00,United States,S&P/CS HPI Composite - 20 n.s.a.,4.6%,4.7%,5.2%,2024-11-26
+10:00,United States,CB Consumer Confidence,111.7,111.8,109.6,2024-11-26
+10:00,United States,New Home Sales,610K,725K,738K,2024-11-26
+10:00,United States,Richmond Manufacturing Index,-14,-10,-14,2024-11-26
+10:00,United States,Richmond Manufacturing Shipments,-12, ,-8,2024-11-26
+10:00,United States,Richmond Services Index,9, ,3,2024-11-26
+10:30,United States,Dallas Fed Services Revenues,10.9, ,9.2,2024-11-26
+10:30,United States,Texas Services Sector Outlook,9.8, ,2.0,2024-11-26
+11:00,United States,M2 Money Supply,23.31T, ,21.22T,2024-11-26
+11:30,United States,52-Week Bill Auction,4.190%, ,4.100%,2024-11-26
+13:00,United States,5-Year Note Auction,4.197%, ,4.138%,2024-11-26
+14:00,United States,FOMC Meeting Minutes,-, ,-,2024-11-26
+16:30,United States,API Weekly Crude Oil Stock,-5.935M,0.250M,4.753M,2024-11-26
+07:00,United States,MBA 30-Year Mortgage Rate,6.86%, ,6.90%,2024-11-27
+07:00,United States,MBA Mortgage Applications,6.3%, ,1.7%,2024-11-27
+07:00,United States,MBA Purchase Index,152.9, ,136.0,2024-11-27
+07:00,United States,Mortgage Market Index,208.0, ,195.6,2024-11-27
+07:00,United States,Mortgage Refinance Index,501.7, ,514.9,2024-11-27
+08:30,United States,Continuing Jobless Claims,"1,907K","1,910K","1,898K",2024-11-27
+08:30,United States,Core Durable Goods Orders,0.1%,0.2%,0.4%,2024-11-27
+08:30,United States,Core PCE Prices,2.10%,2.20%,2.80%,2024-11-27
+08:30,United States,Corporate Profits,0.0%, ,3.5%,2024-11-27
+08:30,United States,Durable Goods Orders,0.2%,-0.8%,-0.4%,2024-11-27
+08:30,United States,Durables Excluding Defense,0.4%, ,-0.9%,2024-11-27
+08:30,United States,GDP,2.8%,2.8%,3.0%,2024-11-27
+08:30,United States,GDP Price Index,1.9%,1.8%,2.5%,2024-11-27
+08:30,United States,GDP Sales,3.0%,3.0%,1.9%,2024-11-27
+08:30,United States,Goods Orders Non Defense Ex Air,-0.2%,0.5%,0.3%,2024-11-27
+08:30,United States,Goods Trade Balance,-99.08B,-102.20B,-108.69B,2024-11-27
+08:30,United States,Initial Jobless Claims,213K,215K,215K,2024-11-27
+08:30,United States,Jobless Claims 4-Week Avg.,217.00K, ,218.25K,2024-11-27
+08:30,United States,PCE Prices,1.5%,1.5%,2.5%,2024-11-27
+08:30,United States,Real Consumer Spending,3.5%,3.7%,2.8%,2024-11-27
+08:30,United States,Retail Inventories Ex Auto,0.1%, ,0.1%,2024-11-27
+08:30,United States,Wholesale Inventories,0.2%,0.0%,-0.2%,2024-11-27
+10:00,United States,4-Week Bill Auction,4.550%, ,4.530%,2024-11-27
+10:00,United States,8-Week Bill Auction,4.500%, ,4.480%,2024-11-27
+10:00,United States,Core PCE Price Index,2.8%,2.8%,2.7%,2024-11-27
+10:00,United States,PCE Price index,2.3%,2.3%,2.1%,2024-11-27
+10:00,United States,PCE price index,0.2%,0.2%,0.2%,2024-11-27
+10:00,United States,Pending Home Sales,2.0%,-2.1%,7.5%,2024-11-27
+10:00,United States,Pending Home Sales Index,77.4, ,75.9,2024-11-27
+10:00,United States,Personal Income,0.6%,0.3%,0.3%,2024-11-27
+10:00,United States,Personal Spending,0.4%,0.4%,0.6%,2024-11-27
+10:00,United States,Real Personal Consumption,0.1%, ,0.5%,2024-11-27
+10:30,United States,Crude Oil Inventories,-1.844M,-1.300M,0.545M,2024-11-27
+10:30,United States,EIA Refinery Crude Runs ,0.067M, ,-0.281M,2024-11-27
+10:30,United States,Crude Oil Imports,-1.886M, ,0.237M,2024-11-27
+10:30,United States,Cushing Crude Oil Inventories,-0.909M, ,-0.140M,2024-11-27
+10:30,United States,Distillate Fuel Production,0.259M, ,-0.132M,2024-11-27
+10:30,United States,EIA Weekly Distillates Stocks,0.416M, ,-0.114M,2024-11-27
+10:30,United States,Gasoline Production,0.457M, ,-0.980M,2024-11-27
+10:30,United States,Heating Oil Stockpiles,-1.134M, ,0.342M,2024-11-27
+10:30,United States,EIA Weekly Refinery Utilization Rates,0.3%, ,-1.2%,2024-11-27
+10:30,United States,Gasoline Inventories,3.314M, ,2.054M,2024-11-27
+12:00,United States,7-Year Note Auction,4.183%, ,4.215%,2024-11-27
+12:00,United States,Natural Gas Storage,-2B,-4B,-3B,2024-11-27
+13:00,United States,Atlanta Fed GDPNow,2.7%,2.6%,2.6%,2024-11-27
+13:00,United States,U.S. Baker Hughes Oil Rig Count,477, ,479,2024-11-27
+13:00,United States,U.S. Baker Hughes Total Rig Count,582, ,583,2024-11-27
+All Day,United States,United States - Thanksgiving Day, , , ,2024-11-28
+09:45,United States,Chicago PMI,40.2,44.9,41.6,2024-11-29
+16:30,United States,Fed's Balance Sheet,"6,905B", ,"6,924B",2024-11-29
+16:30,United States,Reserve Balances with Federal Reserve Banks,3.234T, ,3.267T,2024-11-29
+All Day,United States,United States - Thanksgiving Day - Early close at 13:00, , , ,2024-11-29
+09:45,United States,S&P Global US Manufacturing PMI,49.7,48.8,48.5,2024-12-02
+10:00,United States,Construction Spending,0.4%,0.2%,0.1%,2024-12-02
+10:00,United States,ISM Manufacturing Employment,48.1, ,44.4,2024-12-02
+10:00,United States,ISM Manufacturing New Orders Index,50.4, ,47.1,2024-12-02
+10:00,United States,ISM Manufacturing PMI,48.4,47.7,46.5,2024-12-02
+10:00,United States,ISM Manufacturing Prices,50.3,55.2,54.8,2024-12-02
+11:30,United States,3-Month Bill Auction,4.400%, ,4.415%,2024-12-02
+11:30,United States,6-Month Bill Auction,4.305%, ,4.340%,2024-12-02
+15:15,United States,Fed Waller Speaks,-, ,-,2024-12-02
+15:30,United States,CFTC Aluminium speculative net positions,3.2K, ,3.1K,2024-12-02
+15:30,United States,CFTC Copper speculative net positions,9.9K, ,15.4K,2024-12-02
+15:30,United States,CFTC Corn speculative net positions,136.9K, ,163.3K,2024-12-02
+15:30,United States,CFTC Crude Oil speculative net positions,200.4K, ,193.9K,2024-12-02
+15:30,United States,CFTC Gold speculative net positions,250.3K, ,234.4K,2024-12-02
+15:30,United States,CFTC Nasdaq 100 speculative net positions,19.5K, ,19.8K,2024-12-02
+15:30,United States,CFTC Natural Gas speculative net positions,-153.4K, ,-161.0K,2024-12-02
+15:30,United States,CFTC S&P 500 speculative net positions,-78.9K, ,34.9K,2024-12-02
+15:30,United States,CFTC Silver speculative net positions,42.8K, ,46.3K,2024-12-02
+15:30,United States,CFTC Soybeans speculative net positions,-105.9K, ,-86.3K,2024-12-02
+15:30,United States,CFTC Wheat speculative net positions,-52.2K, ,-46.0K,2024-12-02
+16:30,United States,FOMC Member Williams Speaks,-, ,-,2024-12-02
+08:55,United States,Redbook,-, ,4.9%,2024-12-03
+10:00,United States,JOLTS Job Openings,-,7.490M,7.443M,2024-12-03
+10:10,United States,IBD/TIPP Economic Optimism,-,54.1,53.2,2024-12-03
+12:35,United States,FOMC Member Kugler Speaks,-, ,-,2024-12-03
+15:45,United States,Fed Goolsbee Speaks,-, ,-,2024-12-03
+16:30,United States,API Weekly Crude Oil Stock,-, ,-5.935M,2024-12-03
+07:00,United States,MBA 30-Year Mortgage Rate,-, ,6.86%,2024-12-04
+07:00,United States,MBA Mortgage Applications,-, ,6.3%,2024-12-04
+07:00,United States,MBA Purchase Index,-, ,152.9,2024-12-04
+07:00,United States,Mortgage Market Index,-, ,208.0,2024-12-04
+07:00,United States,Mortgage Refinance Index,-, ,501.7,2024-12-04
+08:15,United States,ADP Nonfarm Employment Change,-,166K,233K,2024-12-04
+09:45,United States,S&P Global Composite PMI,-,55.3,54.1,2024-12-04
+09:45,United States,S&P Global Services PMI,-,57.0,55.0,2024-12-04
+10:00,United States,Durables Excluding Defense,-,0.4%,0.4%,2024-12-04
+10:00,United States,Durables Excluding Transport,-, ,0.1%,2024-12-04
+10:00,United States,Factory Orders,-,0.3%,-0.5%,2024-12-04
+10:00,United States,Factory orders ex transportation,-, ,0.1%,2024-12-04
+10:00,United States,ISM Non-Manufacturing Business Activity,-, ,57.2,2024-12-04
+10:00,United States,ISM Non-Manufacturing Employment,-, ,53.0,2024-12-04
+10:00,United States,ISM Non-Manufacturing New Orders,-, ,57.4,2024-12-04
+10:00,United States,ISM Non-Manufacturing PMI,-,55.5,56.0,2024-12-04
+10:00,United States,ISM Non-Manufacturing Prices,-, ,58.1,2024-12-04
+10:30,United States,Crude Oil Inventories,-, ,-1.844M,2024-12-04
+10:30,United States,EIA Refinery Crude Runs ,-, ,0.067M,2024-12-04
+10:30,United States,Crude Oil Imports,-, ,-1.886M,2024-12-04
+10:30,United States,Cushing Crude Oil Inventories,-, ,-0.909M,2024-12-04
+10:30,United States,Distillate Fuel Production,-, ,0.259M,2024-12-04
+10:30,United States,EIA Weekly Distillates Stocks,-, ,0.416M,2024-12-04
+10:30,United States,Gasoline Production,-, ,0.457M,2024-12-04
+10:30,United States,Heating Oil Stockpiles,-, ,-1.134M,2024-12-04
+10:30,United States,EIA Weekly Refinery Utilization Rates,-, ,0.3%,2024-12-04
+10:30,United States,Gasoline Inventories,-, ,3.314M,2024-12-04
+10:30,United States,Natural Gas Storage,-, ,-2B,2024-12-04
+13:45,United States,Fed Chair Powell Speaks,-, ,-,2024-12-04
+14:00,United States,Beige Book,-, ,-,2024-12-04
