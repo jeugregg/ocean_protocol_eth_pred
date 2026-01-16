@@ -1,0 +1,123 @@
+# TEST ORDER LIGHTER
+# TODO : try a delay one hour to close the trade even if still open
+# TODO : check state of the position and orders
+
+import os
+import time
+import asyncio
+import datetime
+import lighter
+import logging
+import requests
+import json
+from lighter.signer_client import CreateOrderTxReq
+
+logging.basicConfig(level=logging.INFO)
+# import env var
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
+
+BASE_URL = os.getenv("LIGHTER_BASE_URL")
+L1_ADDRESS = os.getenv("LIGHTER_PUBLIC_ADDRESS")
+ACCOUNT_INDEX = int(os.getenv("LIGHTER_ACCOUNT_INDEX"))
+PRIVATE_KEY = os.getenv("LIGHTER_API_KEY")
+API_KEY_INDEX = int(os.getenv("LIGHTER_API_KEY_INDEX"))
+MARKET_INDEX= 0 # ETH futures ?
+
+
+
+url = "https://explorer.elliot.ai/api/markets"
+
+headers = {"accept": "application/json"}
+
+response = requests.get(url, headers=headers)
+
+MARKET_LIST = json.loads(response.text)
+
+async def main():
+    api_client = lighter.ApiClient(configuration=lighter.Configuration(host=BASE_URL))
+    client = lighter.SignerClient(  
+        url=BASE_URL,  
+        api_private_keys={API_KEY_INDEX:PRIVATE_KEY},  
+        account_index=ACCOUNT_INDEX,
+    )
+
+    #print(MARKET_LIST)
+    # get ETH futures
+    market_id = [x for x in MARKET_LIST if x["symbol"]=="ETH" ][0]['market_index']
+    print("market_id: ", market_id)
+
+    # Sell some ETH at $2500
+    # The size of the SL/TP orders will be equal to the size of the executed order
+
+    # set SL trigger price at 5000 and limit price at 5050
+    # set TP trigger price at 1500 and limit price at 1550
+    # Note: set the limit price to be higher than the SL/TP trigger price to ensure the order will be filled
+    # If the mark price of ETH reaches 1500, there might be no one willing to sell you ETH at 1500, 
+    # so trying to buy at 1550 would increase the fill rate
+
+    ioc_order = CreateOrderTxReq(
+        MarketIndex=market_id,
+        ClientOrderIndex=0,
+        BaseAmount=int(0.02*10000),  # 1000 = 0.1 ETH
+        Price=4000_00,  # $2500
+        IsAsk=0,  # buy
+        Type=client.ORDER_TYPE_MARKET,
+        TimeInForce=client.ORDER_TIME_IN_FORCE_IMMEDIATE_OR_CANCEL,
+        ReduceOnly=0,
+        TriggerPrice=0,
+        #OrderExpiry=0,
+    )
+
+    # Create a One-Cancels-the-Other grouped order with a take-profit and a stop-loss order
+    take_profit_order = CreateOrderTxReq(
+        MarketIndex=market_id,
+        ClientOrderIndex=0,
+        BaseAmount=0,
+        Price=3350_00,
+        IsAsk=1, # sell
+        Type=client.ORDER_TYPE_TAKE_PROFIT,
+        #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
+        ReduceOnly=1,
+        TriggerPrice=3350_00,
+        OrderExpiry=-1,
+    )
+
+    stop_loss_order = CreateOrderTxReq(
+        MarketIndex=market_id,
+        ClientOrderIndex=0,
+        BaseAmount=0,
+        Price=3300_00,
+        IsAsk=1,
+        Type=client.ORDER_TYPE_STOP_LOSS,
+        #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
+        ReduceOnly=1,
+        TriggerPrice=3300_00,
+        OrderExpiry=-1,
+    )
+
+    tx = await client.create_grouped_orders(
+        grouping_type=client.GROUPING_TYPE_ONE_TRIGGERS_A_ONE_CANCELS_THE_OTHER,
+        orders=[ioc_order, take_profit_order, stop_loss_order],
+    )
+    
+    print("Create Grouped Order Tx:", tx)
+
+    # tx, tx_hash, err = await client.create_market_order(
+    #     market_index=market_id,
+    #     client_order_index=0,
+    #     base_amount=int(0.02*10000),  # 0.1 ETH
+    #     avg_execution_price=4000_00,  # $4000 -- worst acceptable price for the order
+    #     is_ask=0,
+    # )
+    # print(f"Create Order {tx=} {tx_hash=} {err=}")
+    # if err is not None:
+    #     raise Exception(err)
+
+
+    await api_client.close()
+    await client.close()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
