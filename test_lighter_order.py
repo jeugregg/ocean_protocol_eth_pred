@@ -40,7 +40,7 @@ L1_ADDRESS = os.getenv("LIGHTER_PUBLIC_ADDRESS")
 ACCOUNT_INDEX = int(os.getenv("LIGHTER_ACCOUNT_INDEX"))
 PRIVATE_KEY = os.getenv("LIGHTER_API_KEY")
 API_KEY_INDEX = int(os.getenv("LIGHTER_API_KEY_INDEX"))
-MARKET_INDEX= 0 # ETH futures ?
+MARKET_INDEX = 0 # ETH futures ?
 
 
 
@@ -60,11 +60,19 @@ async def main():
         account_index=ACCOUNT_INDEX,
     )
 
-    # get state of order if exist
+    # get state of order if exists
     # check if there is an open position
+    account_api = lighter.AccountApi(api_client)
+
+    account_info = await account_api.account(by="index", value=str(ACCOUNT_INDEX))
+
+    print("account_info: ", account_info)
+    position_curr = int(float(account_info.accounts[0].positions[0].position))
+    print("position curr: ", position_curr)
+
+    state_open_pos = position_curr != 0
+    print("state_open_pos: ", state_open_pos)
     
-
-
     # do TX ?
     mode_tx = False
 
