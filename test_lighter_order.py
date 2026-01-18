@@ -1,9 +1,24 @@
 # TEST ORDER LIGHTER
+
+    # Example LONG position with SL/TP at all costs
+    # Buy some ETH at $2500
+    # The size of the SL/TP orders will be equal to the size of the executed order
+    # set SL trigger price at 2000 and worst price at 1980 (-1%)
+    # set TP trigger price at 3000 and worst price at 2970 (-1%)
+
+    # Example for a SHORT position with SL/TP
+    # Sell some ETH at $2500
+    # The size of the SL/TP orders will be equal to the size of the executed order
+    # set SL trigger price at 5000 and limit price at 5050
+    # set TP trigger price at 1500 and limit price at 1550
+    # Note: set the limit price to be higher than the SL/TP trigger price to ensure the order will be filled
+    # If the mark price of ETH reaches 1500, there might be no one willing to sell you ETH at 1500, 
+    # so trying to buy at 1550 would increase the fill rate
+
 # DONE : SL not working yet
 # DONE : get current market-price jusst before send tx (with last trade price only , not real index proce of orderbook)
 # TODO : check state of the position and orders
 # TODO : try a delay one hour to close the trade even if still open
-
 
 import os
 import time
@@ -45,6 +60,11 @@ async def main():
         account_index=ACCOUNT_INDEX,
     )
 
+    # get state of order if exist
+    # check if there is an open position
+    
+
+
     # do TX ?
     mode_tx = False
 
@@ -54,18 +74,11 @@ async def main():
     print("market_id: ", market_id)
 
     # get market price
-    res_orderbook_details = await lighter.OrderApi(api_client).order_book_details(market_id=market_id)
+    res_orderbook_details = await client.order_api.order_book_details(market_id=MARKET_INDEX)
     price_market = int(res_orderbook_details.order_book_details[0].last_trade_price * 100)
     print("market_price: ", price_market)
 
-    # Sell some ETH at $2500
-    # The size of the SL/TP orders will be equal to the size of the executed order
 
-    # set SL trigger price at 5000 and limit price at 5050
-    # set TP trigger price at 1500 and limit price at 1550
-    # Note: set the limit price to be higher than the SL/TP trigger price to ensure the order will be filled
-    # If the mark price of ETH reaches 1500, there might be no one willing to sell you ETH at 1500, 
-    # so trying to buy at 1550 would increase the fill rate
 
     #price_market = 3315*100 # need to get it from the API ?
     R = 2
