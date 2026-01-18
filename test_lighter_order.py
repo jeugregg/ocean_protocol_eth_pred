@@ -1,4 +1,5 @@
 # TEST ORDER LIGHTER
+# TODO : SL not working yet
 # TODO : try a delay one hour to close the trade even if still open
 # TODO : check state of the position and orders
 
@@ -55,18 +56,39 @@ async def main():
     # Note: set the limit price to be higher than the SL/TP trigger price to ensure the order will be filled
     # If the mark price of ETH reaches 1500, there might be no one willing to sell you ETH at 1500, 
     # so trying to buy at 1550 would increase the fill rate
+    price_market = 3315*100 # need to get it from the API ?
+    R = 2
+    tp_ratio = 0.22/100 # 0.45/100
+    price_maxi = int(price_market * 1.01) # price maxi to exceute market order
+
+    price_sl_trigger = int(price_market*(1-tp_ratio/R))
+    price_tp_trigger = int(price_market*(1+tp_ratio))
+
+    price_sl_worst = int(price_market*(1-tp_ratio/R)*0.99)
+    price_tp_worst = int(price_market*(1+tp_ratio/R)*0.99)
+
+    # print
+    print("tp_ratio: ", tp_ratio)
+    print("price_maxi: ", price_maxi)
+    print("price_market: ", price_market)
+    print("price_sl_trigger: ", price_sl_trigger)
+    print("price_tp_trigger: ", price_tp_trigger)
+    print("price_sl_worst: ", price_sl_worst)
+    print("price_tp_worst: ", price_tp_worst)
+    
+
 
     ioc_order = CreateOrderTxReq(
         MarketIndex=market_id,
         ClientOrderIndex=0,
         BaseAmount=int(0.02*10000),  # 1000 = 0.1 ETH
-        Price=4000_00,  # $2500
-        IsAsk=0,  # buy
+        Price=price_maxi,  # $4000
+        IsAsk=0, # buy
         Type=client.ORDER_TYPE_MARKET,
         TimeInForce=client.ORDER_TIME_IN_FORCE_IMMEDIATE_OR_CANCEL,
         ReduceOnly=0,
         TriggerPrice=0,
-        #OrderExpiry=0,
+        OrderExpiry=0,
     )
 
     # Create a One-Cancels-the-Other grouped order with a take-profit and a stop-loss order
@@ -74,12 +96,12 @@ async def main():
         MarketIndex=market_id,
         ClientOrderIndex=0,
         BaseAmount=0,
-        Price=3350_00,
+        Price=price_tp_worst,
         IsAsk=1, # sell
         Type=client.ORDER_TYPE_TAKE_PROFIT,
         #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
         ReduceOnly=1,
-        TriggerPrice=3350_00,
+        TriggerPrice=price_tp_trigger,
         OrderExpiry=-1,
     )
 
@@ -87,12 +109,12 @@ async def main():
         MarketIndex=market_id,
         ClientOrderIndex=0,
         BaseAmount=0,
-        Price=3300_00,
-        IsAsk=1,
+        Price=price_sl_worst, # 
+        IsAsk=1, # sell
         Type=client.ORDER_TYPE_STOP_LOSS,
         #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
         ReduceOnly=1,
-        TriggerPrice=3300_00,
+        TriggerPrice=price_sl_trigger,
         OrderExpiry=-1,
     )
 
