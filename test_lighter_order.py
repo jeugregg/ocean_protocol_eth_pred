@@ -1,7 +1,9 @@
 # TEST ORDER LIGHTER
-# TODO : SL not working yet
-# TODO : try a delay one hour to close the trade even if still open
+# DONE : SL not working yet
+# DONE : get current market-price jusst before send tx (with last trade price only , not real index proce of orderbook)
 # TODO : check state of the position and orders
+# TODO : try a delay one hour to close the trade even if still open
+
 
 import os
 import time
@@ -43,10 +45,18 @@ async def main():
         account_index=ACCOUNT_INDEX,
     )
 
+    # do TX ?
+    mode_tx = False
+
     #print(MARKET_LIST)
     # get ETH futures
     market_id = [x for x in MARKET_LIST if x["symbol"]=="ETH" ][0]['market_index']
     print("market_id: ", market_id)
+
+    # get market price
+    res_orderbook_details = await lighter.OrderApi(api_client).order_book_details(market_id=market_id)
+    price_market = int(res_orderbook_details.order_book_details[0].last_trade_price * 100)
+    print("market_price: ", price_market)
 
     # Sell some ETH at $2500
     # The size of the SL/TP orders will be equal to the size of the executed order
@@ -56,7 +66,8 @@ async def main():
     # Note: set the limit price to be higher than the SL/TP trigger price to ensure the order will be filled
     # If the mark price of ETH reaches 1500, there might be no one willing to sell you ETH at 1500, 
     # so trying to buy at 1550 would increase the fill rate
-    price_market = 3315*100 # need to get it from the API ?
+
+    #price_market = 3315*100 # need to get it from the API ?
     R = 2
     tp_ratio = 0.22/100 # 0.45/100
     price_maxi = int(price_market * 1.01) # price maxi to exceute market order
@@ -118,12 +129,14 @@ async def main():
         OrderExpiry=-1,
     )
 
-    tx = await client.create_grouped_orders(
-        grouping_type=client.GROUPING_TYPE_ONE_TRIGGERS_A_ONE_CANCELS_THE_OTHER,
-        orders=[ioc_order, take_profit_order, stop_loss_order],
-    )
-    
-    print("Create Grouped Order Tx:", tx)
+    if mode_tx:
+
+        tx = await client.create_grouped_orders(
+            grouping_type=client.GROUPING_TYPE_ONE_TRIGGERS_A_ONE_CANCELS_THE_OTHER,
+            orders=[ioc_order, take_profit_order, stop_loss_order],
+        )
+        
+        print("Create Grouped Order Tx:", tx)
 
     # tx, tx_hash, err = await client.create_market_order(
     #     market_index=market_id,
