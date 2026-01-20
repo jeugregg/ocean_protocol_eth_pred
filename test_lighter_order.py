@@ -19,6 +19,7 @@
 # DONE : get current market-price just before send tx (with last trade price only , not real index proce of orderbook)
 # DONE : check state of the position and orders
 # DONE : try a delay one hour to close the trade even if still open
+# TODO : fix issue with ioc SL/TP order group with Expirity
 
 import os
 import time
@@ -82,7 +83,7 @@ async def main():
         # check if time since open > 1h
         timestamp_now = time.time()
         time_since_open = timestamp_now - timestamp_open
-        mode_close = time_since_open >=  60*60   # 1h
+        mode_close = time_since_open >= 60*60   # 1h
         print("mode_close: ", mode_close)
 
         if mode_close:
@@ -98,7 +99,7 @@ async def main():
     print("mode_tx: ", mode_tx)
 
     # TEST
-    mode_tx = True
+    #mode_tx = True
 
     #print(MARKET_LIST)
     # get ETH futures
