@@ -42,25 +42,26 @@ ACCOUNT_INDEX = int(os.getenv("LIGHTER_ACCOUNT_INDEX"))
 PRIVATE_KEY = os.getenv("LIGHTER_API_KEY")
 API_KEY_INDEX = int(os.getenv("LIGHTER_API_KEY_INDEX"))
 MARKET_INDEX = 0 # ETH futures ?
-
-
 url = "https://explorer.elliot.ai/api/markets"
-
 headers = {"accept": "application/json"}
-
 response = requests.get(url, headers=headers)
-
 MARKET_LIST = json.loads(response.text)
 
+
+
 async def main():
-    mode_open = True # by default we want to open long position
+    # trading param
+    R = 2
+    tp_ratio = 0.45/100 # 0.45/100
+    slippage = 0.01
+    mode_open = True # by default we try to open long position (here the signal come from trading bot)
 
     client = lighter.SignerClient(  
         url=BASE_URL,  
         api_private_keys={API_KEY_INDEX:PRIVATE_KEY},  
         account_index=ACCOUNT_INDEX,
     )
-    #api_client = lighter.ApiClient(configuration=lighter.Configuration(host=BASE_URL))
+
     api_client = client.api_client
     # get state of order if exists
     # check if there is an open position
@@ -74,6 +75,9 @@ async def main():
 
     state_open_pos = position_curr != 0
     print("state_open_pos: ", state_open_pos)
+    if state_open_pos:
+        print("Existing Position!")
+
 
     mode_close = False
     # do TX ?
@@ -90,8 +94,10 @@ async def main():
             # close position
             mode_tx = True
             mode_open = False
+            print("Time opened > 1h => Position need to be closed")
         else:
             mode_tx = False
+            print(f"Wait {60-time_since_open/60:.2f} min to close position")
                     
     else:
         mode_tx = True
@@ -114,24 +120,21 @@ async def main():
 
     if mode_open:
         #price_market = 3315*100 # need to get it from the API ?
-        R = 2
-        tp_ratio = 0.45/100 # 0.45/100
-        price_maxi = int(price_market * 1.01) # price maxi to exceute market order
 
-        price_sl_trigger = int(price_market*(1-tp_ratio/R))
-        price_tp_trigger = int(price_market*(1+tp_ratio))
+        price_maxi = int(price_market * (1+slippage)) # price maxi to execute market order
 
-        price_sl_worst = int(price_market*(1-tp_ratio/R)*0.99)
-        price_tp_worst = int(price_market*(1+tp_ratio/R)*0.99)
+        price_tp_trigger = int(price_market*(1+tp_ratio)) # limit trigger price
+        price_tp_worst = int(price_tp_trigger*(1-slippage)) # worst price to really execute
+
+        price_sl_trigger = int(price_market*(1-tp_ratio/R)) # limit trigger price
+        price_sl_worst = int(price_sl_trigger*(1-slippage)) # worst price to really execute
 
         # print
-        print("tp_ratio: ", tp_ratio)
-        print("price_maxi: ", price_maxi)
-        print("price_market: ", price_market)
-        print("price_sl_trigger: ", price_sl_trigger)
-        print("price_tp_trigger: ", price_tp_trigger)
-        print("price_sl_worst: ", price_sl_worst)
-        print("price_tp_worst: ", price_tp_worst)
+
+        print(f"Potential open order : tp_ratio:{tp_ratio*100:.2f}% / R={R}, slippage={slippage*100}%")
+        print("Long price_maxi: ", price_maxi)
+        print(f"TP: Trigger if P > {price_tp_trigger} & executed if > {price_tp_worst}")
+        print(f"SL: Trigger if P < {price_sl_trigger} & executed if > {price_sl_worst}")
 
         # Create a One-Cancels-the-Other grouped order
         ioc_order = CreateOrderTxReq(
@@ -140,7 +143,7 @@ async def main():
             BaseAmount=int(0.02*10000),  # 10000 = 1 ETH
             Price=price_maxi,  # market price + 1%
             IsAsk=0, # buy
-            Type=client.ORDER_TYPE_MARKET,
+            Type=client.ORDER_TYPE_LIMIT,
             TimeInForce=client.ORDER_TIME_IN_FORCE_IMMEDIATE_OR_CANCEL,
             ReduceOnly=0,
             TriggerPrice=0,
@@ -154,8 +157,8 @@ async def main():
             BaseAmount=0,
             Price=price_tp_worst,
             IsAsk=1, # sell
-            Type=client.ORDER_TYPE_TAKE_PROFIT,
-            #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
+            Type=client.ORDER_TYPE_TAKE_PROFIT_LIMIT,
+            TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
             ReduceOnly=1,
             TriggerPrice=price_tp_trigger,
             OrderExpiry=-1,
@@ -167,20 +170,19 @@ async def main():
             BaseAmount=0,
             Price=price_sl_worst, # 
             IsAsk=1, # sell
-            Type=client.ORDER_TYPE_STOP_LOSS,
-            #TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
+            Type=client.ORDER_TYPE_STOP_LOSS_LIMIT,
+            TimeInForce=client.ORDER_TIME_IN_FORCE_GOOD_TILL_TIME,
             ReduceOnly=1,
             TriggerPrice=price_sl_trigger,
             OrderExpiry=-1,
         )
 
         if mode_tx:
-
+            print("Create Grouped Order")
             tx, tx_hash, err = await client.create_grouped_orders(
                 grouping_type=client.GROUPING_TYPE_ONE_TRIGGERS_A_ONE_CANCELS_THE_OTHER,
                 orders=[ioc_order, take_profit_order, stop_loss_order],
             )
-            print("Create Grouped Order")
             print("tx: ", tx)
             print("tx_hash: ", tx_hash)
             print("err: ", err)
