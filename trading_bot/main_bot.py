@@ -203,6 +203,47 @@ async def run_from_bot_state():
         await client.close()
 
 
+async def run_sync_only():
+    ensure_state_files()
+
+    client, api_client = build_client()
+
+    try:
+        sync = await sync_lighter_state(api_client)
+
+        trading_state, bot_state = load_states()
+        open_order = get_open_logical_order(trading_state, bot_state)
+
+        return {
+            "ok": True,
+            "reason": "sync_only",
+            "sync": sync,
+            "open_order": {
+                "id": open_order.get("id"),
+                "status": open_order.get("status"),
+                "symbol": open_order.get("symbol"),
+                "side": open_order.get("side"),
+                "price": open_order.get("price"),
+                "size": open_order.get("size"),
+                "tp1": open_order.get("tp1"),
+                "tp2": open_order.get("tp2"),
+                "sl": open_order.get("sl"),
+            } if open_order else None,
+            "current_position": bot_state.get("current_position"),
+            "pending_order": bot_state.get("pending_order"),
+        }
+
+    except Exception as e:
+        return {
+            "ok": False,
+            "reason": "sync_error",
+            "message": str(e),
+        }
+
+    finally:
+        await api_client.close()
+        await client.close()
+
 if __name__ == "__main__":
     result = asyncio.run(run_from_bot_state())
     print(result)
