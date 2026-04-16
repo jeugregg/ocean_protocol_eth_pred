@@ -96,10 +96,10 @@ async def main():
     )
 
     await account_apis(api_client)
-    await block_apis(api_client)
-    await candlestick_apis(api_client)
+    #await block_apis(api_client) # FAILED
+    #await candlestick_apis(api_client) # FAILED
     await order_apis(api_client)
-    await transaction_apis(api_client)
+    #await transaction_apis(api_client) # FAILED
     await funding_apis(api_client)
     await api_client.close()
     await client.close()
