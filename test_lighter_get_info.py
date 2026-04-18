@@ -30,6 +30,10 @@ async def account_apis(client: lighter.ApiClient):
     await print_api(account_instance.apikeys, account_index=ACCOUNT_INDEX, api_key_index=API_KEY_INDEX)
     #await print_api(account_instance.public_pools, filter="all", limit=1, index=0)
 
+    account_info = await account_instance.account(by="index", value=str(ACCOUNT_INDEX))
+    account_obj = account_info.accounts[0]
+    print(account_obj)
+
 
 async def block_apis(client: lighter.ApiClient):
     logging.info("BLOCK APIS")
@@ -101,6 +105,31 @@ async def main():
     await order_apis(api_client)
     #await transaction_apis(api_client) # FAILED
     await funding_apis(api_client)
+
+
+    auth_token, err = client.create_auth_token_with_expiry()
+    if err:
+        raise Exception(f"Auth token failed: {err}")
+    resp = await client.order_api.account_active_orders(
+        account_index=ACCOUNT_INDEX,
+        auth=auth_token,
+        market_id=0,
+    )
+    print(" ")
+    print("-----------------")
+    print("\n ACTIVE ORDERS:")
+
+    print(resp)
+    resp = await client.order_api.account_inactive_orders(
+        account_index=ACCOUNT_INDEX,
+        auth=auth_token,
+        market_id=0,
+        limit=3,
+    )
+    print("-----------------")
+    print("\n INACTIVE ORDERS:")
+    print(resp)
+
     await api_client.close()
     await client.close()
 

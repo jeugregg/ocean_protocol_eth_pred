@@ -18,13 +18,14 @@ DEFAULT_TRADE_SIZE = 0.02
 DEFAULT_TIMEOUT_MINUTES = 60
 
 
-async def run_trade_request(trade_request: dict):
+async def run_trade_request(trade_request: dict, client=None, api_client=None, order_api=None, auth_token=None):
     ensure_state_files()
 
-    client, api_client = build_client()
+    if client is None:
+        client, api_client, order_api, auth_token = build_client()
 
     try:
-        sync_before = await sync_lighter_state(api_client)
+        sync_before = await sync_lighter_state(order_api, auth_token)
         print("SYNC BEFORE:", sync_before)
 
         trading_state, bot_state = load_states()
@@ -64,6 +65,8 @@ async def run_trade_request(trade_request: dict):
         result = await place_trade_on_lighter(
             client=client,
             api_client=api_client,
+            order_api=order_api,
+            auth_token=auth_token,
             symbol=symbol,
             side=side,
             entry_price=entry_price,
@@ -78,7 +81,7 @@ async def run_trade_request(trade_request: dict):
         )
         print("PLACE RESULT:", result)
 
-        sync_after = await sync_lighter_state(api_client)
+        sync_after = await sync_lighter_state(order_api, auth_token)
         print("SYNC AFTER:", sync_after)
 
         return {
@@ -104,10 +107,10 @@ async def run_from_bot_state():
     ensure_state_files()
     trading_state, bot_state = load_states()
 
-    client, api_client = build_client()
+    client, api_client, order_api, auth_token = build_client()
 
     try:
-        sync_before = await sync_lighter_state(api_client)
+        sync_before = await sync_lighter_state(order_api, auth_token)
         print("SYNC BEFORE:", sync_before)
 
         trading_state, bot_state = load_states()
@@ -128,7 +131,7 @@ async def run_from_bot_state():
                         size=current_pos["size"],
                         worst_slippage=0.02,
                     )
-                    sync_after_close = await sync_lighter_state(api_client)
+                    sync_after_close = await sync_lighter_state(order_api, auth_token)
                     print("SYNC AFTER CLOSE:", sync_after_close)
                     return {
                         "ok": True,
@@ -179,7 +182,7 @@ async def run_from_bot_state():
         )
         print("PLACE RESULT:", result)
 
-        sync_after = await sync_lighter_state(api_client)
+        sync_after = await sync_lighter_state(order_api, auth_token)
         print("SYNC AFTER:", sync_after)
 
         return {
@@ -206,10 +209,13 @@ async def run_from_bot_state():
 async def run_sync_only():
     ensure_state_files()
 
-    client, api_client = build_client()
+    client = None
+    api_client = None
 
     try:
-        sync = await sync_lighter_state(api_client)
+        client, api_client, order_api, auth_token = build_client()
+
+        sync = await sync_lighter_state(order_api, auth_token)
 
         trading_state, bot_state = load_states()
         open_order = get_open_logical_order(trading_state, bot_state)
@@ -228,6 +234,9 @@ async def run_sync_only():
                 "tp1": open_order.get("tp1"),
                 "tp2": open_order.get("tp2"),
                 "sl": open_order.get("sl"),
+                "close_reason": open_order.get("close_reason"),
+                "pnl": open_order.get("pnl"),
+                "exit_price": open_order.get("exit_price"),
             } if open_order else None,
             "current_position": bot_state.get("current_position"),
             "pending_order": bot_state.get("pending_order"),
@@ -241,8 +250,11 @@ async def run_sync_only():
         }
 
     finally:
-        await api_client.close()
-        await client.close()
+        if api_client is not None:
+            await api_client.close()
+        if client is not None:
+            await client.close()
+
 
 if __name__ == "__main__":
     result = asyncio.run(run_from_bot_state())

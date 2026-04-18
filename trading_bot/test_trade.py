@@ -20,12 +20,12 @@ async def main():
     size = total_base_amount / 10000.0
     side = "LONG" if mode_long else "SHORT"
 
-    client, api_client = build_client()
+    client, api_client, order_api, auth_token = build_client()
 
     try:
-        market_id = get_market_id(symbol)
+        market_id = await get_market_id(order_api, symbol)
 
-        res_ob = await client.order_api.order_book_details(market_id=market_id)
+        res_ob = await order_api.order_book_details(market_id=market_id)
         last_trade_price = float(res_ob.order_book_details[0].last_trade_price)
 
         entry_price = last_trade_price
@@ -59,7 +59,7 @@ async def main():
         print("Config helper use_same_entry_price_for_both:", use_same_entry_price_for_both)
 
         try:
-            result = await run_trade_request(trade_request)
+            result = await run_trade_request(trade_request, client, api_client, order_api, auth_token)
             print("\n==== RUN TRADE RESULT ====")
             print(json.dumps(result, indent=2, ensure_ascii=False, default=str))
 
@@ -75,7 +75,7 @@ async def main():
         print("\n==== POST-SEND SYNC LOOP ====")
         for i in range(1, 6):
             await asyncio.sleep(2.0)
-            sync = await sync_lighter_state(api_client)
+            sync = await sync_lighter_state(order_api, auth_token)
             print(f"[SYNC {i}] {json.dumps(sync, indent=2, ensure_ascii=False, default=str)}")
 
             current_position = sync.get("current_position")
