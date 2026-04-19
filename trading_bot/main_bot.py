@@ -18,11 +18,8 @@ DEFAULT_TRADE_SIZE = 0.02
 DEFAULT_TIMEOUT_MINUTES = 60
 
 
-async def run_trade_request(trade_request: dict, client=None, api_client=None, order_api=None, auth_token=None):
+async def run_trade_request(trade_request: dict, client, api_client, order_api, auth_token):
     ensure_state_files()
-
-    if client is None:
-        client, api_client, order_api, auth_token = build_client()
 
     try:
         sync_before = await sync_lighter_state(order_api, auth_token)
@@ -97,10 +94,6 @@ async def run_trade_request(trade_request: dict, client=None, api_client=None, o
             "reason": "execution_error",
             "message": str(e),
         }
-
-    finally:
-        await api_client.close()
-        await client.close()
 
 
 async def run_from_bot_state():
