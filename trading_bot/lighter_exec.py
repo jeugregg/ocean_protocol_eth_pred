@@ -488,47 +488,31 @@ def _price_near_any(price, prices, rel_tol=0.003):
 
 
 def _is_entry_trade(order, tr):
-    price = tr["price"]
-    if price is None:
-        return False
+    side = str(order["side"]).upper()
+    hint = tr.get("action_hint")
 
-    if str(order["side"]).upper() == "LONG":
-        if _trade_is_buy(tr) is True:
-            return True
-        if _trade_is_sell(tr) is True:
-            return False
-    else:
-        if _trade_is_sell(tr) is True:
-            return True
-        if _trade_is_buy(tr) is True:
-            return False
-
-    return approx_equal(price, order["price"], rel_tol=0.004)
+    if side == "LONG":
+        return hint == "OPEN_LONG_OR_ADD_LONG"
+    if side == "SHORT":
+        return hint == "OPEN_SHORT_OR_ADD_SHORT"
+    return False
 
 
 def _is_exit_trade(order, tr):
-    price = tr["price"]
-    if price is None:
-        return False
+    side = str(order["side"]).upper()
+    hint = tr.get("action_hint")
 
-    if str(order["side"]).upper() == "LONG":
-        if _trade_is_sell(tr) is True:
-            return True
-        if _trade_is_buy(tr) is True:
-            return False
-    else:
-        if _trade_is_buy(tr) is True:
-            return True
-        if _trade_is_sell(tr) is True:
-            return False
-
-    return _price_near_any(price, [order["tp1"], order["tp2"], order["sl"]], rel_tol=0.004)
+    if side == "LONG":
+        return hint == "CLOSE_LONG_OR_REDUCE_LONG"
+    if side == "SHORT":
+        return hint == "CLOSE_SHORT_OR_REDUCE_SHORT"
+    return False
 
 
 def _compute_trade_progress(order, trades):
     created_at = float(order.get("created_at") or 0.0)
     parsed = [_parse_trade_row(t) for t in trades]
-    parsed = [t for t in parsed if t["timestamp"] is None or (t["timestamp"] / 1000) >= (created_at - 10)]
+    parsed = [t for t in parsed if t["timestamp"] is None or (t["timestamp"] >= (created_at - 10))]
     parsed.sort(key=lambda x: (x["timestamp"] or 0))
 
     entry_fills = [t for t in parsed if _is_entry_trade(order, t)]
@@ -760,7 +744,7 @@ async def sync_lighter_state(order_api=None, auth_token=None, account_index=ACCO
         limit=100,
         sort_by="timestamp",
         sort_dir="desc",
-        since_ms=since_ms,
+        since_ms=None,
     )
 
     progress = _compute_trade_progress(order, trades)
