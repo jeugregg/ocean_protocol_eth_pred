@@ -637,9 +637,9 @@ def _classify_close(order, progress, inactive_orders):
 
     child_hits = _inactive_child_hits(order, inactive_orders)
 
-    saw_tp1_trade = any(approx_equal(t["price"], order["tp1"], rel_tol=0.004) for t in exit_fills if t["price"] is not None)
-    saw_tp2_trade = any(approx_equal(t["price"], order["tp2"], rel_tol=0.004) for t in exit_fills if t["price"] is not None)
-    saw_sl_trade = any(approx_equal(t["price"], order["sl"], rel_tol=0.004) for t in exit_fills if t["price"] is not None)
+    saw_tp1_trade = any(approx_equal(t["price"], order["tp1"], rel_tol=0.002) for t in exit_fills if t["price"] is not None)
+    saw_tp2_trade = any(approx_equal(t["price"], order["tp2"], rel_tol=0.002) for t in exit_fills if t["price"] is not None)
+    saw_sl_trade = any(approx_equal(t["price"], order["sl"], rel_tol=0.002) for t in exit_fills if t["price"] is not None)
 
     tp1_hit = child_hits["tp1_hit"] or saw_tp1_trade
     tp2_hit = child_hits["tp2_hit"] or saw_tp2_trade
