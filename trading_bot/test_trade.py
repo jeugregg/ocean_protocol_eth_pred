@@ -2,20 +2,21 @@ import asyncio
 import json
 
 from main_bot import run_trade_request
-from lighter_exec import build_client, get_market_id, sync_lighter_state
+from lighter_exec import build_client, get_market_id
 
 
 async def main():
-    # ===== PARAMS AUTO =====
+    # ===== PARAMS =====
     symbol = "ETH"
     mode_long = True
-    total_base_amount = int(0.02 * 10000)   # 0.02 ETH si BASE_SCALE = 10000
-    tp_ratio_1 = 0.25 / 100                 # +0.25%
-    tp_ratio_2 = 0.45 / 100                 # +0.45%
-    R = 2                                   # SL = TP2 / R
-    slippage = 0.01                         # 1%
+    total_base_amount = int(0.02 * 10000)  # 0.02 ETH si BASE_SCALE = 10000
+    tp_ratio_1 = 0.25 / 100  # +0.25%
+    tp_ratio_2 = 0.45 / 100  # +0.45%
+    R = 2  # SL = TP2 / R
+    slippage = 0.01  # 1%
     use_same_entry_price_for_both = True
     timeout_minutes = 60
+    # ==================
 
     size = total_base_amount / 10000.0
     side = "LONG" if mode_long else "SHORT"
@@ -53,39 +54,27 @@ async def main():
             "exit_slippage": slippage,
         }
 
-        print("==== AUTO TRADE REQUEST ====")
+        print("==== TRADE REQUEST ====")
         for k, v in trade_request.items():
             print(f"{k}: {v}")
         print("Config helper use_same_entry_price_for_both:", use_same_entry_price_for_both)
 
-        try:
-            result = await run_trade_request(trade_request, client, api_client, order_api, auth_token)
-            print("\n==== RUN TRADE RESULT ====")
-            print(json.dumps(result, indent=2, ensure_ascii=False, default=str))
+        result = await run_trade_request(trade_request, client, api_client, order_api, auth_token)
+        print("\n==== TRADE RESULT ====")
+        print(json.dumps(result, indent=2, ensure_ascii=False, default=str))
 
-            if not result.get("ok"):
-                print("\nTrade refusé proprement.")
-                return
-
-        except Exception as e:
-            print(f"\nErreur d'exécution: {e}")
+        if not result.get("ok"):
+            print("\nTrade refused.")
             return
 
-        # Polling sync après envoi
-        print("\n==== POST-SEND SYNC LOOP ====")
-        for i in range(1, 6):
-            await asyncio.sleep(2.0)
-            sync = await sync_lighter_state(order_api, auth_token)
-            print(f"[SYNC {i}] {json.dumps(sync, indent=2, ensure_ascii=False, default=str)}")
+        if result.get("position_open"):
+            print("\nPosition opened successfully.")
+        else:
+            print("\nWarning: Position may not be confirmed.")
 
-            current_position = sync.get("current_position")
-            if current_position:
-                print(f"[SYNC {i}] Position détectée, arrêt du polling.")
-                break
-
-            if sync.get("pending_order") is None:
-                print(f"[SYNC {i}] Plus d'ordre pending, arrêt du polling.")
-                break
+    except Exception as e:
+        print(f"\nExecution error: {e}")
+        return
 
     finally:
         await api_client.close()

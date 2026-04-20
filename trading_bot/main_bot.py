@@ -20,15 +20,21 @@ DEFAULT_TIMEOUT_MINUTES = 60
 
 
 async def run_trade_request(trade_request: dict, client, api_client, order_api, auth_token):
+    """Open a new trade with pre/post sync verification and polling.
+
+    Args:
+        trade_request: Dict with trade parameters (symbol, side, entry_price, tp1, tp2, sl, etc.)
+    """
     ensure_state_files()
+    trading_state, bot_state = load_states()
 
     try:
+        # Pre-trade sync
         sync_before = await sync_lighter_state(order_api, auth_token)
         print("SYNC BEFORE:", sync_before)
 
-        trading_state, bot_state = load_states()
+        # Check for existing open order
         open_order = get_open_logical_order(trading_state, bot_state)
-
         if open_order:
             return {
                 "ok": False,
@@ -48,6 +54,17 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
                 "sync_before": sync_before,
             }
 
+        # Check for existing position
+        current_position = sync_before.get("current_position") or bot_state.get("current_position")
+        if current_position:
+            return {
+                "ok": False,
+                "reason": "position_already_open",
+                "message": "Position already open, close it first.",
+                "current_position": current_position,
+                "sync_before": sync_before,
+            }
+
         symbol = trade_request["symbol"]
         side = trade_request["side"].upper()
         entry_price = float(trade_request["entry_price"])
@@ -60,6 +77,7 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
         entry_slippage = float(trade_request.get("entry_slippage", 0.0))
         exit_slippage = float(trade_request.get("exit_slippage", 0.01))
 
+        # Place the trade
         result = await place_trade_on_lighter(
             client=client,
             api_client=api_client,
@@ -79,14 +97,29 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
         )
         print("PLACE RESULT:", result)
 
-        sync_after = await sync_lighter_state(order_api, auth_token)
-        print("SYNC AFTER:", sync_after)
+        # Post-trade sync/polling
+        print("\n==== POST-TRADE SYNC LOOP ====")
+        sync_after = None
+        for i in range(1, 6):
+            await asyncio.sleep(2.0)
+            sync_after = await sync_lighter_state(order_api, auth_token)
+            print(f"[SYNC {i}] {json.dumps(sync_after, indent=2, ensure_ascii=False, default=str)}")
+
+            current_position = sync_after.get("current_position")
+            if current_position:
+                print(f"[SYNC {i}] Position detected, stopping polling.")
+                break
+
+            if sync_after.get("pending_order") is None:
+                print(f"[SYNC {i}] No pending order, stopping polling.")
+                break
 
         return {
             "ok": True,
             "reason": "trade_sent",
             "result": result,
             "sync_after": sync_after,
+            "position_open": bool(sync_after and sync_after.get("current_position")),
         }
 
     except Exception as e:
