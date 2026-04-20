@@ -1,4 +1,5 @@
 import asyncio
+import json
 
 from state_manager import (
     ensure_state_files,
@@ -86,6 +87,72 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
             "reason": "trade_sent",
             "result": result,
             "sync_after": sync_after,
+        }
+
+    except Exception as e:
+        return {
+            "ok": False,
+            "reason": "execution_error",
+            "message": str(e),
+        }
+
+
+async def run_close_trade_request(trade_request: dict, client, api_client, order_api, auth_token):
+    """Close an open position with pre/post sync verification."""
+    ensure_state_files()
+
+    try:
+        # Pre-close sync
+        sync_before = await sync_lighter_state(order_api, auth_token)
+        print("SYNC BEFORE CLOSE:", sync_before)
+
+        current_position = sync_before.get("current_position")
+        if not current_position:
+            return {
+                "ok": False,
+                "reason": "no_position",
+                "message": "No open position detected.",
+                "sync_before": sync_before,
+            }
+
+        symbol = trade_request.get("symbol", "ETH")  # e.g., "ETH" or "ETHUSDT"
+        side = trade_request.get("side")  # "LONG" or "SHORT"
+        size_base = float(trade_request.get("size", current_position.get("size", 0.02)))
+        worst_slippage = float(trade_request.get("worst_slippage", 0.02))
+
+        # Send close market order
+        result = await close_position_market(
+            client=client,
+            api_client=api_client,
+            symbol=symbol,
+            side=side,
+            size=size_base,
+            worst_slippage=worst_slippage,
+        )
+        print("CLOSE POSITION SENT:", result)
+
+        # Post-close sync/polling
+        print("\n==== POST-CLOSE SYNC LOOP ====")
+        for i in range(1, 6):
+            await asyncio.sleep(2.0)
+            sync_after = await sync_lighter_state(order_api, auth_token)
+            print(f"[SYNC {i}] {json.dumps(sync_after, indent=2, ensure_ascii=False, default=str)}")
+
+            current_position = sync_after.get("current_position")
+            if not current_position:
+                print(f"[SYNC {i}] Position closed successfully, stopping polling.")
+                break
+
+            if sync_after.get("pending_order") is None:
+                print(f"[SYNC {i}] No pending orders, stopping polling.")
+                break
+
+        return {
+            "ok": True,
+            "reason": "close_sent",
+            "result": result,
+            "sync_after": sync_after,
+            "position_closed": not current_position,
         }
 
     except Exception as e:
