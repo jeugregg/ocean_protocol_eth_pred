@@ -237,7 +237,7 @@ async def get_market_id(order_api, symbol):
 
 async def fetch_market_meta(order_api, market_id=None, symbol=None):
     if market_id is not None:
-        resp = await order_api.order_book_details(marketid=int(market_id))
+        resp = await order_api.order_book_details(market_id=int(market_id))
     else:
         resp = await order_api.order_book_details(filter=normalize_symbol(symbol))
     return _to_plain(resp)
@@ -1119,7 +1119,7 @@ async def close_position_market(client, api_client, symbol, side, size, worst_sl
     order_api = lighter.OrderApi(api_client)
     market_id = await get_market_id(order_api, symbol)
 
-    ob = await order_api.order_book_details(marketid=market_id)
+    ob = await order_api.order_book_details(market_id=market_id)
     rows = _extract_list(ob, ["order_book_details", "orderBookDetails", "data", "items"])
     row = rows[0] if rows else _to_plain(ob)
 
