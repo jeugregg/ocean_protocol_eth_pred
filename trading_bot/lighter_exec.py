@@ -58,7 +58,7 @@ def now_ms():
     return int(time.time() * 1000)
 
 
-def approx_equal(a, b, rel_tol=0.003, abs_tol=1e-12):
+def approx_equal(a, b, rel_tol=0.002, abs_tol=1e-12):
     try:
         return math.isclose(float(a), float(b), rel_tol=rel_tol, abs_tol=abs_tol)
     except Exception:
@@ -483,7 +483,7 @@ def _trade_is_sell(tr):
     return bool(tr["is_ask"])
 
 
-def _price_near_any(price, prices, rel_tol=0.003):
+def _price_near_any(price, prices, rel_tol=0.002):
     return any(p is not None and price is not None and approx_equal(price, p, rel_tol=rel_tol) for p in prices)
 
 
@@ -561,20 +561,20 @@ def _classify_active_orders(order, active_orders):
         trigger = row["trigger_price"]
         matched = False
 
-        if not reduce_only and price is not None and approx_equal(price, entry, rel_tol=0.004):
+        if not reduce_only and price is not None and approx_equal(price, entry, rel_tol=0.002):
             result["entry"].append(row)
             matched = True
 
         if reduce_only:
             check_val = trigger if trigger is not None else price
             if check_val is not None:
-                if approx_equal(check_val, tp1, rel_tol=0.004):
+                if approx_equal(check_val, tp1, rel_tol=0.002):
                     result["tp1"].append(row)
                     matched = True
-                elif approx_equal(check_val, tp2, rel_tol=0.004):
+                elif approx_equal(check_val, tp2, rel_tol=0.002):
                     result["tp2"].append(row)
                     matched = True
-                elif approx_equal(check_val, sl, rel_tol=0.004):
+                elif approx_equal(check_val, sl, rel_tol=0.002):
                     result["sl"].append(row)
                     matched = True
 
@@ -615,13 +615,13 @@ def _inactive_child_hits(order, inactive_orders):
         if not executed:
             continue
 
-        if approx_equal(check_val, tp1, rel_tol=0.004):
+        if approx_equal(check_val, tp1, rel_tol=0.002):
             out["tp1_hit"] = True
             out["matched_rows"].append(row)
-        elif approx_equal(check_val, tp2, rel_tol=0.004):
+        elif approx_equal(check_val, tp2, rel_tol=0.002):
             out["tp2_hit"] = True
             out["matched_rows"].append(row)
-        elif approx_equal(check_val, sl, rel_tol=0.004):
+        elif approx_equal(check_val, sl, rel_tol=0.002):
             out["sl_hit"] = True
             out["matched_rows"].append(row)
 
@@ -754,7 +754,9 @@ async def sync_lighter_state(order_api=None, auth_token=None, account_index=ACCO
     entry_qty = progress["entry_qty"]
     open_qty = progress["open_qty"]
     expected_qty = float(order["size"])
-    half_qty = expected_qty * 0.5
+    # Use rep_tp1 from order if available, default to 0.5
+    rep_tp1 = float(order.get("rep_tp1", 0.5))
+    qty_1_threshold = expected_qty * rep_tp1
 
     order.setdefault("exchange", {})
     order["exchange"]["broker"] = "lighter"
@@ -797,7 +799,7 @@ async def sync_lighter_state(order_api=None, auth_token=None, account_index=ACCO
     elif open_qty > EPS:
         if open_qty >= expected_qty * 0.90:
             new_status = "open"
-        elif open_qty <= half_qty * 1.20:
+        elif open_qty <= qty_1_threshold * 1.20:
             new_status = "tp1_hit"
         else:
             new_status = "partially_open"
@@ -884,6 +886,7 @@ async def place_trade_on_lighter(
     order_type="limit",
     entry_slippage=0.0,
     exit_slippage=0.01,
+    rep_tp1=0.5,
 ):
     #order_api = lighter.OrderApi(api_client)
 
@@ -904,7 +907,9 @@ async def place_trade_on_lighter(
     exit_is_ask = 1 if is_long else 0
 
     total_size_int = qty_to_int(size)
-    qty_1 = total_size_int // 2
+    # rep_tp1: portion of position closed at TP1 (0 to 1)
+    rep_tp1 = max(0.0, min(1.0, float(rep_tp1)))
+    qty_1 = int(total_size_int * rep_tp1)
     qty_2 = total_size_int - qty_1
 
     if order_type.lower() != "limit":

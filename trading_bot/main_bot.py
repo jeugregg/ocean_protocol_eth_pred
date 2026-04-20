@@ -76,6 +76,7 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
         order_type = trade_request.get("order_type", "limit")
         entry_slippage = float(trade_request.get("entry_slippage", 0.0))
         exit_slippage = float(trade_request.get("exit_slippage", 0.01))
+        rep_tp1 = float(trade_request.get("rep_tp1", 0.5))
 
         # Place the trade
         result = await place_trade_on_lighter(
@@ -94,6 +95,7 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
             order_type=order_type,
             entry_slippage=entry_slippage,
             exit_slippage=exit_slippage,
+            rep_tp1=rep_tp1,
         )
         print("PLACE RESULT:", result)
 
@@ -272,6 +274,8 @@ async def run_from_bot_state():
         result = await place_trade_on_lighter(
             client=client,
             api_client=api_client,
+            order_api=order_api,
+            auth_token=auth_token,
             symbol=signal["symbol"],
             side=signal["side"],
             entry_price=signal["entry_price"],
@@ -283,6 +287,7 @@ async def run_from_bot_state():
             order_type="limit",
             entry_slippage=0.0,
             exit_slippage=0.01,
+            rep_tp1=signal.get("rep_tp1", 0.5),
         )
         print("PLACE RESULT:", result)
 
