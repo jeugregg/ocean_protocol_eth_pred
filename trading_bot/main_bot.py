@@ -98,8 +98,14 @@ async def run_trade_request(trade_request: dict, client, api_client, order_api, 
 
 
 async def run_close_trade_request(trade_request: dict, client, api_client, order_api, auth_token):
-    """Close an open position with pre/post sync verification."""
+    """Close an open position with pre/post sync verification.
+
+    Args:
+        trade_request: Optional dict with overrides (symbol, worst_slippage).
+                       If empty, auto-detects from current position.
+    """
     ensure_state_files()
+    trading_state, bot_state = load_states()
 
     try:
         # Pre-close sync
@@ -108,6 +114,10 @@ async def run_close_trade_request(trade_request: dict, client, api_client, order
 
         current_position = sync_before.get("current_position")
         if not current_position:
+            # Check bot_state as fallback
+            current_position = bot_state.get("current_position")
+
+        if not current_position:
             return {
                 "ok": False,
                 "reason": "no_position",
@@ -115,9 +125,10 @@ async def run_close_trade_request(trade_request: dict, client, api_client, order
                 "sync_before": sync_before,
             }
 
-        symbol = trade_request.get("symbol", "ETH")  # e.g., "ETH" or "ETHUSDT"
-        side = trade_request.get("side")  # "LONG" or "SHORT"
-        size_base = float(trade_request.get("size", current_position.get("size", 0.02)))
+        # Auto-detect from current position
+        symbol = trade_request.get("symbol", current_position.get("symbol", "ETH"))
+        side = current_position.get("side", "LONG")
+        size_base = float(current_position.get("size", 0.02))
         worst_slippage = float(trade_request.get("worst_slippage", 0.02))
 
         # Send close market order

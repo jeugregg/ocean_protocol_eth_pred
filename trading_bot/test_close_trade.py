@@ -1,36 +1,21 @@
 import asyncio
 import json
 
-from main_bot import run_close_trade_request, get_open_logical_order
-from lighter_exec import build_client, load_states
+from main_bot import run_close_trade_request
+from lighter_exec import build_client
 
 
 async def close_trade():
-    # ===== PARAMS =====
-    symbol = "ETH"
-    # ==================
-
-    trading_state, bot_state = load_states()
-    order = get_open_logical_order(trading_state, bot_state)
-
-    if not order:
-        print("No open trade to close.")
-        return
-
-    client, api_client, order_api, auth_token = build_client()
-
-    side = order["side"]
-    size = order["filled_base_amount"]
-
+    """Close any open position automatically."""
+    # Optional: override slippage if needed
     trade_request = {
-        "symbol": symbol,
-        "side": side,
-        "size": size,
-        "worst_slippage": 0.02,
+        "worst_slippage": 0.02,  # Override if needed
     }
 
-    print("==== CLOSE TRADE REQUEST ====")
-    print(json.dumps(trade_request, indent=2))
+    print("==== AUTO CLOSE TRADE ====")
+    print("Detecting and closing any open position...")
+
+    client, api_client, order_api, auth_token = build_client()
 
     try:
         result = await run_close_trade_request(
@@ -40,8 +25,13 @@ async def close_trade():
         print(json.dumps(result, indent=2, ensure_ascii=False, default=str))
 
         if not result.get("ok"):
-            print("\nClose refused.")
+            print("\nClose operation failed or no position to close.")
             return
+
+        if result.get("position_closed"):
+            print("\nPosition closed successfully.")
+        else:
+            print("\nWARNING: Position may still be open.")
 
     except Exception as e:
         print(f"\nExecution error: {e}")

@@ -1141,6 +1141,7 @@ async def close_position_market(client, api_client, symbol, side, size, worst_sl
         base_amount=qty_to_int(size),
         avg_execution_price=px_to_int(worst_price),
         is_ask=is_ask,
+        reduce_only=1,  # Safety: prevents opening inverse position
     )
 
     if err is not None:
