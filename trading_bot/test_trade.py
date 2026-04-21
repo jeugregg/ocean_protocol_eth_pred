@@ -16,7 +16,7 @@ async def main():
     slippage = 0.01  # 1%
     use_same_entry_price_for_both = True
     timeout_minutes = 60
-    rep_tp1 = 0.5  # 50% at TP1, 50% at TP2 (0 to 1)
+    rep_tp1 = 0.7  # 50% at TP1, 50% at TP2 (0 to 1)
     # ==================
 
     size = total_base_amount / 10000.0
